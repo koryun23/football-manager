@@ -78,17 +78,9 @@ class Player:
             self.skill = all_skills/7
 
 
-#def __init__(self, name, age, skill, club,price,salary,position):
     
-pl = Player("Josh", 23, 78, "Bradford", 748590, 12000,"cf")
-pl.train()
-pl.train()
-pl.train()
-pl.train()
-pl.train()
-pl.train()
-pl.train()
-print(pl.skill_set)
+# pl = Player("Josh", 23, 78, "Bradford", 748590, 12000,"cf")
+# print(pl.skill_set)
 
             
 
