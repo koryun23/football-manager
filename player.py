@@ -1,8 +1,11 @@
 import random
+
+
 class Player:
     attacking_positions = ["cf", "lw", "rw", "am"]
     midfield_positions = ["lm", "cm", "dm", "rm"]
-    defending_positions = ["lb", "cb", "rb"] 
+    defending_positions = ["lb", "cb", "rb"]
+
     def __init__(self, name, age, skill, club,price, salary, position):
         self.name = name
         self.age = age
@@ -14,72 +17,71 @@ class Player:
         self.potential = 50
         if self.position != "gk":
             self.skill_set = {
-                "goalkeeping":0,
-                "tackling":self.skill,
-                "heading":self.skill,
-                "passing":self.skill,
-                "crossing":self.skill,
-                "tech":self.skill,
-                "shooting":self.skill,
-                "charisma":self.skill,
+                "goalkeeping": 0,
+                "tackling": self.skill,
+                "heading": self.skill,
+                "passing": self.skill,
+                "crossing": self.skill,
+                "tech": self.skill,
+                "shooting": self.skill,
+                "charisma": self.skill,
             }
         else:
             self.skill_set = {
-                "goalkeeping":self.skill,
-                "tackling":0,
-                "heading":0,
-                "passing":0,
-                "crossing":0,
-                "tech":0,
-                "shooting":0,
-                "charisma":0,
+                "goalkeeping": self.skill,
+                "tackling": 0,
+                "heading": 0,
+                "passing": 0,
+                "crossing": 0,
+                "tech": 0,
+                "shooting": 0,
+                "charisma": 0,
             }
+
     def train(self): # the trainings will cost some amount of money
         generator = random.randint(0, 100)
         
-        if self.potential < 50: # then there is (potential)% chance that he will progress
+        if self.potential < 50:  # then there is (potential)% chance that he will progress
             if generator < self.potential:
                 self.improve()
-        elif self.potential < 75: # then there is 60% chance that he will progress
+        elif self.potential < 75:  # then there is 60% chance that he will progress
             if generator < 60:
                 self.improve()
-        else: #then there is 90% chance that he will progress
+        else:  # then there is 90% chance that he will progress
             if generator < 90:
                 self.improve()
+
     def improve(self):
-        if self.position=="gk":
+        if self.position == "gk":
             self.skill_set["goalkeeping"] += 0.5
         if self.position[0] == "l" or self.position[0] == "r":
-            self.skill_set["croosing"]+=0.3
-            self.skill_set["tech"]+=0.2
-            improved_positions-=2
+            self.skill_set["croosing"] += 0.3
+            self.skill_set["tech"] += 0.2
         if self.position[0] == "c":
-            self.skill_set["heading"]+=0.2
+            self.skill_set["heading"] += 0.2
         if self.position in Player.attacking_positions:
             self.skill_set["shooting"] += 0.3
-            self.skill_set["tech"]+=0.2
-            self.skill_set["passing"]+=0.2
+            self.skill_set["tech"] += 0.2
+            self.skill_set["passing"] += 0.2
             if self.position == "cf":
-                self.skill_set["heading"]+=0.2
+                self.skill_set["heading"] += 0.2
         if self.position in Player.midfield_positions:
-            self.skill_set["tech"]+=0.3
-            self.skill_set["passing"]+=0.3
-            self.skill_set["tackling"]+=0.2
+            self.skill_set["tech"] += 0.3
+            self.skill_set["passing"] += 0.3
+            self.skill_set["tackling"] += 0.2
         if self.position in Player.defending_positions:
-            self.skill_set["tackling"]+=0.4
+            self.skill_set["tackling"] += 0.4
 
-        #calculate overall skill
+        # calculate overall skill
         if self.position == "gk":
             self.skill = self.skill_set["goalkeeping"]
         else:
             all_skills = 0
             for skill in self.skill_set:
-                all_skills+=self.skill_set[skill]
+                all_skills += self.skill_set[skill]
             self.skill = all_skills/7
 
-
-    
-# pl = Player("Josh", 23, 78, "Bradford", 748590, 12000,"cf")
+# pl=Player("Josh", 23, 78, "Bradford", 748590, 12000, "cf")
 # print(pl.skill_set)
 
             
