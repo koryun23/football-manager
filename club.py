@@ -18,52 +18,37 @@ class Club:
         dms = []
         cms = []
         lms = []
+        ams = []
         rms = []
         lws = []
         rws = []
         cfs = []
+        d = {"cb":cbs, "lb":lbs, "rb":rbs, "dm":dms, "cm":cms, "lm":lms,"am":ams, "rm":rms, "lw":lws, "rw":rws, "cf":cfs}
         for player in self.player_list:
             if player["position"] == "gk":
                 if player["skill"] > gk[0]["skill"]:
                     gk[0] = player
-            elif player["position"] == "cb":
-                cbs.append(player)
-            elif player["position"] == "lb":
-                lbs.append(player)
-            elif player["position"] == "rb":
-                rbs.append(player)
-            elif player["position"] == "dm":
-                dms.append(player)
-            elif player["position"] == "cm":
-                cms.append(player)
-            elif player["position"] == "lm":
-                lms.append(player)
-            elif player["position"] == "rm":
-                rms.append(player)
-            elif player["position"] == "lw":
-                lws.append(player)
-            elif player["position"] == "rw":
-                rws.append(player)
-            elif player["position"] == "cf":
-                cfs.append(player)
+            else:
+                d[player["position"]].append(player)
 
-
-        cbs = sorted(cbs, key=lambda current_player: current_player["skill"])
-        lbs = sorted(lbs, key=lambda current_player: current_player["skill"])
-        rbs = sorted(rbs, key=lambda current_player: current_player["skill"])
-        dms = sorted(dms, key=lambda current_player: current_player["skill"])
-        cms = sorted(cms, key=lambda current_player: current_player["skill"])
-        lms = sorted(lms, key=lambda current_player: current_player["skill"])
-        rms = sorted(rms, key=lambda current_player: current_player["skill"])
-        lws = sorted(lws, key=lambda current_player: current_player["skill"])
-        rws = sorted(rws, key=lambda current_player: current_player["skill"])
-        cfs = sorted(cfs, key=lambda current_player: current_player["skill"])
+        cbs = sorted(cbs, key=lambda current_player: -1*current_player["skill"])
+        lbs = sorted(lbs, key=lambda current_player: -1*current_player["skill"])
+        rbs = sorted(rbs, key=lambda current_player: -1*current_player["skill"])
+        dms = sorted(dms, key=lambda current_player: -1*current_player["skill"])
+        cms = sorted(cms, key=lambda current_player: -1*current_player["skill"])
+        lms = sorted(lms, key=lambda current_player: -1*current_player["skill"])
+        ams = sorted(ams, key=lambda current_player: -1*current_player["skill"])
+        rms = sorted(rms, key=lambda current_player: -1*current_player["skill"])
+        lws = sorted(lws, key=lambda current_player: -1*current_player["skill"])
+        rws = sorted(rws, key=lambda current_player: -1*current_player["skill"])
+        cfs = sorted(cfs, key=lambda current_player: -1*current_player["skill"])
         print(cbs)
         print(lbs)
         print(rbs)
         print(dms)
         print(cms)
         print(lms)
+        print(ams)
         print(rms)
         print(lws)
         print(rws)
