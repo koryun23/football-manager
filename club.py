@@ -82,12 +82,12 @@ class Club:
 
             squad.append(cfs[0])
             possible_squads.append(squad)
-            possible_squads.append("4-3-3")
+            possible_squads.append(["4-3-3"])
             all_skills = 0
             for player in squad:
                 all_skills+=player["skill"]
             ovr = all_skills//11
-            possible_squads.append([str(ovr)])
+            possible_squads.append([(ovr)])
             squad = [gk[0]]
         if lbs and rbs and len(cbs) >= 2 and len(cms) + len(dms) == 2 and (len(lws) or len(lms)) and (
                 len(rws) or len(rms)) and len(cfs) >= 2:
@@ -119,12 +119,12 @@ class Club:
             squad.append(cfs[0])
             squad.append(cfs[1])
             possible_squads.append(squad)
-            possible_squads.append("4-4-2")
+            possible_squads.append(["4-4-2"])
             all_skills = 0
             for player in squad:
                 all_skills+=player["skill"]
             ovr = all_skills//11
-            possible_squads.append([str(ovr)])
+            possible_squads.append([(ovr)])
             squad = [gk[0]]
         if len(cbs) >= 3 and (lms or lws) and (rms or rws) and len(cms) >= 3 and len(cfs) >= 2:
             squad.append(cbs[0])
@@ -161,7 +161,7 @@ class Club:
             for player in squad:
                 all_skills+=player["skill"]
             ovr = all_skills//11
-            possible_squads.append([str(ovr)])
+            possible_squads.append([(ovr)])
             squad = [gk[0]]
         if lbs and rbs and len(cbs) >= 2 and len(dms) >= 2 and lws and rws and ams and cfs:
             squad.append(lbs[0])
@@ -180,7 +180,13 @@ class Club:
             for player in squad:
                 all_skills+=player["skill"]
             ovr = all_skills//11
-            possible_squads.append([str(ovr)])
+            possible_squads.append([(ovr)])
             squad = [gk[0]]
-        for sq in possible_squads:
-            print(sq)
+        max = float("-inf")
+        best_squad = []
+        for i in range(2, len(possible_squads),3):
+            if possible_squads[i][0] > max:
+                max = possible_squads[i][0]
+                best_squad = possible_squads[i-2]
+
+        return best_squad, max
