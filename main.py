@@ -2,16 +2,13 @@ import json
 from player import Player
 from club import Club
 from tournament import Tournament
-f = open("data.json")
-data = json.load(f)
+from load_data import *
 
-man_city = Club("Manchester City", 0, [])
-liverpool = Club("Liverpool", 0, [])
-premier_league_clubs = data["Premier League"]["clubs"]
-for club in premier_league_clubs:
-    if club["name"] == man_city.name:
-        man_city.budget = club["budget"]
-        man_city.player_list = club["player_list"]
-    if club["name"] == liverpool.name:
-        liverpool.budget = club["budget"]
-        liverpool.player_list = club["player_list"]
+print(team1.player_list_for_game())
+print(team2.player_list_for_game())
+class Game:
+    def __init__(self, team1, team2):
+        self.team1 = team1
+        self.team2 = team2
+    def formations(self, team):
+        pass
