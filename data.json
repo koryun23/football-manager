@@ -8,7 +8,7 @@
         {"name": "Ruben Dias", "age": 24, "skill": 89, "club": "Manchester City", "price": 75000000,"salary": 590000, "position": "cb"},
         {"name": "Aymeric Laporte", "age": 27, "skill": 86, "club": "Manchester City", "price": 45000000, "salary": 590000, "position":  "cb"},
         {"name": "John Stones", "age": 27, "skill": 81, "club": "Manchester City", "price": 28000000, "salary": 1300000, "position":  "cb"},
-        {"name": "Nathan Ake", "age": 26, "skill": 90, "club": "Manchester City", "price": 28000000, "salary": 500000, "position": "cb"},
+        {"name": "Nathan Ake", "age": 26, "skill": 73, "club": "Manchester City", "price": 28000000, "salary": 500000, "position": "cb"},
         {"name": "Olexandr Zinchenko", "age": 25, "skill": 79, "club": "Manchester City", "price": 25000000, "salary": 100000, "position":  "lb"},
         {"name": "Joao Cancelo", "age": 27, "skill": 82, "club": "Manchester City", "price": 60000000, "salary": 400000, "position":  "rb"},
         {"name": "Kyle Walker", "age": 31, "skill": 83, "club": "Manchester City", "price": 25000000, "salary": 570000, "position":  "rb"},
