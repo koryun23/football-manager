@@ -187,4 +187,4 @@ class Club:
                 max_rating = possible_squads[i][0]
                 best_squad = possible_squads[i - 2]
 
-        return best_squad, max
+        return best_squad, max_rating
