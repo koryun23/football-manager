@@ -15,8 +15,31 @@ for club in premier_league_clubs:
     if club["name"] == "Manchester City":
         team1.name = club["name"]
         team1.budget = club["budget"]
-        team1.player_list =  club["player_list"]
+        pl_list = club["player_list"]
+        for player in pl_list:
+            new_player = Player(
+                player["name"],
+                player["age"],
+                player["skill"],
+                player["club"],
+                player["price"],
+                player["salary"],
+                player["position"]
+            )
+            team1.player_list.append(new_player)
+
     elif club["name"] == "Liverpool":
         team2.name = club["name"]
         team2.budget = club["budget"]
-        team2.player_list =  club["player_list"]
+        pl_list =  club["player_list"]
+        for player in pl_list:
+            new_player = Player(
+                player["name"],
+                player["age"],
+                player["skill"],
+                player["club"],
+                player["price"],
+                player["salary"],
+                player["position"]
+            )
+            team2.player_list.append(new_player)
