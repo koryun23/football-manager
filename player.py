@@ -37,6 +37,8 @@ class Player:
                 "shooting": 0,
                 "charisma": 0,
             }
+        self.pos_x = 0
+        self.pos_y = 0
 
     def train(self): # the trainings will cost some amount of money
         generator = random.randint(0, 100)

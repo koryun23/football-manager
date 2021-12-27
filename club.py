@@ -2,14 +2,11 @@ from player import Player
 
 
 class Club:
-    formation_hierarchy = [[4, 3, 3], [4, 2, 3, 1], [4, 4, 2], [3, 5, 2]]  # probably won't need
-
     def __init__(self, name, budget, player_list):
         self.name = name
         self.budget = budget
         self.player_list = []
-        self.formation = []
-
+        self.formation = ""
     def player_list_for_game(self):
         possible_squads = []
         gk = [self.player_list[0]]
@@ -186,4 +183,6 @@ class Club:
             if possible_squads[i][0] > max_rating:
                 max_rating = possible_squads[i][0]
                 best_squad = possible_squads[i - 2]
-        return best_squad, max_rating
+                formation = possible_squads[i-1]
+        self.formation = formation
+        return best_squad, max_rating, formation
