@@ -2,7 +2,7 @@ import json
 import time
 import random
 
-from player import Player
+# from player import Player
 from club import Club
 from tournament import Tournament
 from load_data import *
@@ -59,16 +59,13 @@ class Game:
         "cf": [[45, 30], [45, 20]]
     }
 
-    def __init__(self, first_team, second_team):
-        # pitch size is 50x100 m
-        self.team1 = first_team
-        self.team2 = second_team
-
-        if self.team1.formation == ["4-3-3"]:
+    @classmethod
+    def form(cls, team):
+        if team.formation == ["4-3-3"]:
             cms = []
             cbs = []
             has_dm = False
-            for player in self.team1.best_squad:
+            for player in team.best_squad:
                 if player.position == "dm":
                     player.pos_x = Game.formation_4_3_3["cm"][-1][0]
                     player.pos_y = Game.formation_4_3_3["cm"][-1][1]
@@ -92,11 +89,11 @@ class Game:
             cbs[0].pos_y = Game.formation_4_3_3["cb"][0][1]
             cbs[1].pos_x = Game.formation_4_3_3["cb"][1][0]
             cbs[1].pos_y = Game.formation_4_3_3["cb"][1][1]
-        elif self.team1.formation == ["4-4-2"]:
+        elif team.formation == ["4-4-2"]:
             cfs = []
             cbs = []
             cms = []
-            for player in self.team1.best_squad:
+            for player in team.best_squad:
                 if player.position == "cm":
                     cms.append(player)
                 elif player.position == "cb":
@@ -118,17 +115,16 @@ class Game:
             cbs[0].pos_y = Game.formation_4_4_2["cb"][0][1]
             cbs[1].pos_x = Game.formation_4_4_2["cb"][1][0]
             cbs[1].pos_y = Game.formation_4_4_2["cb"][1][1]
-        elif self.team1.formation == ["4-2-3-1"]:
-            print(True)
+        elif team.formation == ["4-2-3-1"]:
+
             cbs = []
             dms = []
-            for player in self.team1.best_squad:
+            for player in team.best_squad:
                 if player.position == "dm":
                     dms.append(player)
                 elif player.position == "cb":
                     cbs.append(player)
                 else:
-                    print(player.position)
                     player.pos_x = Game.formation_4_2_3_1[player.position][0][0]
                     player.pos_y = Game.formation_4_2_3_1[player.position][0][1]
             cbs[0].pos_x = Game.formation_4_2_3_1["cb"][0][0]
@@ -139,11 +135,11 @@ class Game:
             dms[0].pos_y = Game.formation_4_2_3_1["dm"][0][1]
             dms[1].pos_x = Game.formation_4_2_3_1["dm"][1][0]
             dms[1].pos_y = Game.formation_4_2_3_1["dm"][1][1]
-        elif self.team1.formation == ["3-5-2"]:
+        elif team.formation == ["3-5-2"]:
             cbs = []
             cfs = []
             cms = []
-            for player in self.team1.best_squad:
+            for player in team.best_squad:
                 if player.position == "cb":
                     cbs.append(player)
                 elif player.position == "cm":
@@ -170,12 +166,26 @@ class Game:
             cfs[1].pos_x = Game.formation_3_5_2["cf"][1][0]
             cfs[1].pos_y = Game.formation_3_5_2["cf"][1][1]
 
+    def __init__(self, first_team, second_team):
+        # pitch size is 50x100 m
+        self.team1 = first_team
+        self.team2 = second_team
+        Game.form(first_team)
+        Game.form(second_team)
+        for player in second_team.best_squad:
+            player.pos_x = 100-player.pos_x
+            player.pos_y = 50-player.pos_y
+
 
 team1_squad = team1.player_list_for_game()[0]
 team1_rating = team1.player_list_for_game()[1]
 team1_formation = team1.player_list_for_game()[2]
 
+team2_squad = team2.player_list_for_game()[0]
+team2_rating = team2.player_list_for_game()[1]
+team2_formation = team2.player_list_for_game()[2]
 game = Game(team1, team2)
+
 print("Man City")
 print(f"Rating:{team1_rating}")
 print(f"Formation:{team1_formation}")
@@ -183,13 +193,11 @@ print("---------------------------------")
 for player in team1_squad:
     print(player.position + "   "+player.name + "    " + f"{[player.pos_x, player.pos_y]}")
 print("\n\n\n")
-team2_squad = team2.player_list_for_game()[0]
-team2_rating = team2.player_list_for_game()[1]
-team2_formation = team2.player_list_for_game()[2]
+
 print("Liverpool")
 print(f"Rating:{team2_rating}")
 print(f"Formation:{team2_formation}")
 print("----------------------------------")
 for pl in team2_squad:
-    print(pl.position + "  " + pl.name + "    " + f"{[player.pos_x, player.pos_y]}")
+    print(pl.position + "  " + pl.name + "    " + f"{[pl.pos_x, pl.pos_y]}")
 print("\n\n\n")

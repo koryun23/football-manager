@@ -7,6 +7,7 @@ class Club:
         self.budget = budget
         self.player_list = []
         self.formation = ""
+        self.best_squad = []
     def player_list_for_game(self):
         possible_squads = []
         gk = [self.player_list[0]]
