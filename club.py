@@ -85,12 +85,14 @@ class Club:
             ovr = all_skills // 11
             possible_squads.append([ovr])
             squad = [gk[0]]
-        if lbs and rbs and len(cbs) >= 2 and len(cms) + len(dms) == 2 and (len(lws) or len(lms)) and (
+        if lbs and rbs and len(cbs) >= 2 and len(cms) == 2 and (len(lws) or len(lms)) and (
                 len(rws) or len(rms)) and len(cfs) >= 2:
             squad.append(lbs[0])
             squad.append(rbs[0])
             squad.append(cbs[0])
             squad.append(cbs[1])
+            squad.append(cms[0])
+            squad.append(cms[1])
             if lws and lms:
                 if lws[0].skill > lms[0].skill:
                     squad.append(lws[0])
@@ -185,4 +187,5 @@ class Club:
                 best_squad = possible_squads[i - 2]
                 formation = possible_squads[i-1]
         self.formation = formation
+        self.best_squad = best_squad
         return best_squad, max_rating, formation
