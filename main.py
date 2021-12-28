@@ -2,11 +2,10 @@ import json
 import time
 import random
 
-# from player import Player
+from player import Player
 from club import Club
 from tournament import Tournament
 from load_data import *
-
 
 
 class Game:
@@ -170,11 +169,18 @@ class Game:
         # pitch size is 50x100 m
         self.team1 = first_team
         self.team2 = second_team
+        self.ball_pos_x = 0
+        self.ball_pos_y = 0
         Game.form(first_team)
         Game.form(second_team)
         for player in second_team.best_squad:
             player.pos_x = 100-player.pos_x
             player.pos_y = 50-player.pos_y
+        for player in self.team1.best_squad:
+            if player.pos == "cf":
+                self.ball_pos_x = player.pos_x
+                self.ball_pos_y = player.pos_y
+                break
 
 
 team1_squad = team1.player_list_for_game()[0]
