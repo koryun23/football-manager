@@ -319,8 +319,10 @@ class Game:
         for current_player in all_players:
             if current_player.club == self.team1.name:
                 current_club = self.team1
+                opponent_club = self.team2
             else:
                 current_club = self.team2
+                opponent_club = self.team1
             if current_player == self.player_with_ball:
                 # check if the player can shoot
                 y = 25
@@ -365,6 +367,13 @@ class Game:
                             dir = -1
                         current_player.pos_x += (dir*1)
                         print(f"{current_player.name} running with the ball!")
+                        for pl in opponent_club.best_squad:
+                            if Game.calculate_distance(pl, current_player) <= 5 and pl.club != current_player.club:
+                                if math.sqrt((y-current_player.pos_y)**2 + (x-current_player.pos_x)**2) <= 20:
+                                    self.shoot(current_player)
+                                else:
+                                    teammate = random.choice(close_teammates)
+                                    self.pass_ball(current_player, teammate)
                     else:
                         teammate = random.choice(close_teammates)
                         self.pass_ball(current_player, teammate)
