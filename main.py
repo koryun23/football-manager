@@ -285,7 +285,7 @@ class Game:
             opp_player = random.choice(opp_players)
             self.ball_pos_x = opp_player.pos_x
             self.ball_pos_y = opp_player.pos_x
-            print(f"The ball is intercepted by {opp_player}")
+            print(f"The ball is intercepted by {opp_player.name}")
 
 
     def play(self):
@@ -343,7 +343,7 @@ class Game:
                     if not close_teammates:
                         # shoot
                         self.shoot(current_player);
-                        print(f"{current_player} shoots!")
+                        print(f"{current_player.name} shoots!")
                     else:
                         teammate = random.choice(close_teammates)
                         generator = random.randint(0, 100)
@@ -354,7 +354,7 @@ class Game:
                         else:
                             # shoot the ball
                             self.shoot(current_player)
-                            print(f"{current_player} shoots!")
+                            print(f"{current_player.name} shoots!")
                             pass
                 else:
                     if not close_teammates:
@@ -364,13 +364,29 @@ class Game:
                         else:
                             dir = -1
                         current_player.pos_x += (dir*1)
-                        print(f"{current_player} running with the ball!")
+                        print(f"{current_player.name} running with the ball!")
                     else:
                         teammate = random.choice(close_teammates)
                         self.pass_ball(current_player, teammate)
                         # pass the ball to the selected teammate
             else:
-                pass
+
+                if current_player.club != self.player_with_ball.club:
+                    if Game.calculate_distance(current_player, self.player_with_ball) <= 20:
+                        # follow the player with ball
+                        dx = current_player.pos_x - self.player_with_ball.pos_x
+                        dy = current_player.pos_y - self.player_with_ball.pos_y
+                        current_player.pos_x += dx/2
+                        current_player.pos_y += dy/2
+
+                        if Game.calculate_distance(current_player, self.player_with_ball) <= 5:
+                            # 50% chance that the ball will be recovered
+                            generator = random.randint(0, 100)
+                            if generator < 50:
+                                self.ball_pos_x = current_player.pos_x
+                                self.ball_pos_y = current_player.pos_y
+                                print(f"{current_player.name} recovered the ball!")
+
 
 
 
@@ -405,4 +421,4 @@ print("\n\n\n")
 print("Game starts!")
 while True:
     game.play()
-    time.sleep(1)
+
