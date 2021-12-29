@@ -63,7 +63,7 @@ class Game:
 
     @staticmethod
     def calculate_distance(obj1, obj2):
-        return math.sqrt((obj2.pos_x-obj1.pos_x)**2 + (obj2.pos_y+obj1.pos_y)**2);
+        return math.sqrt((obj2.pos_x-obj1.pos_x)**2 + (obj2.pos_y-obj1.pos_y)**2);
 
     @classmethod
     def form(cls, team):
@@ -231,6 +231,8 @@ class Game:
             opp_player = random.choice(opp_players)
             self.ball_pos_x = opp_player.pos_x
             self.ball_pos_y = opp_player.pos_y
+            self.player_with_ball = opp_player
+            print(f"{opp_player.name} blocked the shot!")
         else:
             gk_skill = opponent_gk.skill
             player_skill = player.skill
@@ -246,14 +248,15 @@ class Game:
                     # gk saved it
                     self.ball_pos_y = y
                     self.ball_pos_x = x
+                    self.player_with_ball = opponent_gk
                     print("save")
             else:
                 print("MISSED")
                 self.ball_pos_y = y
                 self.ball_pos_x = x
-
+                self.player_with_ball = opponent_gk
     def pass_ball(self, player, teammate):
-        if player.team.name == self.team1.name:
+        if player.club == self.team1.name:
             opponent_team = self.team2
         else:
             opponent_team = self.team1
@@ -272,21 +275,25 @@ class Game:
             a = math.sqrt((teammate.pos_x-opp_player.pos_x)**2 + (teammate.pos_y-opp_player.pos_y)**2)
             b = math.sqrt((opp_player.pos_x-player.pos_x)**2 + (opp_player.pos_y-player.pos_y))
             proj = (b**2 + c**2 - a**2)/(2*c);
-            h = math.sqrt(b**2 - proj**2)
-            if h <= 5:
+            h = math.sqrt(abs(b**2 - proj**2))
+            if h <= 15 and h >= 0:
                 opp_players.append(player)
-        opp_players.sort()
+        # opp_players.sort()
 
         # the pass can be intercepted with 30% probability
 
         generator = random.randint(0,100)
-        if generator < 30:
+        if generator < 10 and opp_players:
             # the ball is intercepted
             opp_player = random.choice(opp_players)
             self.ball_pos_x = opp_player.pos_x
-            self.ball_pos_y = opp_player.pos_x
+            self.ball_pos_y = opp_player.pos_y
             print(f"The ball is intercepted by {opp_player.name}")
-
+            self.player_with_ball = opp_player
+        else:
+            self.ball_pos_x = teammate.pos_x
+            self.ball_pos_y = teammate.pos_y
+            self.player_with_ball = teammate
 
     def play(self):
         """
@@ -334,7 +341,7 @@ class Game:
                 distance = math.sqrt((y-current_player.pos_y)**2 + (x - current_player.pos_x)**2)
                 close_teammates = []
                 for teammate in current_club.best_squad:
-                    if Game.calculate_distance(teammate, current_player) < 15:
+                    if teammate.name!= current_player.name and Game.calculate_distance(teammate, current_player) < 15:
                         close_teammates.append(teammate)
                 # check if the distance is less than 20
                 if distance < 20:
@@ -395,6 +402,7 @@ class Game:
                                 self.ball_pos_x = current_player.pos_x
                                 self.ball_pos_y = current_player.pos_y
                                 print(f"{current_player.name} recovered the ball!")
+                                self.player_with_ball = current_player
 
 
 
@@ -428,6 +436,7 @@ for pl in team2_squad:
     print(pl.position + "  " + pl.name + "    " + f"{[pl.pos_x, pl.pos_y]}")
 print("\n\n\n")
 print("Game starts!")
-while True:
+for _ in range(100):
     game.play()
+print(f"The player with the ball is {game.player_with_ball.name}")
 
