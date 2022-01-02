@@ -189,7 +189,7 @@ class Game:
             if pl.position == "cf":
                 self.ball_pos_x = pl.pos_x
                 self.ball_pos_y = pl.pos_y
-                break
+                self.player_with_ball = pl
 
     def shoot(self, player):
         # get the opponent team
@@ -311,17 +311,17 @@ class Game:
 
         :return: void
         """
-        for player in self.team1.best_squad:
-            if player.pos_x == self.ball_pos_x and player.pos_y == self.ball_pos_y:
-                self.team_with_ball = self.team1
-                self.player_with_ball = player
-                break
-        if not self.team_with_ball:
-            self.team_with_ball = self.team2
-            for player in self.team2.best_squad:
-                if player.pos_x == self.ball_pox_x and player.pos_y == self.ball_pos_y:
-                    self.player_with_ball = player
-                    break
+        # for player in self.team1.best_squad:
+        #     if player.pos_x == self.ball_pos_x and player.pos_y == self.ball_pos_y:
+        #         self.team_with_ball = self.team1
+        #         self.player_with_ball = player
+        #         break
+        # if not self.team_with_ball:
+        #     self.team_with_ball = self.team2
+        #     for player in self.team2.best_squad:
+        #         if player.pos_x == self.ball_pox_x and player.pos_y == self.ball_pos_y:
+        #             self.player_with_ball = player
+        #             break
         all_players = self.team1.best_squad+self.team2.best_squad
         for current_player in all_players:
             if current_player.club == self.team1.name:
@@ -330,7 +330,7 @@ class Game:
             else:
                 current_club = self.team2
                 opponent_club = self.team1
-            if current_player == self.player_with_ball:
+            if current_player.name == self.player_with_ball.name:
                 # check if the player can shoot
                 y = 25
                 if current_player.club == self.team1.name:
@@ -341,7 +341,7 @@ class Game:
                 distance = math.sqrt((y-current_player.pos_y)**2 + (x - current_player.pos_x)**2)
                 close_teammates = []
                 for teammate in current_club.best_squad:
-                    if teammate.name!= current_player.name and Game.calculate_distance(teammate, current_player) < 15:
+                    if teammate.name != current_player.name and Game.calculate_distance(teammate, current_player) < 15:
                         close_teammates.append(teammate)
                 # check if the distance is less than 20
                 if distance < 20:
@@ -438,5 +438,4 @@ print("\n\n\n")
 print("Game starts!")
 for _ in range(100):
     game.play()
-print(f"The player with the ball is {game.player_with_ball.name}")
 
