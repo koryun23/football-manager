@@ -276,7 +276,7 @@ class Game:
             b = math.sqrt((opp_player.pos_x-player.pos_x)**2 + (opp_player.pos_y-player.pos_y))
             proj = (b**2 + c**2 - a**2)/(2*c);
             h = math.sqrt(abs(b**2 - proj**2))
-            if h <= 15 and h >= 0:
+            if 15 >= h >= 0:
                 opp_players.append(player)
         # opp_players.sort()
 
@@ -311,17 +311,7 @@ class Game:
 
         :return: void
         """
-        # for player in self.team1.best_squad:
-        #     if player.pos_x == self.ball_pos_x and player.pos_y == self.ball_pos_y:
-        #         self.team_with_ball = self.team1
-        #         self.player_with_ball = player
-        #         break
-        # if not self.team_with_ball:
-        #     self.team_with_ball = self.team2
-        #     for player in self.team2.best_squad:
-        #         if player.pos_x == self.ball_pox_x and player.pos_y == self.ball_pos_y:
-        #             self.player_with_ball = player
-        #             break
+
         all_players = self.team1.best_squad+self.team2.best_squad
         for current_player in all_players:
             if current_player.club == self.team1.name:
@@ -331,6 +321,7 @@ class Game:
                 current_club = self.team2
                 opponent_club = self.team1
             if current_player.name == self.player_with_ball.name:
+                print(f"Player with the ball is {current_player.name}")
                 # check if the player can shoot
                 y = 25
                 if current_player.club == self.team1.name:
@@ -339,12 +330,15 @@ class Game:
                     x = 0
                 # get the distance between the player position and the opponent goals position
                 distance = math.sqrt((y-current_player.pos_y)**2 + (x - current_player.pos_x)**2)
+
+                # get all the teammates within 15 meter radius
                 close_teammates = []
                 for teammate in current_club.best_squad:
                     if teammate.name != current_player.name and Game.calculate_distance(teammate, current_player) < 15:
                         close_teammates.append(teammate)
-                # check if the distance is less than 20
+
                 if distance < 20:
+                    print("distance less than 20")
                     # if the distance is less than 20, then
                     # 1) If there are no players close to him, he will shoot
                     # 2) If there are players close to him(15m), he will shoot(90%) or pass the ball(10%)
@@ -368,11 +362,11 @@ class Game:
                 else:
                     if not close_teammates:
                         # go forward
-                        if current_club == self.team1.name:
-                            dir = 1
+                        if current_club.name == self.team1.name:
+                            direction = 1
                         else:
-                            dir = -1
-                        current_player.pos_x += (dir*1)
+                            direction = -1
+                        current_player.pos_x += (direction*1)
                         print(f"{current_player.name} running with the ball!")
                         for pl in opponent_club.best_squad:
                             if Game.calculate_distance(pl, current_player) <= 5 and pl.club != current_player.club:
@@ -384,6 +378,7 @@ class Game:
                     else:
                         teammate = random.choice(close_teammates)
                         self.pass_ball(current_player, teammate)
+                        print(f"{current_player.name} passed the ball to {teammate.name}!")
                         # pass the ball to the selected teammate
             else:
 
@@ -436,6 +431,6 @@ for pl in team2_squad:
     print(pl.position + "  " + pl.name + "    " + f"{[pl.pos_x, pl.pos_y]}")
 print("\n\n\n")
 print("Game starts!")
-for _ in range(100):
+for _ in range(30):
     game.play()
 
