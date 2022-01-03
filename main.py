@@ -227,7 +227,7 @@ class Game:
             proj = (b**2 + c**2 - a**2)/(2*c);
             h = math.sqrt(abs(b**2 - proj**2))
             if h <= 5:
-                opp_players.append(player)
+                opp_players.append(opp_player)
 
         # the shot can be blocked(30%)
         generator = random.randint(0, 100)
@@ -238,6 +238,7 @@ class Game:
             self.ball_pos_y = opp_player.pos_y
             self.player_with_ball = opp_player
             print(f"{opp_player.name} blocked the shot!")
+            print([opp_player.name for opp_player in opp_players])
         else:
             gk_skill = opponent_gk.skill
             player_skill = player.skill
@@ -271,7 +272,9 @@ class Game:
             opponent_team = self.team2
         else:
             opponent_team = self.team1
-
+        if (player.position[1] == "w" or player.position == "cf") and (teammate.position=="gk" or teammate.position=="cb"):
+            print(f"{player.name} position is {[player.pos_x, player.pos_y]}")
+            print(f"{teammate.name} position is {[teammate.pos_x, teammate.pos_y]}")
         # check if the pass is intercepted
         # 1) calculate the distance between the player and the goals (=c)
         # 2) calculate the distance between the opp_player and the goals (=a)
