@@ -61,6 +61,7 @@ class Game:
 
     game_actions = ["shoot", "pass", "run", "origin"]
 
+
     @staticmethod
     def calculate_distance(obj1, obj2):
         return math.sqrt((obj2.pos_x-obj1.pos_x)**2 + (obj2.pos_y-obj1.pos_y)**2);
@@ -174,6 +175,10 @@ class Game:
 
     def __init__(self, first_team, second_team):
         # pitch size is 50x100 m
+        self.actions = 0
+        self.minute = 0   # the minute updates to minute+1 when there are 10 actions done
+        self.team1_score = 0
+        self.team2_score = 0
         self.team1 = first_team
         self.team2 = second_team
         self.ball_pos_x = 0
@@ -195,7 +200,7 @@ class Game:
     def shoot(self, player):
         # get the opponent team
         y = 25
-        if player.team.name == self.team1.name:
+        if player.club == self.team1.name:
             opponent_team = self.team2
             x = 100
         else:
@@ -220,14 +225,13 @@ class Game:
             a = math.sqrt((x-opp_player.pos_x)**2 + (y-opp_player.pos_y)**2)
             b = math.sqrt((opp_player.pos_x-player.pos_x)**2 + (opp_player.pos_y-player.pos_y))
             proj = (b**2 + c**2 - a**2)/(2*c);
-            h = math.sqrt(b**2 - proj**2)
+            h = math.sqrt(abs(b**2 - proj**2))
             if h <= 5:
                 opp_players.append(player)
-        opp_players.sort()
 
         # the shot can be blocked(30%)
-        generator = math.random(0, 100)
-        if generator < 30:
+        generator = random.randint(0, 100)
+        if generator < 30 and opp_players:
             # the shot is blocked
             opp_player = random.choice(opp_players)
             self.ball_pos_x = opp_player.pos_x
@@ -244,18 +248,24 @@ class Game:
                 if generator < player_skill-gk_skill+50:
                     self.ball_pos_y = y
                     self.ball_pos_x = x
-                    print("GOAL")
+
+                    if player.club == self.team1.name:
+                        self.team1_score += 1
+                    else:
+                        self.team2_score += 1
+                    print(f"GOAL!!The score is now {self.team1_score}-{self.team2_score}!")
                 else:
                     # gk saved it
                     self.ball_pos_y = y
                     self.ball_pos_x = x
                     self.player_with_ball = opponent_gk
-                    print("save")
+                    print("Saved by the goalkeeper!")
             else:
                 print("MISSED")
                 self.ball_pos_y = y
                 self.ball_pos_x = x
                 self.player_with_ball = opponent_gk
+
     def pass_ball(self, player, teammate):
         if player.club == self.team1.name:
             opponent_team = self.team2
@@ -292,7 +302,7 @@ class Game:
             opp_player = random.choice(opp_players)
             self.ball_pos_x = opp_player.pos_x
             self.ball_pos_y = opp_player.pos_y
-            print(f"The ball is intercepted by {opp_player.name}")
+            #print(f"The ball is intercepted by {opp_player.name}")
             self.player_with_ball = opp_player
         else:
             self.ball_pos_x = teammate.pos_x
@@ -334,23 +344,26 @@ class Game:
                     x = 0
                 # get the distance between the player position and the opponent goals position
                 distance = math.sqrt((y-current_player.pos_y)**2 + (x - current_player.pos_x)**2)
-
                 # get all the teammates within 15 meter radius
                 close_teammates = []
                 for teammate in current_club.best_squad:
                     if teammate.name != current_player.name and Game.calculate_distance(teammate, current_player) < 15:
                         close_teammates.append(teammate)
 
-                if distance < 20:
-                    print("distance less than 20")
+                if distance < 30:
+
+
+
                     # if the distance is less than 20, then
                     # 1) If there are no players close to him, he will shoot
                     # 2) If there are players close to him(15m), he will shoot(90%) or pass the ball(10%)
 
                     if not close_teammates:
                         # shoot
-                        self.shoot(current_player);
                         print(f"{current_player.name} shoots!")
+                        self.actions += 1
+                        self.shoot(current_player);
+
                     else:
                         teammate = random.choice(close_teammates)
                         generator = random.randint(0, 100)
@@ -360,8 +373,10 @@ class Game:
                             pass
                         else:
                             # shoot the ball
-                            self.shoot(current_player)
                             print(f"{current_player.name} shoots!")
+                            self.actions+=1
+                            self.shoot(current_player)
+
                             pass
                 else:
                     if not close_teammates:
@@ -372,6 +387,8 @@ class Game:
                             direction = -1
                         current_player.pos_x += (direction*1)
                         print(f"{current_player.name} running with the ball!")
+                        self.actions+=1
+                        self.minute+=1
                         for pl in opponent_club.best_squad:
                             if Game.calculate_distance(pl, current_player) <= 5 and pl.club != current_player.club:
                                 if math.sqrt((y-current_player.pos_y)**2 + (x-current_player.pos_x)**2) <= 20:
@@ -383,6 +400,7 @@ class Game:
                         teammate = random.choice(close_teammates)
                         self.pass_ball(current_player, teammate)
                         print(f"{current_player.name} passed the ball to {teammate.name}!")
+                        self.actions+=1
                         # pass the ball to the selected teammate
             else:
 
@@ -399,11 +417,21 @@ class Game:
                         if Game.calculate_distance(current_player, self.player_with_ball) <= 5:
                             # 50% chance that the ball will be recovered
                             generator = random.randint(0, 100)
-                            if generator < 20:
+                            if generator < 10:
                                 self.ball_pos_x = current_player.pos_x
                                 self.ball_pos_y = current_player.pos_y
                                 print(f"{current_player.name} recovered the ball!")
+                                self.actions+=1
+                                if current_player.club == self.team1.name:
+                                    dir = 1
+                                    if current_player.pos_x + 5 < 100:
+                                        current_player.pos_x += 5
+                                else:
+                                    if current_player.pos_x -5 > 0:
+                                        current_player.pos_x -= 5
+
                                 self.player_with_ball = current_player
+        self.minute = self.actions // 5
 
 
 
@@ -437,6 +465,7 @@ for pl in team2_squad:
     print(pl.position + "  " + pl.name + "    " + f"{[pl.pos_x, pl.pos_y]}")
 print("\n\n\n")
 print("Game starts!")
-for _ in range(5):
+while game.minute <= 45:
     game.play()
+    time.sleep(1)
 
