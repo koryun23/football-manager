@@ -180,6 +180,7 @@ class Game:
         self.ball_pos_y = 0
         self.team_with_ball = None
         self.player_with_ball = None
+        self.all_players = self.team1.best_squad+self.team2.best_squad
         Game.form(first_team)
         Game.form(second_team)
         for player in second_team.best_squad:
@@ -274,7 +275,10 @@ class Game:
             # 2)
             a = math.sqrt((teammate.pos_x-opp_player.pos_x)**2 + (teammate.pos_y-opp_player.pos_y)**2)
             b = math.sqrt((opp_player.pos_x-player.pos_x)**2 + (opp_player.pos_y-player.pos_y))
-            proj = (b**2 + c**2 - a**2)/(2*c);
+            if c != 0:
+                proj = (b**2 + c**2 - a**2)/(2*c);
+            else:
+                proj = 0
             h = math.sqrt(abs(b**2 - proj**2))
             if 15 >= h >= 0:
                 opp_players.append(player)
@@ -312,8 +316,8 @@ class Game:
         :return: void
         """
 
-        all_players = self.team1.best_squad+self.team2.best_squad
-        for current_player in all_players:
+        # all_players = self.team1.best_squad+self.team2.best_squad
+        for current_player in self.all_players:
             if current_player.club == self.team1.name:
                 current_club = self.team1
                 opponent_club = self.team2
@@ -383,17 +387,19 @@ class Game:
             else:
 
                 if current_player.club != self.player_with_ball.club:
-                    if Game.calculate_distance(current_player, self.player_with_ball) <= 20:
+
+                    if Game.calculate_distance(current_player, self.player_with_ball) <= 30:
+
                         # follow the player with ball
                         dx = current_player.pos_x - self.player_with_ball.pos_x
                         dy = current_player.pos_y - self.player_with_ball.pos_y
-                        current_player.pos_x += dx/2
-                        current_player.pos_y += dy/2
+                        current_player.pos_x += (self.player_with_ball.pos_x-current_player.pos_x)
+                        current_player.pos_y += (self.player_with_ball.pos_y-current_player.pos_y)
 
                         if Game.calculate_distance(current_player, self.player_with_ball) <= 5:
                             # 50% chance that the ball will be recovered
                             generator = random.randint(0, 100)
-                            if generator < 50:
+                            if generator < 20:
                                 self.ball_pos_x = current_player.pos_x
                                 self.ball_pos_y = current_player.pos_y
                                 print(f"{current_player.name} recovered the ball!")
@@ -431,6 +437,6 @@ for pl in team2_squad:
     print(pl.position + "  " + pl.name + "    " + f"{[pl.pos_x, pl.pos_y]}")
 print("\n\n\n")
 print("Game starts!")
-for _ in range(30):
+for _ in range(5):
     game.play()
 
