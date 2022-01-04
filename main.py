@@ -172,7 +172,9 @@ class Game:
             cfs[0].pos_y = Game.formation_3_5_2["cf"][0][1]
             cfs[1].pos_x = Game.formation_3_5_2["cf"][1][0]
             cfs[1].pos_y = Game.formation_3_5_2["cf"][1][1]
-
+        for pl in team.best_squad:
+            pl.orig_pos_x = pl.pos_x
+            pl.orig_pos_y = pl.pos_y
     def __init__(self, first_team, second_team):
         # pitch size is 50x100 m
         self.actions = 0
