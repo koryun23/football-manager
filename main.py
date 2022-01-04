@@ -15,7 +15,7 @@ class Game:
         "lb": [[20, 10]],
         "rb": [[20, 40]],
         "cb": [[20, 30], [20, 20]],
-        "cm": [[30,35], [30,15],[30,25]],
+        "cm": [[30, 35], [30, 15], [30, 25]],
         "lw": [[45, 35]],
         "lm": [[45, 35]],
         "rw": [[45, 15]],
@@ -61,10 +61,9 @@ class Game:
 
     game_actions = ["shoot", "pass", "run", "origin"]
 
-
     @staticmethod
     def calculate_distance(obj1, obj2):
-        return math.sqrt((obj2.pos_x-obj1.pos_x)**2 + (obj2.pos_y-obj1.pos_y)**2);
+        return math.sqrt((obj2.pos_x - obj1.pos_x) ** 2 + (obj2.pos_y - obj1.pos_y) ** 2);
 
     @classmethod
     def form(cls, team):
@@ -175,10 +174,11 @@ class Game:
         for pl in team.best_squad:
             pl.orig_pos_x = pl.pos_x
             pl.orig_pos_y = pl.pos_y
+
     def __init__(self, first_team, second_team):
         # pitch size is 50x100 m
         self.actions = 0
-        self.minute = 0   # the minute updates to minute+1 when there are 10 actions done
+        self.minute = 0  # the minute updates to minute+1 when there are 10 actions done
         self.team1_score = 0
         self.team2_score = 0
         self.team1 = first_team
@@ -187,12 +187,12 @@ class Game:
         self.ball_pos_y = 0
         self.team_with_ball = None
         self.player_with_ball = None
-        self.all_players = self.team1.best_squad+self.team2.best_squad
+        self.all_players = self.team1.best_squad + self.team2.best_squad
         Game.form(first_team)
         Game.form(second_team)
         for player in second_team.best_squad:
-            player.pos_x = 100-player.pos_x
-            player.pos_y = 50-player.pos_y
+            player.pos_x = 100 - player.pos_x
+            player.pos_y = 50 - player.pos_y
         for pl in self.team1.best_squad:
             if pl.position == "cf":
                 self.ball_pos_x = pl.pos_x
@@ -220,14 +220,17 @@ class Game:
         # 4) calculate the distance between the opp_player and the ball-to-goal path (=h)
 
         # 1)
-        c = math.sqrt((x-player.pos_x)**2 + (y-player.pos_y)**2)
+        c = math.sqrt((x - player.pos_x) ** 2 + (y - player.pos_y) ** 2)
         opp_players = []
         for opp_player in opponent_team.best_squad:
             # 2)
-            a = math.sqrt((x-opp_player.pos_x)**2 + (y-opp_player.pos_y)**2)
-            b = math.sqrt((opp_player.pos_x-player.pos_x)**2 + (opp_player.pos_y-player.pos_y))
-            proj = (b**2 + c**2 - a**2)/(2*c);
-            h = math.sqrt(abs(b**2 - proj**2))
+            a = math.sqrt((x - opp_player.pos_x) ** 2 + (y - opp_player.pos_y) ** 2)
+            b = math.sqrt((opp_player.pos_x - player.pos_x) ** 2 + (opp_player.pos_y - player.pos_y))
+            if c != 0:
+                proj = (b ** 2 + c ** 2 - a ** 2) / (2 * c);
+            else:
+                proj = 0
+            h = math.sqrt(abs(b ** 2 - proj ** 2))
             if h <= 5:
                 opp_players.append(opp_player)
 
@@ -238,9 +241,13 @@ class Game:
             opp_player = random.choice(opp_players)
             self.ball_pos_x = opp_player.pos_x
             self.ball_pos_y = opp_player.pos_y
-            self.player_with_ball = opp_player
+
             print(f"{opp_player.name} blocked the shot!")
-            print([opp_player.name for opp_player in opp_players])
+            self.actions += 1
+            print(f"{opp_player.name} position is {[opp_player.pos_x, opp_player.pos_y]}")
+            print(
+                f"{self.player_with_ball.name} position is {[self.player_with_ball.pos_x, self.player_with_ball.pos_y]}")
+            self.player_with_ball = opp_player
         else:
             gk_skill = opponent_gk.skill
             player_skill = player.skill
@@ -248,7 +255,7 @@ class Game:
             if generator < player_skill:
                 # the goalkeeper might save it
                 generator = random.randint(0, 100)
-                if generator < player_skill-gk_skill+50:
+                if generator < player_skill - gk_skill + 50:
                     self.ball_pos_y = y
                     self.ball_pos_x = x
 
@@ -257,14 +264,20 @@ class Game:
                     else:
                         self.team2_score += 1
                     print(f"GOAL!!The score is now {self.team1_score}-{self.team2_score}!")
+                    self.actions += 1
+                    for player in self.all_players:
+                        player.pos_x = player.orig_pos_x
+                        player.pos_y = player.orig_pos_y
                 else:
                     # gk saved it
                     self.ball_pos_y = y
                     self.ball_pos_x = x
                     self.player_with_ball = opponent_gk
                     print("Saved by the goalkeeper!")
+                    self.actions += 1
             else:
                 print("MISSED")
+                self.actions += 1
                 self.ball_pos_y = y
                 self.ball_pos_x = x
                 self.player_with_ball = opponent_gk
@@ -274,7 +287,8 @@ class Game:
             opponent_team = self.team2
         else:
             opponent_team = self.team1
-        if (player.position[1] == "w" or player.position == "cf") and (teammate.position=="gk" or teammate.position=="cb"):
+        if (player.position[1] == "w" or player.position == "cf") and (
+                teammate.position == "gk" or teammate.position == "cb"):
             print(f"{player.name} position is {[player.pos_x, player.pos_y]}")
             print(f"{teammate.name} position is {[teammate.pos_x, teammate.pos_y]}")
         # check if the pass is intercepted
@@ -284,30 +298,30 @@ class Game:
         # 4) calculate the distance between the opp_player and the ball-to-goal path (=h)
 
         # 1)
-        c = math.sqrt((teammate.pos_x-player.pos_x)**2 + (teammate.pos_y-player.pos_y)**2)
+        c = math.sqrt((teammate.pos_x - player.pos_x) ** 2 + (teammate.pos_y - player.pos_y) ** 2)
         opp_players = []
         for opp_player in opponent_team.best_squad:
             # 2)
-            a = math.sqrt((teammate.pos_x-opp_player.pos_x)**2 + (teammate.pos_y-opp_player.pos_y)**2)
-            b = math.sqrt((opp_player.pos_x-player.pos_x)**2 + (opp_player.pos_y-player.pos_y))
+            a = math.sqrt((teammate.pos_x - opp_player.pos_x) ** 2 + (teammate.pos_y - opp_player.pos_y) ** 2)
+            b = math.sqrt((opp_player.pos_x - player.pos_x) ** 2 + (opp_player.pos_y - player.pos_y))
             if c != 0:
-                proj = (b**2 + c**2 - a**2)/(2*c);
+                proj = (b ** 2 + c ** 2 - a ** 2) / (2 * c);
             else:
                 proj = 0
-            h = math.sqrt(abs(b**2 - proj**2))
+            h = math.sqrt(abs(b ** 2 - proj ** 2))
             if 15 >= h >= 0:
                 opp_players.append(player)
         # opp_players.sort()
 
         # the pass can be intercepted with 30% probability
 
-        generator = random.randint(0,100)
+        generator = random.randint(0, 100)
         if generator < 10 and opp_players:
             # the ball is intercepted
             opp_player = random.choice(opp_players)
             self.ball_pos_x = opp_player.pos_x
             self.ball_pos_y = opp_player.pos_y
-            #print(f"The ball is intercepted by {opp_player.name}")
+            # print(f"The ball is intercepted by {opp_player.name}")
             self.player_with_ball = opp_player
         else:
             self.ball_pos_x = teammate.pos_x
@@ -333,6 +347,8 @@ class Game:
 
         # all_players = self.team1.best_squad+self.team2.best_squad
         for current_player in self.all_players:
+            if current_player.position == "gk":
+                continue
             if current_player.club == self.team1.name:
                 current_club = self.team1
                 opponent_club = self.team2
@@ -340,7 +356,6 @@ class Game:
                 current_club = self.team2
                 opponent_club = self.team1
             if current_player.name == self.player_with_ball.name:
-                print(f"Player with the ball is {current_player.name}")
                 # check if the player can shoot
                 y = 25
                 if current_player.club == self.team1.name:
@@ -348,7 +363,7 @@ class Game:
                 else:
                     x = 0
                 # get the distance between the player position and the opponent goals position
-                distance = math.sqrt((y-current_player.pos_y)**2 + (x - current_player.pos_x)**2)
+                distance = math.sqrt((y - current_player.pos_y) ** 2 + (x - current_player.pos_x) ** 2)
                 # get all the teammates within 15 meter radius
                 close_teammates = []
                 for teammate in current_club.best_squad:
@@ -356,8 +371,6 @@ class Game:
                         close_teammates.append(teammate)
 
                 if distance < 30:
-
-
 
                     # if the distance is less than 20, then
                     # 1) If there are no players close to him, he will shoot
@@ -379,7 +392,7 @@ class Game:
                         else:
                             # shoot the ball
                             print(f"{current_player.name} shoots!")
-                            self.actions+=1
+                            self.actions += 1
                             self.shoot(current_player)
 
                             pass
@@ -390,13 +403,13 @@ class Game:
                             direction = 1
                         else:
                             direction = -1
-                        current_player.pos_x += (direction*1)
+                        current_player.pos_x += (direction * 1)
                         print(f"{current_player.name} running with the ball!")
-                        self.actions+=1
-                        self.minute+=1
+                        self.actions += 1
+                        self.minute += 1
                         for pl in opponent_club.best_squad:
                             if Game.calculate_distance(pl, current_player) <= 5 and pl.club != current_player.club:
-                                if math.sqrt((y-current_player.pos_y)**2 + (x-current_player.pos_x)**2) <= 20:
+                                if math.sqrt((y - current_player.pos_y) ** 2 + (x - current_player.pos_x) ** 2) <= 20:
                                     self.shoot(current_player)
                                 else:
                                     teammate = random.choice(close_teammates)
@@ -405,7 +418,7 @@ class Game:
                         teammate = random.choice(close_teammates)
                         self.pass_ball(current_player, teammate)
                         print(f"{current_player.name} passed the ball to {teammate.name}!")
-                        self.actions+=1
+                        self.actions += 1
                         # pass the ball to the selected teammate
             else:
 
@@ -416,8 +429,8 @@ class Game:
                         # follow the player with ball
                         dx = current_player.pos_x - self.player_with_ball.pos_x
                         dy = current_player.pos_y - self.player_with_ball.pos_y
-                        current_player.pos_x += (self.player_with_ball.pos_x-current_player.pos_x)
-                        current_player.pos_y += (self.player_with_ball.pos_y-current_player.pos_y)
+                        current_player.pos_x += (self.player_with_ball.pos_x - current_player.pos_x)
+                        current_player.pos_y += (self.player_with_ball.pos_y - current_player.pos_y)
 
                         if Game.calculate_distance(current_player, self.player_with_ball) <= 5:
                             # 50% chance that the ball will be recovered
@@ -426,23 +439,37 @@ class Game:
                                 self.ball_pos_x = current_player.pos_x
                                 self.ball_pos_y = current_player.pos_y
                                 print(f"{current_player.name} recovered the ball!")
-                                self.actions+=1
+                                self.actions += 1
                                 if current_player.club == self.team1.name:
-                                    dir = 1
                                     if current_player.pos_x + 5 < 100:
                                         current_player.pos_x += 5
                                 else:
-                                    if current_player.pos_x -5 > 0:
+                                    if current_player.pos_x - 5 > 0:
                                         current_player.pos_x -= 5
-
                                 self.player_with_ball = current_player
-        self.minute = self.actions // 5
+                    else:
+                        current_player.pos_x = current_player.orig_pos_x
+                        current_player.pos_y = current_player.orig_pos_y
+                else:
+                    # current_player is a teammate of the player with the ball.
+                    # if he is 30 meters away from the opponent goals, he should stay
+                    # else, if he is a lb/rb/lw/rw, he should run forward 10 meters
+                    #       if he is a cm/dm/cb, he should go to his origin position
+                    if current_player.club == self.team1.name:
+                        x = 100
+                    else:
+                        x = 0
+                    if abs(current_player.pos_x - x) > 30:
+                        if current_player.position[0] == "l" or current_player.position[0] == "r" or \
+                                current_player.position == "cf":
+                            # run forward 10 meters
+                            current_player.pos_x += 10
+                        elif current_player.position[0] == "c" or current_player.position == "dm":
+                            # go to the origin position
+                            current_player.pos_x = current_player.orig_pos_x
+                            current_player.pos_y = current_player.orig_pos_y
 
-
-
-
-
-
+        self.minute = self.actions // 3
 
 
 team1_squad = team1.player_list_for_game()[0]
@@ -459,7 +486,7 @@ print(f"Rating:{team1_rating}")
 print(f"Formation:{team1_formation}")
 print("---------------------------------")
 for player in team1_squad:
-    print(player.position + "   "+player.name + "    " + f"{[player.pos_x, player.pos_y]}")
+    print(player.position + "   " + player.name + "    " + f"{[player.pos_x, player.pos_y]}")
 print("\n\n\n")
 
 print("Liverpool")
@@ -472,5 +499,5 @@ print("\n\n\n")
 print("Game starts!")
 while game.minute <= 45:
     game.play()
+    print(f"{game.minute}'")
     time.sleep(1)
-
