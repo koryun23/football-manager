@@ -242,7 +242,7 @@ class Game:
             self.ball_pos_x = opp_player.pos_x
             self.ball_pos_y = opp_player.pos_y
 
-            print(f"{opp_player.name} blocked the shot!")
+            print(f"{opp_player.name} blocked the shot! {self.minute}'")
             self.actions += 1
             print(f"{opp_player.name} position is {[opp_player.pos_x, opp_player.pos_y]}")
             print(
@@ -263,7 +263,7 @@ class Game:
                         self.team1_score += 1
                     else:
                         self.team2_score += 1
-                    print(f"GOAL!!The score is now {self.team1_score}-{self.team2_score}!")
+                    print(f"GOAL!!The score is now {self.team1_score}-{self.team2_score}! {self.minute}'")
                     self.actions += 1
                     for player in self.all_players:
                         player.pos_x = player.orig_pos_x
@@ -273,10 +273,10 @@ class Game:
                     self.ball_pos_y = y
                     self.ball_pos_x = x
                     self.player_with_ball = opponent_gk
-                    print("Saved by the goalkeeper!")
+                    print(f"Saved by the goalkeeper! {self.minute}'")
                     self.actions += 1
             else:
-                print("MISSED")
+                print(f"MISSED {self.minute}'")
                 self.actions += 1
                 self.ball_pos_y = y
                 self.ball_pos_x = x
@@ -378,7 +378,7 @@ class Game:
 
                     if not close_teammates:
                         # shoot
-                        print(f"{current_player.name} shoots!")
+                        print(f"{current_player.name} shoots! {self.minute}'")
                         self.actions += 1
                         self.shoot(current_player);
 
@@ -391,7 +391,7 @@ class Game:
                             pass
                         else:
                             # shoot the ball
-                            print(f"{current_player.name} shoots!")
+                            print(f"{current_player.name} shoots! {self.minute}'")
                             self.actions += 1
                             self.shoot(current_player)
 
@@ -404,7 +404,7 @@ class Game:
                         else:
                             direction = -1
                         current_player.pos_x += (direction * 1)
-                        print(f"{current_player.name} running with the ball!")
+                        print(f"{current_player.name} running with the ball! {self.minute}'")
                         self.actions += 1
                         self.minute += 1
                         for pl in opponent_club.best_squad:
@@ -417,7 +417,7 @@ class Game:
                     else:
                         teammate = random.choice(close_teammates)
                         self.pass_ball(current_player, teammate)
-                        print(f"{current_player.name} passed the ball to {teammate.name}!")
+                        print(f"{current_player.name} passed the ball to {teammate.name}! {self.minute}'")
                         self.actions += 1
                         # pass the ball to the selected teammate
             else:
@@ -438,7 +438,7 @@ class Game:
                             if generator < 10:
                                 self.ball_pos_x = current_player.pos_x
                                 self.ball_pos_y = current_player.pos_y
-                                print(f"{current_player.name} recovered the ball!")
+                                print(f"{current_player.name} recovered the ball! {self.minute}'")
                                 self.actions += 1
                                 if current_player.club == self.team1.name:
                                     if current_player.pos_x + 5 < 100:
@@ -499,5 +499,4 @@ print("\n\n\n")
 print("Game starts!")
 while game.minute <= 45:
     game.play()
-    print(f"{game.minute}'")
     time.sleep(1)
