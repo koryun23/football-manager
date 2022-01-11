@@ -54,6 +54,8 @@ while game.minute <= 45:
         current_position_y = pl.pos_y
         create_circle(5*current_position_x, 8*(50-current_position_y), 10, myCanvas, "red")
     create_circle(5*game.ball_pos_x, 8*(50-game.ball_pos_y), 5, myCanvas, "white")
+    tk.update()
+    time.sleep(0.01)
     game.play()
     time.sleep(1)
-    myCanvas.mainloop()
+myCanvas.mainloop()
