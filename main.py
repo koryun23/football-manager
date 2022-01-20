@@ -11,12 +11,12 @@ myCanvas = Canvas(tk, width=500, height=400)
 myCanvas.pack()
 
 
-def create_circle(x, y, r, canvas_name, fill):  # center coordinates, radius
+def create_circle(x, y, r, canvas_name, fill, tag):  # center coordinates, radius
     x0 = x - r
     y0 = y - r
     x1 = x + r
     y1 = y + r
-    return canvas_name.create_oval(x0, y0, x1, y1, fill=fill)
+    return canvas_name.create_oval(x0, y0, x1, y1, fill=fill, tags=tag)
 
 
 team1_squad = team1.player_list_for_game()[0]
@@ -44,18 +44,44 @@ for pl in team2_squad:
     print(pl.position + "  " + pl.name + "    " + f"{[pl.pos_x, pl.pos_y]}")
 print("\n\n\n")
 print("Game starts!")
-while game.minute <= 45:
+team1_player_tag_dict = {}
+team2_player_tag_dict = {}
+
+counter1 = 1
+for pl in game.team1.best_squad:
+    team1_player_tag_dict[pl.name] = f"team1player{counter1}"
+    counter1 += 1
+counter2 = 1
+for pl in game.team2.best_squad:
+    team2_player_tag_dict[pl.name] = f"team2player{counter2}"
+
+for i in range(10):
+    counter1 = 1
+    counter2 = 1
+
+    #     # First we need to remove the circles
+    for i in range(1, 3):
+        for j in range(1, 12):
+            myCanvas.delete(f"team{i}player{j}")
+    myCanvas.delete("ball")
     for pl in game.team1.best_squad:
         current_position_x = pl.pos_x
         current_position_y = pl.pos_y
-        create_circle(5*current_position_x, 8*(50-current_position_y), 10, myCanvas, "lightblue")
+        create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "lightblue",
+                      team1_player_tag_dict[pl.name])
+        counter1 += 1
     for pl in game.team2.best_squad:
         current_position_x = pl.pos_x
         current_position_y = pl.pos_y
-        create_circle(5*current_position_x, 8*(50-current_position_y), 10, myCanvas, "red")
-    create_circle(5*game.ball_pos_x, 8*(50-game.ball_pos_y), 5, myCanvas, "white")
+        create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "red",
+                      team2_player_tag_dict[pl.name])
+
+    create_circle(5 * game.ball_pos_x, 8 * (50 - game.ball_pos_y), 5, myCanvas, "white", "ball")
     tk.update()
-    time.sleep(0.01)
+    time.sleep(0.1)
+    if game.actions==0:
+        time.sleep(5)
     game.play()
+
     time.sleep(1)
 myCanvas.mainloop()

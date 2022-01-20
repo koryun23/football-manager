@@ -198,9 +198,7 @@ class Game:
                 self.ball_pos_x = pl.pos_x
                 self.ball_pos_y = pl.pos_y
                 self.player_with_ball = pl
-
-    def shoot(self, player):
-        # get the opponent team
+    def is_saved(self, player):
         y = 25
         if player.club == self.team1.name:
             opponent_team = self.team2
@@ -208,126 +206,118 @@ class Game:
         else:
             opponent_team = self.team1
             x = 0
-
-        # get the goalkeeper of the opponent team
-        opponent_gk = opponent_team.best_squad[0]
-
-        # check to see if there are opponent team players on the path of ball --> goals
-
-        # 1) calculate the distance between the player and the goals (=c)
-        # 2) calculate the distance between the opp_player and the goals (=a)
-        # 3) calcluate the distance between the opp_player and the player (=b)
-        # 4) calculate the distance between the opp_player and the ball-to-goal path (=h)
-
-        # 1)
-        c = math.sqrt((x - player.pos_x) ** 2 + (y - player.pos_y) ** 2)
-        opp_players = []
-        for opp_player in opponent_team.best_squad:
-            # 2)
-            a = math.sqrt((x - opp_player.pos_x) ** 2 + (y - opp_player.pos_y) ** 2)
-            b = math.sqrt((opp_player.pos_x - player.pos_x) ** 2 + (opp_player.pos_y - player.pos_y))
-            if c != 0:
-                proj = (b ** 2 + c ** 2 - a ** 2) / (2 * c);
-            else:
-                proj = 0
-            h = math.sqrt(abs(b ** 2 - proj ** 2))
-            if h <= 5:
-                opp_players.append(opp_player)
-
-        # the shot can be blocked(30%)
+        gk = opponent_team.best_squad[0] # get the goalkeeper of the opponent team
+        gk_skill = gk.skill
+        player_skill = player.skill
+        skill_diff = gk_skill - player_skill # 4
         generator = random.randint(0, 100)
-        if generator < 30 and opp_players:
-            # the shot is blocked
-            opp_player = random.choice(opp_players)
-            self.ball_pos_x = opp_player.pos_x
-            self.ball_pos_y = opp_player.pos_y
-
-            print(f"{opp_player.name} blocked the shot! {self.minute}'")
-            self.actions += 1
-            print(f"{opp_player.name} position is {[opp_player.pos_x, opp_player.pos_y]}")
-            print(
-                f"{self.player_with_ball.name} position is {[self.player_with_ball.pos_x, self.player_with_ball.pos_y]}")
-            self.player_with_ball = opp_player
+        if generator < 50 + skill_diff:
+            return True
         else:
-            gk_skill = opponent_gk.skill
-            player_skill = player.skill
-            generator = random.randint(0, 100)
-            if generator < player_skill:
-                # the goalkeeper might save it
-                generator = random.randint(0, 100)
-                if generator < player_skill - gk_skill + 50:
-                    self.ball_pos_y = y
-                    self.ball_pos_x = x
+            return False
 
-                    if player.club == self.team1.name:
-                        self.team1_score += 1
-                    else:
-                        self.team2_score += 1
-                    print(f"GOAL!!The score is now {self.team1_score}-{self.team2_score}! {self.minute}'")
-                    self.actions += 1
-                    for player in self.all_players:
-                        player.pos_x = player.orig_pos_x
-                        player.pos_y = player.orig_pos_y
-                else:
-                    # gk saved it
-                    self.ball_pos_y = y
-                    self.ball_pos_x = x
-                    self.player_with_ball = opponent_gk
-                    print(f"Saved by the goalkeeper! {self.minute}'")
-                    self.actions += 1
-            else:
-                print(f"MISSED {self.minute}'")
-                self.actions += 1
-                self.ball_pos_y = y
+
+    def move_to_origin(self, diff):
+        for pl in self.all_players:
+            pl.pos_x = pl.orig_pos_x
+            pl.pos_y = pl.orig_pos_y + diff
+    def shoot(self, player):
+        """
+        There are 2 possible outcomes: It's either a goal or not
+        1) If it's a goal, then
+        1.1) update the ball_position to the position of the opponent goals
+        1.2) print the event on the terminal
+        1.3) wait for some time
+        1.4) move the players back to their origin positions
+        1.5) update the ball position to the position of one of the cfs of the team that conceded the goal
+
+        2) If it's not a goal, then
+        2.1) It can be a goalkeeper save
+        If it's a goalkeeper save, then
+        2.1.1) update the ball position to the position of the goalkeeper that saved the ball
+        2.1.2) print the event on the terminal
+        2.1.3) move the defenders and midfielders to their origin positions + 20
+        2.1.4) move the attackers closer to the opponent territory
+        2.1.5) wait for some time and kick the ball in
+
+        2.2) It can be a miss from the player
+        If it's a miss from the player, then
+        2.2.1) Update the ball position
+        2.2.2) print the event on the terminal
+        2.2.3) move every player to their origin positions + 20
+        2.2.4) wait for some time and kick the ball in
+
+        :param player:
+        :return: void
+        """
+        y = 25
+        x = 0 if player.club == self.team2.name else 100
+        gk = self.team1.best_squad[0]
+        opp_team = self.team1
+        current_team = self.team2
+        if player.club == self.team1.name:
+            gk = self.team2.best_squad[0]
+            opp_team = self.team2
+            current_team = self.team1
+        is_saved = self.is_saved(player)
+
+        if not is_saved: # then it's either a goal or a miss from the player
+            #the possibility of a miss is (100-player.skill)%
+            possibility_of_miss = 100-player.skill
+            generator = random.randint(0, 100)
+            if generator > possibility_of_miss:  # then it's a miss from the player
                 self.ball_pos_x = x
-                self.player_with_ball = opponent_gk
+                self.ball_pos_y = 51-player.pos_y
+                time.sleep(1)
+                print(f"{player.name} missed!")
+                self.move_to_origin(0)
+                self.player_with_ball = gk
+                self.kick_ball_in(gk)
+            else:  # then it's a goal
+                self.ball_pos_x = x
+                self.ball_pos_y = y
+                print(f"GOAL! {player.name} scored!")
+                time.sleep(1)
+                self.move_to_origin(0)
+                self.ball_pos_x = opp_team.best_squad[-1].pos_x
+                self.ball_pos_y = opp_team.best_squad[-1].pos_y
+                self.player_with_ball = opp_team.best_squad[-1]
+        else:  # then it's a save from the goalkeeper
+            self.ball_pos_x = gk.pos_x
+            self.ball_pos_y = gk.pos_y
+            self.player_with_ball = gk
+            print(f"{gk.name} saved it!")
+            #move everyone from the opponent team to their origin positions except for the attackers(cf, lw, rw)
+            attackers = ["cf", "lw", "rw"]
+            for pl in opp_team.best_squad:
+                if pl.position not in attackers:
+                    pl.pos_x = pl.orig_pos_x
+                    pl.orig_pos_y = pl.orig_pos_y
+
+            time.sleep(0.5)
+            self.kick_ball_in(gk)
+
+
+    def kick_ball_in(self, gk):
+        current_team = self.team2
+        if self.player_with_ball.club == self.team1.name:
+            current_team = self.team1
+        position_list = []
+        for pl in current_team.best_squad:
+            position_list.append(pl.pos_x)
+        position_list.sort()
+        position = position_list[5]  # getting the middle position
+        for pl in current_team.best_squad:
+            if pl.pos_x == position:
+                self.player_with_ball = pl
+                self.ball_pos_y = pl.pos_y
+                self.ball_pos_x = pl.pos_x
+                print(f"{gk.name} passed the ball to {pl.name}!")
+                break
+
 
     def pass_ball(self, player, teammate):
-        if player.club == self.team1.name:
-            opponent_team = self.team2
-        else:
-            opponent_team = self.team1
-        if (player.position[1] == "w" or player.position == "cf") and (
-                teammate.position == "gk" or teammate.position == "cb"):
-            print(f"{player.name} position is {[player.pos_x, player.pos_y]}")
-            print(f"{teammate.name} position is {[teammate.pos_x, teammate.pos_y]}")
-        # check if the pass is intercepted
-        # 1) calculate the distance between the player and the goals (=c)
-        # 2) calculate the distance between the opp_player and the goals (=a)
-        # 3) calculate the distance between the opp_player and the player (=b)
-        # 4) calculate the distance between the opp_player and the ball-to-goal path (=h)
-
-        # 1)
-        c = math.sqrt((teammate.pos_x - player.pos_x) ** 2 + (teammate.pos_y - player.pos_y) ** 2)
-        opp_players = []
-        for opp_player in opponent_team.best_squad:
-            # 2)
-            a = math.sqrt((teammate.pos_x - opp_player.pos_x) ** 2 + (teammate.pos_y - opp_player.pos_y) ** 2)
-            b = math.sqrt((opp_player.pos_x - player.pos_x) ** 2 + (opp_player.pos_y - player.pos_y))
-            if c != 0:
-                proj = (b ** 2 + c ** 2 - a ** 2) / (2 * c);
-            else:
-                proj = 0
-            h = math.sqrt(abs(b ** 2 - proj ** 2))
-            if 15 >= h >= 0:
-                opp_players.append(player)
-        # opp_players.sort()
-
-        # the pass can be intercepted with 30% probability
-
-        generator = random.randint(0, 100)
-        if generator < 10 and opp_players:
-            # the ball is intercepted
-            opp_player = random.choice(opp_players)
-            self.ball_pos_x = opp_player.pos_x
-            self.ball_pos_y = opp_player.pos_y
-            # print(f"The ball is intercepted by {opp_player.name}")
-            self.player_with_ball = opp_player
-        else:
-            self.ball_pos_x = teammate.pos_x
-            self.ball_pos_y = teammate.pos_y
-            self.player_with_ball = teammate
-
+        pass
     def play(self):
         """
         On each turn the player with the ball can either pass the ball, shoot the ball or go forward.
@@ -344,129 +334,13 @@ class Game:
 
         :return: void
         """
-
-        # all_players = self.team1.best_squad+self.team2.best_squad
-        for current_player in self.all_players:
-            if current_player.position == "gk":
-                continue
-            if current_player.club == self.team1.name:
-                current_club = self.team1
-                opponent_club = self.team2
-            else:
-                current_club = self.team2
-                opponent_club = self.team1
-            if current_player.name == self.player_with_ball.name:
-                # check if the player can shoot
-                y = 25
-                if current_player.club == self.team1.name:
-                    x = 100
-                else:
-                    x = 0
-                # get the distance between the player position and the opponent goals position
-                distance = math.sqrt((y - current_player.pos_y) ** 2 + (x - current_player.pos_x) ** 2)
-                # get all the teammates within 15 meter radius
-                close_teammates = []
-                for teammate in current_club.best_squad:
-                    if teammate.name != current_player.name and Game.calculate_distance(teammate, current_player) < 15:
-                        close_teammates.append(teammate)
-
-                if distance < 30:
-
-                    # if the distance is less than 20, then
-                    # 1) If there are no players close to him, he will shoot
-                    # 2) If there are players close to him(15m), he will shoot(90%) or pass the ball(10%)
-
-                    if not close_teammates:
-                        # shoot
-                        print(f"{current_player.name} shoots! {self.minute}'")
-                        self.actions += 1
-                        self.shoot(current_player);
-
-                    else:
-                        teammate = random.choice(close_teammates)
-                        generator = random.randint(0, 100)
-                        if generator > 90:
-                            # pass the ball
-                            self.pass_ball(current_player, teammate)
-                            pass
-                        else:
-                            # shoot the ball
-                            print(f"{current_player.name} shoots! {self.minute}'")
-                            self.actions += 1
-                            self.shoot(current_player)
-
-                            pass
-                else:
-                    if not close_teammates:
-                        # go forward
-                        if current_club.name == self.team1.name:
-                            direction = 1
-                        else:
-                            direction = -1
-                        current_player.pos_x += (direction * 1)
-                        print(f"{current_player.name} running with the ball! {self.minute}'")
-                        self.actions += 1
-                        self.minute += 1
-                        for pl in opponent_club.best_squad:
-                            if Game.calculate_distance(pl, current_player) <= 5 and pl.club != current_player.club:
-                                if math.sqrt((y - current_player.pos_y) ** 2 + (x - current_player.pos_x) ** 2) <= 20:
-                                    self.shoot(current_player)
-                                else:
-                                    teammate = random.choice(close_teammates)
-                                    self.pass_ball(current_player, teammate)
-                    else:
-                        teammate = random.choice(close_teammates)
-                        self.pass_ball(current_player, teammate)
-                        print(f"{current_player.name} passed the ball to {teammate.name}! {self.minute}'")
-                        self.actions += 1
-                        # pass the ball to the selected teammate
-            else:
-
-                if current_player.club != self.player_with_ball.club:
-
-                    if Game.calculate_distance(current_player, self.player_with_ball) <= 30:
-
-                        # follow the player with ball
-                        dx = current_player.pos_x - self.player_with_ball.pos_x
-                        dy = current_player.pos_y - self.player_with_ball.pos_y
-                        current_player.pos_x += (self.player_with_ball.pos_x - current_player.pos_x)
-                        current_player.pos_y += (self.player_with_ball.pos_y - current_player.pos_y)
-
-                        if Game.calculate_distance(current_player, self.player_with_ball) <= 5:
-                            # 50% chance that the ball will be recovered
-                            generator = random.randint(0, 100)
-                            if generator < 10:
-                                self.ball_pos_x = current_player.pos_x
-                                self.ball_pos_y = current_player.pos_y
-                                print(f"{current_player.name} recovered the ball! {self.minute}'")
-                                self.actions += 1
-                                if current_player.club == self.team1.name:
-                                    if current_player.pos_x + 5 < 100:
-                                        current_player.pos_x += 5
-                                else:
-                                    if current_player.pos_x - 5 > 0:
-                                        current_player.pos_x -= 5
-                                self.player_with_ball = current_player
-                    else:
-                        current_player.pos_x = current_player.orig_pos_x
-                        current_player.pos_y = current_player.orig_pos_y
-                else:
-                    # current_player is a teammate of the player with the ball.
-                    # if he is 30 meters away from the opponent goals, he should stay
-                    # else, if he is a lb/rb/lw/rw, he should run forward 10 meters
-                    #       if he is a cm/dm/cb, he should go to his origin position
-                    if current_player.club == self.team1.name:
-                        x = 100
-                    else:
-                        x = 0
-                    if abs(current_player.pos_x - x) > 30:
-                        if current_player.position[0] == "l" or current_player.position[0] == "r" or \
-                                current_player.position == "cf":
-                            # run forward 10 meters
-                            current_player.pos_x += 10
-                        elif current_player.position[0] == "c" or current_player.position == "dm":
-                            # go to the origin position
-                            current_player.pos_x = current_player.orig_pos_x
-                            current_player.pos_y = current_player.orig_pos_y
-
-        self.minute = self.actions // 3
+        for pl in self.all_players:
+            pl.orig_pos_x = pl.pos_x
+            pl.orig_pos_y = pl.pos_y
+        player = self.team1.best_squad[-1]
+        opp_gk = self.team2.best_squad[0] if player.club == self.team1.name else self.team1.best_squad[0]
+        print(self.team1.best_squad[0].pos_x)
+        print(self.team2.best_squad[0].pos_x)
+        self.shoot(player)
+        # print(f"{opp_gk.name} skill is {opp_gk.skill}")
+        # print(f"{player.name} skill is {player.skill}")
