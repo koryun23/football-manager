@@ -198,6 +198,7 @@ class Game:
                 self.ball_pos_x = pl.pos_x
                 self.ball_pos_y = pl.pos_y
                 self.player_with_ball = pl
+
     def is_saved(self, player):
         y = 25
         if player.club == self.team1.name:
@@ -216,11 +217,15 @@ class Game:
         else:
             return False
 
-
     def move_to_origin(self, diff):
         for pl in self.all_players:
             pl.pos_x = pl.orig_pos_x
             pl.pos_y = pl.orig_pos_y + diff
+
+    def reset_origin_positions(self):
+        for pl in self.all_players:
+            pl.orig_pos_x = pl.pos_x
+            pl.orig_pos_y = pl.pos_y
     def shoot(self, player):
         """
         There are 2 possible outcomes: It's either a goal or not
@@ -287,16 +292,14 @@ class Game:
             self.ball_pos_y = gk.pos_y
             self.player_with_ball = gk
             print(f"{gk.name} saved it!")
-            #move everyone from the opponent team to their origin positions except for the attackers(cf, lw, rw)
+            # move everyone from the opponent team to their origin positions except for the attackers(cf, lw, rw)
             attackers = ["cf", "lw", "rw"]
             for pl in opp_team.best_squad:
                 if pl.position not in attackers:
                     pl.pos_x = pl.orig_pos_x
                     pl.orig_pos_y = pl.orig_pos_y
-
             time.sleep(0.5)
             self.kick_ball_in(gk)
-
 
     def kick_ball_in(self, gk):
         current_team = self.team2
@@ -315,9 +318,32 @@ class Game:
                 print(f"{gk.name} passed the ball to {pl.name}!")
                 break
 
-
     def pass_ball(self, player, teammate):
-        pass
+        if teammate.club == self.team1.name:
+            dir_x = 1
+        else:
+            dir_x = -1
+        self.ball_pos_x = teammate.pos_x
+        self.ball_pos_y = teammate.pos_y
+        self.player_with_ball = teammate
+        print(f"{player.name} passed the ball to {teammate.name}")
+        # self.player_with_ball.pos_x += dir_x*5
+
+    def resolve_player_collisions(self):
+        # check if player positions overlap
+        met = set()
+
+        for pl in self.all_players:
+            if (pl.pos_x, pl.pos_y) not in met:
+                met.add((pl.pos_x, pl.pos_y))
+            else:
+                # There are 2 players with same position
+                # change the position of the current_player
+                pl.pos_x+=5
+                pl.pos_y+=5
+
+        # Now there will be no collisions of players!
+
     def play(self):
         """
         On each turn the player with the ball can either pass the ball, shoot the ball or go forward.
@@ -334,13 +360,21 @@ class Game:
 
         :return: void
         """
-        for pl in self.all_players:
-            pl.orig_pos_x = pl.pos_x
-            pl.orig_pos_y = pl.pos_y
+
+        self.resolve_player_collisions()
+        self.reset_origin_positions()
+
         player = self.team1.best_squad[-1]
         opp_gk = self.team2.best_squad[0] if player.club == self.team1.name else self.team1.best_squad[0]
         print(self.team1.best_squad[0].pos_x)
         print(self.team2.best_squad[0].pos_x)
-        self.shoot(player)
+        team = self.team1 if self.player_with_ball.club else self.team2
+        teammate = random.choice(team.best_squad)
+        self.pass_ball(self.player_with_ball, teammate)
+
+
+
+
+        # self.shoot(player)
         # print(f"{opp_gk.name} skill is {opp_gk.skill}")
         # print(f"{player.name} skill is {player.skill}")

@@ -55,7 +55,7 @@ counter2 = 1
 for pl in game.team2.best_squad:
     team2_player_tag_dict[pl.name] = f"team2player{counter2}"
 
-for i in range(10):
+for i in range(100):
     counter1 = 1
     counter2 = 1
 
@@ -79,9 +79,6 @@ for i in range(10):
     create_circle(5 * game.ball_pos_x, 8 * (50 - game.ball_pos_y), 5, myCanvas, "white", "ball")
     tk.update()
     time.sleep(0.1)
-    if game.actions==0:
-        time.sleep(5)
     game.play()
 
-    time.sleep(1)
 myCanvas.mainloop()
