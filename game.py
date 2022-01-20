@@ -221,7 +221,11 @@ class Game:
         for pl in self.all_players:
             pl.pos_x = pl.orig_pos_x
             pl.pos_y = pl.orig_pos_y + diff
-
+    def follow_origin_positions(self, player):
+        dx = (player.orig_pos_x - player.pos_x) // player.skill
+        dy = (player.orig_pos_y - player.pos_y) // player.skill
+        player.pos_x += dx
+        player.pos_y += dy
     def reset_origin_positions(self):
         for pl in self.all_players:
             pl.orig_pos_x = pl.pos_x
@@ -339,10 +343,38 @@ class Game:
             else:
                 # There are 2 players with same position
                 # change the position of the current_player
-                pl.pos_x+=5
-                pl.pos_y+=5
+                pl.pos_x+=2
+                pl.pos_y+=2
 
         # Now there will be no collisions of players!
+
+    def follow_player_with_ball(self, player):
+        dx = (self.player_with_ball.pos_x - player.pos_x) // 5
+        dy = (self.player_with_ball.pos_y - player.pos_y) // 5
+        player.pos_x += dx
+        player.pos_y += dy
+
+    def run_with_ball(self, player):
+        if player.club == self.team1.name:
+            dir_x = 1
+        else:
+            dir_x = -1
+        player.pos_x += player.skill*dir_x // 5
+
+    def choose_close_teammate(self, player):
+        if player.club == self.team1.name:
+            team = self.team1
+        else:
+            team = self.team2
+
+        close_teammates = [] # teammates that are 15 or less meters away are considered close
+        for pl in team.best_squad:
+            if pl.name == player:
+                continue
+            distance=  Game.calculate_distance(pl, player)
+            if distance <= 15:
+                close_teammates.append(pl)
+        return random.choice(close_teammates)
 
     def play(self):
         """
@@ -370,7 +402,26 @@ class Game:
         print(self.team2.best_squad[0].pos_x)
         team = self.team1 if self.player_with_ball.club else self.team2
         teammate = random.choice(team.best_squad)
-        self.pass_ball(self.player_with_ball, teammate)
+        #self.pass_ball(self.player_with_ball, teammate)
+
+        for player in self.all_players: # main loop of the play method
+            if player.position == "gk":
+                continue
+            if player.name == self.player_with_ball.name:
+                generator = random.randint(0, 100)
+                if generator < 90: # pass the ball else run forward
+                    # choose close teammate
+                    teammate = self.choose_close_teammate(player)
+                    self.pass_ball(player, teammate)
+                else:
+                    self.run_with_ball(player)
+            else:
+                # follow the player with ball or not
+                if player.club != self.player_with_ball.club:
+                    distance_from_player_with_ball = Game.calculate_distance(self.player_with_ball, player)
+                    if distance_from_player_with_ball <= 15:
+                        self.follow_player_with_ball(player)
+
 
 
 
