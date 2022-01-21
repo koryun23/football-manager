@@ -55,6 +55,7 @@ counter2 = 1
 for pl in game.team2.best_squad:
     team2_player_tag_dict[pl.name] = f"team2player{counter2}"
 
+game.reset_origin_positions()
 for i in range(100):
     counter1 = 1
     counter2 = 1
