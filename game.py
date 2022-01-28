@@ -517,11 +517,9 @@ class Game:
                     else:
                         self.follow_origin_positions(player)
 
-                   # if player.position in attackers:
-                   #     self.press_opponent_players(player)
-                   # if player.position in defenders:
-                   #     self.follow_defending_position(player)
-                        self.follow_defending_position(player)
+                    self.follow_defending_position(player)
+                    if player.position in attackers:
+                        self.press_opponent_players(player)
                 else:
                     if player.position not in defenders:
                         self.follow_attacking_position(player)
