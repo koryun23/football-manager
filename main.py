@@ -56,7 +56,8 @@ for pl in game.team2.best_squad:
     team2_player_tag_dict[pl.name] = f"team2player{counter2}"
 
 game.reset_origin_positions()
-for i in range(100):
+while game.minute <= 90:
+    # game.set_attacking_defending_positions()
     counter1 = 1
     counter2 = 1
 
@@ -76,10 +77,24 @@ for i in range(100):
         current_position_y = pl.pos_y
         create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "red",
                       team2_player_tag_dict[pl.name])
-
     create_circle(5 * game.ball_pos_x, 8 * (50 - game.ball_pos_y), 5, myCanvas, "white", "ball")
     tk.update()
     time.sleep(0.1)
     game.play()
+winning_side = game.team1.name
+if game.team1_score < game.team2_score:
+    winning_side = game.team2.name
+elif game.team1_score == game.team2_score:
+    winning_side = None
 
+if winning_side:
+    print(f"The game ended! {winning_side} won the game {game.team1_score} - {game.team2_score}")
+else:
+    print(f"The game ended in a draw. {game.team1_score} - {game.team2_score}")
+
+print("The goal scorers")
+for pl in game.team1_scorers:
+    print(pl.name)
+for pl in game.team2_scorers:
+    print(pl.name)
 myCanvas.mainloop()

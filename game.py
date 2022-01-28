@@ -188,6 +188,8 @@ class Game:
         self.team_with_ball = None
         self.player_with_ball = None
         self.all_players = self.team1.best_squad + self.team2.best_squad
+        self.team1_scorers = []
+        self.team2_scorers = []
         Game.form(first_team)
         Game.form(second_team)
         for player in second_team.best_squad:
@@ -233,6 +235,13 @@ class Game:
             pl.orig_pos_x = pl.pos_x
             pl.orig_pos_y = pl.pos_y
 
+    def set_attacking_defending_positions(self):
+        for pl in self.all_players:
+            dx = 1 if pl.club == self.team1.name else -1
+            pl.attacking_pos_x = pl.orig_pos_x + dx*40
+            pl.attacking_pos_y = pl.orig_pos_y
+            pl.defending_pos_x = pl.orig_pos_x + dx*(-10)
+            pl.defending_pos_y = pl.orig_pos_y
     def shoot(self, player):
         """
         There are 2 possible outcomes: It's either a goal or not
@@ -272,28 +281,39 @@ class Game:
 
         if not is_saved:  # then it's either a goal or a miss from the player
             # the possibility of a miss is (100-player.skill)%
-            possibility_of_miss = 100 - player.skill
+            possibility_of_miss = 50+opp_team.best_squad[0].skill-player.skill
             generator = random.randint(0, 100)
-            if generator > possibility_of_miss:  # then it's a miss from the player
+            if generator < possibility_of_miss:  # then it's a miss from the player
                 self.ball_pos_x = x
                 self.ball_pos_y = 51 - player.pos_y
-                print(f"{player.name} missed!")
+                print(f"{player.name} missed!  {self.minute}'")
+                self.actions+=1
                 self.move_to_origin(0)
                 self.player_with_ball = gk
                 self.kick_ball_in(gk)
             else:  # then it's a goal
                 self.ball_pos_x = x
                 self.ball_pos_y = y
-                print(f"GOAL! {player.name} scored!")
+                print(f"GOAL! {player.name} scored!  {self.minute}'")
+                self.actions+=1
+                if self.player_with_ball.club == self.team1.name:
+                    self.team1_score += 1
+                    self.team1_scorers.append(self.player_with_ball)
+                else:
+                    self.team2_score += 1
+                    self.team2_scorers.append(self.player_with_ball)
+
                 self.move_to_origin(0)
                 self.ball_pos_x = opp_team.best_squad[-1].pos_x
                 self.ball_pos_y = opp_team.best_squad[-1].pos_y
                 self.player_with_ball = opp_team.best_squad[-1]
+
         else:  # then it's a save from the goalkeeper
             self.ball_pos_x = gk.pos_x
             self.ball_pos_y = gk.pos_y
             self.player_with_ball = gk
-            print(f"{gk.name} saved it!")
+            print(f"{gk.name} saved it!  {self.minute}'")
+            self.actions+=1
             # move everyone from the opponent team to their origin positions except for the attackers(cf, lw, rw)
             attackers = ["cf", "lw", "rw"]
             for pl in opp_team.best_squad:
@@ -316,7 +336,8 @@ class Game:
                 self.player_with_ball = pl
                 self.ball_pos_y = pl.pos_y
                 self.ball_pos_x = pl.pos_x
-                print(f"{gk.name} passed the ball to {pl.name}!")
+                print(f"{gk.name} passed the ball to {pl.name}!  {self.minute}'")
+                self.actions+=1
                 break
 
     def pass_ball(self, player, teammate):
@@ -327,7 +348,8 @@ class Game:
         self.ball_pos_x = teammate.pos_x
         self.ball_pos_y = teammate.pos_y
         self.player_with_ball = teammate
-        print(f"{player.name} passed the ball to {teammate.name}")
+        print(f"{player.name} passed the ball to {teammate.name}  {self.minute}'")
+        self.actions+=1
         # self.player_with_ball.pos_x += dir_x*5
 
     def resolve_player_collisions(self):
@@ -368,6 +390,9 @@ class Game:
         dy = (y - player.pos_y)//5
         player.pos_x += dx
         player.pos_y += dy
+        if self.is_out_of_bounds(player):
+            player.pos_x -= dx
+            player.pos_y -= dy
         self.ball_pos_x = player.pos_x
         self.ball_pos_y = player.pos_y
 
@@ -381,7 +406,8 @@ class Game:
         else:
             player.pos_x += dir_x*5
             self.ball_pos_x = player.pos_x
-        print(f"{player.name} running with the ball")
+        print(f"{player.name} running with the ball  {self.minute}'")
+        self.actions+=1
 
     def close_teammates(self, player, dist):
         if player.club == self.team1.name:
@@ -404,6 +430,32 @@ class Game:
         self.ball_pos_y = player.pos_y
         self.player_with_ball = player
 
+
+    def is_out_of_bounds(self, player):
+        return player.pos_x < 0 or player.pos_x > 100 or player.pos_y<0 or player.pos_y>50
+
+    def press_opponent_players(self, player):
+        opponent_players = []
+        for pl in self.all_players:
+            if pl.club != player.club:
+                opponent_players.append(pl)
+        opponent_players.sort(key=lambda p : Game.calculate_distance(p, player))
+        self.follow_opponent_player(player, opponent_players[0])
+    def follow_opponent_player(self, pl, player):
+        dx = (player.pos_x - pl.pos_x) // 12
+        dy = (player.pos_y - pl.pos_y) // 12
+        pl.pos_x += dx
+        pl.pos_y += dy
+    def follow_attacking_position(self, player):
+        dx = (player.attacking_pos_x - player.pos_x) // 10
+        dy = (player.attacking_pos_y - player.pos_y) // 10
+        player.pos_x += dx
+        player.pos_y += dy
+    def follow_defending_position(self, player):
+        dx = (player.defending_pos_x - player.pos_x) // 10
+        dy = (player.defending_pos_y - player.pos_y) // 10
+        player.pos_x += dx
+        player.pos_y += dy
     def play(self):
         """
         On each turn the player with the ball can either pass the ball, shoot the ball or go forward.
@@ -422,13 +474,22 @@ class Game:
         """
 
         self.resolve_player_collisions()
+        self.set_attacking_defending_positions()
 
 
-        for player in self.all_players:  # main loop of the play method
+
+
+        for player in self.all_players:   # main loop of the play method
+            attackers = ["cf", "lw", "rw", "lm", "rm", "am"]
+            defenders = ["cb", "dm"]
             if player.position == "gk":
+                if player.name == self.player_with_ball.name:
+                    self.kick_ball_in(player)
                 continue
+            # self.perform_best_decision(player)
             if player.name == self.player_with_ball.name:
-                if self.is_player_close_to_opponent(player, 20):
+
+                if self.is_player_close_to_opponent(player, 25):
                     # generator = random.randint(0, 100)
                     # if generator < 90:
                     self.shoot(player)
@@ -439,39 +500,42 @@ class Game:
                     teammate = None
                     if teammates:
                         teammate = random.choice(teammates)
-                    if generator < 90 and teammate: # pass the ball else run forward
+                    if generator < 50 and teammate:  # pass the ball else run forward
                         self.pass_ball(player, teammate)
                     else:
                         self.run_with_ball(player)
             else:
                 # follow the player with ball or not
-
                 if player.club != self.player_with_ball.club:
+
                     distance_from_player_with_ball = Game.calculate_distance(self.player_with_ball, player)
-                    if distance_from_player_with_ball <= 15 or player.position == "cf":
-                        if not self.close_teammates(player, 5) or len(self.close_teammates(player, 5)) < 2:
+                    if distance_from_player_with_ball <= 15:
+                        if not self.close_teammates(player, 5) or len(self.close_teammates(player, 5)) < 1:
                             self.follow_player_with_ball(player)
-                    elif distance_from_player_with_ball <= 5:
+                    elif distance_from_player_with_ball <= 10:
                         self.win_ball(player)
                     else:
                         self.follow_origin_positions(player)
+                    if player.position in attackers:
+                        self.press_opponent_players(player)
+                    # press opponent players
+                    if player.position in attackers:
+                        self.press_opponent_players(player)
+                    if player.position in defenders:
+                        self.follow_defending_position(player)
+
+
                 else:
-                    defenders = ["cb", "dm", "gk"]
-                    # attackers = ["cf", "lw", "rw", "lm", "rm"]
                     if player.position not in defenders:
-                        if not self.is_player_close_to_opponent(player, 20):
-                            dx = 1
-                            player.pos_x += dx
-
-                        dy = (player.orig_pos_y - player.pos_y) // 10
-                        player.pos_y += dy
-
-
+                        self.follow_attacking_position(player)
+                        # if not self.is_player_close_to_opponent(player, 20):
+                        #     dx = 1 if player.club == self.team1.name else -1
+                        #     player.pos_x += dx
+                        # dy = (player.orig_pos_y - player.pos_y) // 10
+                        # player.pos_y += dy
 
 
 
+        print(f"{self.team1_score} - {self.team2_score}")
+        self.minute = self.actions//4
 
-
-        # self.shoot(player)
-        # print(f"{opp_gk.name} skill is {opp_gk.skill}")
-        # print(f"{player.name} skill is {player.skill}")

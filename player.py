@@ -41,6 +41,10 @@ class Player:
         self.pos_y = 0
         self.orig_pos_x = 0
         self.orig_pos_y = 0
+        self.attacking_pos_x = 0
+        self.attacking_pos_y = 0
+        self.defending_pos_x = 0
+        self.defending_pos_y = 0
 
     def train(self): # the trainings will cost some amount of money
         generator = random.randint(0, 100)
