@@ -28,7 +28,7 @@ team2_rating = team2.player_list_for_game()[1]
 team2_formation = team2.player_list_for_game()[2]
 game = Game(team1, team2)
 
-print("Man City")
+print(team1.name)
 print(f"Rating:{team1_rating}")
 print(f"Formation:{team1_formation}")
 print("---------------------------------")
@@ -36,7 +36,7 @@ for player in team1_squad:
     print(player.position + "   " + player.name + "    " + f"{[player.pos_x, player.pos_y]}")
 print("\n\n\n")
 
-print("Liverpool")
+print(team2.name)
 print(f"Rating:{team2_rating}")
 print(f"Formation:{team2_formation}")
 print("----------------------------------")
