@@ -528,13 +528,6 @@ class Game:
                 else:
                     if player.position not in defenders:
                         self.follow_attacking_position(player)
-                        # if not self.is_player_close_to_opponent(player, 20):
-                        #     dx = 1 if player.club == self.team1.name else -1
-                        #     player.pos_x += dx
-                        # dy = (player.orig_pos_y - player.pos_y) // 10
-                        # player.pos_y += dy
-
-
 
         print(f"{self.team1_score} - {self.team2_score}")
         self.minute = self.actions//4
