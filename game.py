@@ -517,9 +517,11 @@ class Game:
                     else:
                         self.follow_origin_positions(player)
 
-                    self.follow_defending_position(player)
-                    if player.position in attackers:
+                    if player.position == "cf" or player.position[1] == "w":
                         self.press_opponent_players(player)
+                    else:
+                        self.follow_defending_position(player)
+
                 else:
                     if player.position not in defenders:
                         self.follow_attacking_position(player)
