@@ -28,7 +28,7 @@ for club in premier_league_clubs:
             )
             team1.player_list.append(new_player)
 
-    elif club["name"] == "Chelsea":
+    elif club["name"] == "Leeds United":
         team2.name = club["name"]
         team2.budget = club["budget"]
         pl_list = club["player_list"]
