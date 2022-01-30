@@ -6,12 +6,10 @@ class Player:
     midfield_positions = ["lm", "cm", "dm", "rm"]
     defending_positions = ["lb", "cb", "rb"]
 
-    def __init__(self, name, age, skill, club,price, salary, position):
+    def __init__(self, name, age, skill, club, position):
         self.name = name
         self.age = age
         self.club = club
-        self.price = price
-        self.salary = salary
         self.skill = skill
         self.position = position
         self.potential = 50
