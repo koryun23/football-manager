@@ -7,225 +7,225 @@
           "name": "Kevin De Bruyne",
           "club": "Manchester City",
           "age": 25,
-          "position": "CM",
-          "skill": "91"
+          "position": "cm",
+          "skill": 91
         },
         {
           "name": "Ederson",
           "club": "Manchester City",
           "age": 25,
-          "position": "GK",
-          "skill": "89"
+          "position": "gk",
+          "skill": 89
         },
         {
           "name": "Raheem Sterling",
           "club": "Manchester City",
           "age": 25,
-          "position": "LW",
-          "skill": "88"
+          "position": "lw",
+          "skill": 88
         },
         {
           "name": "R\u00faben Dias",
           "club": "Manchester City",
           "age": 25,
-          "position": "CB",
-          "skill": "87"
+          "position": "cb",
+          "skill": 87
         },
         {
           "name": "Rodri",
           "club": "Manchester City",
           "age": 25,
-          "position": "DM",
-          "skill": "86"
+          "position": "dm",
+          "skill": 86
         },
         {
           "name": "Aymeric Laporte",
           "club": "Manchester City",
           "age": 25,
-          "position": "CB",
-          "skill": "86"
+          "position": "cb",
+          "skill": 86
         },
         {
           "name": "Jo\u00e3o Cancelo",
           "club": "Manchester City",
           "age": 25,
-          "position": "RB",
-          "skill": "86"
+          "position": "rb",
+          "skill": 86
         },
         {
           "name": "Bernardo Silva",
           "club": "Manchester City",
           "age": 25,
-          "position": "AM",
-          "skill": "86"
+          "position": "am",
+          "skill": 86
         },
         {
           "name": "Riyad Mahrez",
           "club": "Manchester City",
           "age": 25,
-          "position": "RW",
-          "skill": "86"
+          "position": "rw",
+          "skill": 86
         },
         {
           "name": "I. G\u00fcndo\u011fan",
           "club": "Manchester City",
           "age": 25,
-          "position": "CM",
-          "skill": "85"
+          "position": "cm",
+          "skill": 85
         },
         {
           "name": "Kyle Walker",
           "club": "Manchester City",
           "age": 25,
-          "position": "RB",
-          "skill": "85"
+          "position": "rb",
+          "skill": 85
         },
         {
           "name": "Phil Foden",
           "club": "Manchester City",
           "age": 25,
-          "position": "AM",
-          "skill": "84"
+          "position": "am",
+          "skill": 84
         },
         {
           "name": "Jack Grealish",
           "club": "Manchester City",
           "age": 25,
-          "position": "AM",
-          "skill": "84"
+          "position": "am",
+          "skill": 84
         },
         {
           "name": "Gabriel Jesus",
           "club": "Manchester City",
           "age": 25,
-          "position": "ST",
-          "skill": "83"
+          "position": "cf",
+          "skill": 83
         },
         {
           "name": "John Stones",
           "club": "Manchester City",
           "age": 25,
-          "position": "CB",
-          "skill": "83"
+          "position": "cb",
+          "skill": 83
         },
         {
           "name": "Fernandinho",
           "club": "Manchester City",
           "age": 25,
-          "position": "DM",
-          "skill": "83"
+          "position": "dm",
+          "skill": 83
         },
         {
           "name": "Ferran Torres",
           "club": "Manchester City",
           "age": 25,
-          "position": "AM",
-          "skill": "82"
+          "position": "am",
+          "skill": 82
         },
         {
           "name": "O. Zinchenko",
           "club": "Manchester City",
           "age": 25,
-          "position": "LB",
-          "skill": "80"
+          "position": "lb",
+          "skill": 80
         },
         {
           "name": "Benjamin Mendy",
           "club": "Manchester City",
           "age": 25,
-          "position": "LB",
-          "skill": "79"
+          "position": "lb",
+          "skill": 79
         },
         {
           "name": "Nathan Ak\u00e9",
           "club": "Manchester City",
           "age": 25,
-          "position": "CB",
-          "skill": "78"
+          "position": "cb",
+          "skill": 78
         },
         {
           "name": "Zack Steffen",
           "club": "Manchester City",
           "age": 25,
-          "position": "GK",
-          "skill": "77"
+          "position": "gk",
+          "skill": 77
         },
         {
           "name": "Scott Carson",
           "club": "Manchester City",
           "age": 25,
-          "position": "GK",
-          "skill": "67"
+          "position": "gk",
+          "skill": 67
         },
         {
           "name": "Kayky",
           "club": "Manchester City",
           "age": 25,
-          "position": "LM",
-          "skill": "66"
+          "position": "lm",
+          "skill": 66
         },
         {
           "name": "Liam Delap",
           "club": "Manchester City",
           "age": 25,
-          "position": "ST",
-          "skill": "64"
+          "position": "cf",
+          "skill": 64
         },
         {
           "name": "Jayden Braaf",
           "club": "Manchester City",
           "age": 25,
-          "position": "RM",
-          "skill": "64"
+          "position": "rm",
+          "skill": 64
         },
         {
           "name": "Cole Palmer",
           "club": "Manchester City",
           "age": 25,
-          "position": "AM",
-          "skill": "64"
+          "position": "am",
+          "skill": 64
         },
         {
           "name": "Luke Bolton",
           "club": "Manchester City",
           "age": 25,
-          "position": "RM",
-          "skill": "64"
+          "position": "rm",
+          "skill": 64
         },
         {
           "name": "Romeo Lavia",
           "club": "Manchester City",
           "age": 25,
-          "position": "CB",
-          "skill": "62"
+          "position": "cb",
+          "skill": 62
         },
         {
           "name": "Samuel Edozie",
           "club": "Manchester City",
           "age": 25,
-          "position": "RM",
-          "skill": "62"
+          "position": "rm",
+          "skill": 62
         },
         {
           "name": "Luke Mbete",
           "club": "Manchester City",
           "age": 25,
-          "position": "CB",
-          "skill": "62"
+          "position": "cb",
+          "skill": 62
         },
         {
           "name": "James McAtee",
           "club": "Manchester City",
           "age": 25,
-          "position": "AM",
-          "skill": "61"
+          "position": "am",
+          "skill": 61
         },
         {
           "name": "Iker Pozo",
           "club": "Manchester City",
           "age": 25,
-          "position": "CM",
-          "skill": "57"
+          "position": "cm",
+          "skill": 57
         }
       ]
     },
@@ -236,232 +236,232 @@
           "name": "Alisson",
           "club": "Liverpool",
           "age": 25,
-          "position": "GK",
-          "skill": "89"
+          "position": "gk",
+          "skill": 89
         },
         {
           "name": "Mohamed Salah",
           "club": "Liverpool",
           "age": 25,
-          "position": "RW",
-          "skill": "89"
+          "position": "rw",
+          "skill": 89
         },
         {
           "name": "Sadio Man\u00e9",
           "club": "Liverpool",
           "age": 25,
-          "position": "LW",
-          "skill": "89"
+          "position": "lw",
+          "skill": 89
         },
         {
           "name": "Virgil van Dijk",
           "club": "Liverpool",
           "age": 25,
-          "position": "CB",
-          "skill": "89"
+          "position": "cb",
+          "skill": 89
         },
         {
           "name": "T. Alexander-Arnold",
           "club": "Liverpool",
           "age": 25,
-          "position": "RB",
-          "skill": "87"
+          "position": "rb",
+          "skill": 87
         },
         {
           "name": "A. Robertson",
           "club": "Liverpool",
           "age": 25,
-          "position": "LB",
-          "skill": "87"
+          "position": "lb",
+          "skill": 87
         },
         {
           "name": "Fabinho",
           "club": "Liverpool",
           "age": 25,
-          "position": "DM",
-          "skill": "86"
+          "position": "dm",
+          "skill": 86
         },
         {
           "name": "Thiago",
           "club": "Liverpool",
           "age": 25,
-          "position": "CM",
-          "skill": "86"
+          "position": "cm",
+          "skill": 86
         },
         {
           "name": "Roberto Firmino",
           "club": "Liverpool",
           "age": 25,
-          "position": "CF",
-          "skill": "85"
+          "position": "cf",
+          "skill": 85
         },
         {
           "name": "J. Henderson",
           "club": "Liverpool",
           "age": 25,
-          "position": "DM",
-          "skill": "84"
+          "position": "dm",
+          "skill": 84
         },
         {
           "name": "Joel Matip",
           "club": "Liverpool",
           "age": 25,
-          "position": "CB",
-          "skill": "83"
+          "position": "cb",
+          "skill": 83
         },
         {
           "name": "Joe Gomez",
           "club": "Liverpool",
           "age": 25,
-          "position": "CB",
-          "skill": "82"
+          "position": "cb",
+          "skill": 82
         },
         {
           "name": "Diogo Jota",
           "club": "Liverpool",
           "age": 25,
-          "position": "ST",
-          "skill": "82"
+          "position": "cf",
+          "skill": 82
         },
         {
           "name": "Naby Ke\u00efta",
           "club": "Liverpool",
           "age": 25,
-          "position": "AM",
-          "skill": "80"
+          "position": "am",
+          "skill": 80
         },
         {
           "name": "James Milner",
           "club": "Liverpool",
           "age": 25,
-          "position": "DM",
-          "skill": "79"
+          "position": "dm",
+          "skill": 79
         },
         {
           "name": "A. Oxlade-Chamberlain",
           "club": "Liverpool",
           "age": 25,
-          "position": "AM",
-          "skill": "79"
+          "position": "am",
+          "skill": 79
         },
         {
           "name": "I. Konat\u00e9",
           "club": "Liverpool",
           "age": 25,
-          "position": "CB",
-          "skill": "78"
+          "position": "cb",
+          "skill": 78
         },
         {
           "name": "Divock Origi",
           "club": "Liverpool",
           "age": 25,
-          "position": "ST",
-          "skill": "76"
+          "position": "cf",
+          "skill": 76
         },
         {
           "name": "Loris Karius",
           "club": "Liverpool",
           "age": 25,
-          "position": "GK",
-          "skill": "75"
+          "position": "gk",
+          "skill": 75
         },
         {
           "name": "Takumi Minamino",
           "club": "Liverpool",
           "age": 25,
-          "position": "RW",
-          "skill": "75"
+          "position": "rw",
+          "skill": 75
         },
         {
           "name": "K. Tsimikas",
           "club": "Liverpool",
           "age": 25,
-          "position": "LWB",
-          "skill": "74"
+          "position": "lb",
+          "skill": 74
         },
         {
           "name": "Adri\u00e1n",
           "club": "Liverpool",
           "age": 25,
-          "position": "GK",
-          "skill": "74"
+          "position": "gk",
+          "skill": 74
         },
         {
           "name": "Harvey Elliott",
           "club": "Liverpool",
           "age": 25,
-          "position": "AM",
-          "skill": "73"
+          "position": "am",
+          "skill": 73
         },
         {
           "name": "Curtis Jones",
           "club": "Liverpool",
           "age": 25,
-          "position": "AM",
-          "skill": "73"
+          "position": "am",
+          "skill": 73
         },
         {
           "name": "N. Phillips",
           "club": "Liverpool",
           "age": 25,
-          "position": "CB",
-          "skill": "73"
+          "position": "cb",
+          "skill": 73
         },
         {
           "name": "Neco Williams",
           "club": "Liverpool",
           "age": 25,
-          "position": "RWB",
-          "skill": "68"
+          "position": "rb",
+          "skill": 68
         },
         {
           "name": "C. Kelleher",
           "club": "Liverpool",
           "age": 25,
-          "position": "GK",
-          "skill": "67"
+          "position": "gk",
+          "skill": 67
         },
         {
           "name": "James Norris",
           "club": "Liverpool",
           "age": 25,
-          "position": "LB",
-          "skill": "60"
+          "position": "lb",
+          "skill": 60
         },
         {
           "name": "Marcelo Pitaluga",
           "club": "Liverpool",
           "age": 25,
-          "position": "GK",
-          "skill": "57"
+          "position": "gk",
+          "skill": 57
         },
         {
           "name": "Billy Koumetio",
           "club": "Liverpool",
           "age": 25,
-          "position": "CB",
-          "skill": "57"
+          "position": "cb",
+          "skill": 57
         },
         {
           "name": "E. Dixon-Bonner",
           "club": "Liverpool",
           "age": 25,
-          "position": "AM",
-          "skill": "57"
+          "position": "am",
+          "skill": 57
         },
         {
           "name": "Tom Clayton",
           "club": "Liverpool",
           "age": 25,
-          "position": "CB",
-          "skill": "57"
+          "position": "cb",
+          "skill": 57
         },
         {
           "name": "Morgan Boyes",
           "club": "Liverpool",
           "age": 25,
-          "position": "CB",
-          "skill": "57"
+          "position": "cb",
+          "skill": 57
         }
       ]
     },
@@ -472,232 +472,232 @@
           "name": "Cristiano Ronaldo",
           "club": "Manchester United",
           "age": 25,
-          "position": "ST",
-          "skill": "91"
+          "position": "cf",
+          "skill": 91
         },
         {
           "name": "Bruno Fernandes",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "88"
+          "position": "am",
+          "skill": 88
         },
         {
           "name": "Jadon Sancho",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "87"
+          "position": "am",
+          "skill": 87
         },
         {
           "name": "Paul Pogba",
           "club": "Manchester United",
           "age": 25,
-          "position": "CM",
-          "skill": "87"
+          "position": "cm",
+          "skill": 87
         },
         {
           "name": "Rapha\u00ebl Varane",
           "club": "Manchester United",
           "age": 25,
-          "position": "CB",
-          "skill": "86"
+          "position": "cb",
+          "skill": 86
         },
         {
           "name": "Marcus Rashford",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "85"
+          "position": "am",
+          "skill": 85
         },
         {
           "name": "Edinson Cavani",
           "club": "Manchester United",
           "age": 25,
-          "position": "ST",
-          "skill": "85"
+          "position": "cf",
+          "skill": 85
         },
         {
           "name": "Luke Shaw",
           "club": "Manchester United",
           "age": 25,
-          "position": "LB",
-          "skill": "84"
+          "position": "lb",
+          "skill": 84
         },
         {
           "name": "Harry Maguire",
           "club": "Manchester United",
           "age": 25,
-          "position": "CB",
-          "skill": "84"
+          "position": "cb",
+          "skill": 84
         },
         {
           "name": "De Gea",
           "club": "Manchester United",
           "age": 25,
-          "position": "GK",
-          "skill": "84"
+          "position": "gk",
+          "skill": 84
         },
         {
           "name": "A. Wan-Bissaka",
           "club": "Manchester United",
           "age": 25,
-          "position": "RWB",
-          "skill": "83"
+          "position": "rb",
+          "skill": 83
         },
         {
           "name": "Alex Telles",
           "club": "Manchester United",
           "age": 25,
-          "position": "LB",
-          "skill": "82"
+          "position": "lb",
+          "skill": 82
         },
         {
           "name": "D. van de Beek",
           "club": "Manchester United",
           "age": 25,
-          "position": "CM",
-          "skill": "81"
+          "position": "cm",
+          "skill": 81
         },
         {
           "name": "Anthony Martial",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "81"
+          "position": "am",
+          "skill": 81
         },
         {
           "name": "Fred",
           "club": "Manchester United",
           "age": 25,
-          "position": "DM",
-          "skill": "81"
+          "position": "dm",
+          "skill": 81
         },
         {
           "name": "Dean Henderson",
           "club": "Manchester United",
           "age": 25,
-          "position": "GK",
-          "skill": "80"
+          "position": "gk",
+          "skill": 80
         },
         {
           "name": "Scott McTominay",
           "club": "Manchester United",
           "age": 25,
-          "position": "DM",
-          "skill": "80"
+          "position": "dm",
+          "skill": 80
         },
         {
           "name": "V. Lindel\u00f6f",
           "club": "Manchester United",
           "age": 25,
-          "position": "DM",
-          "skill": "80"
+          "position": "dm",
+          "skill": 80
         },
         {
           "name": "Eric Bailly",
           "club": "Manchester United",
           "age": 25,
-          "position": "CB",
-          "skill": "79"
+          "position": "cb",
+          "skill": 79
         },
         {
           "name": "Jesse Lingard",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "79"
+          "position": "am",
+          "skill": 79
         },
         {
           "name": "Nemanja Mati\u0107",
           "club": "Manchester United",
           "age": 25,
-          "position": "DM",
-          "skill": "79"
+          "position": "dm",
+          "skill": 79
         },
         {
           "name": "Mason Greenwood",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "78"
+          "position": "am",
+          "skill": 78
         },
         {
           "name": "Juan Mata",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "78"
+          "position": "am",
+          "skill": 78
         },
         {
           "name": "Diogo Dalot",
           "club": "Manchester United",
           "age": 25,
-          "position": "RWB",
-          "skill": "76"
+          "position": "rb",
+          "skill": 76
         },
         {
           "name": "Tom Heaton",
           "club": "Manchester United",
           "age": 25,
-          "position": "GK",
-          "skill": "76"
+          "position": "gk",
+          "skill": 76
         },
         {
           "name": "Phil Jones",
           "club": "Manchester United",
           "age": 25,
-          "position": "CB",
-          "skill": "74"
+          "position": "cb",
+          "skill": 74
         },
         {
           "name": "Amad Diallo",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "68"
+          "position": "am",
+          "skill": 68
         },
         {
           "name": "Anthony Elanga",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "65"
+          "position": "am",
+          "skill": 65
         },
         {
           "name": "Lee Grant",
           "club": "Manchester United",
           "age": 25,
-          "position": "GK",
-          "skill": "65"
+          "position": "gk",
+          "skill": 65
         },
         {
           "name": "Teden Mengi",
           "club": "Manchester United",
           "age": 25,
-          "position": "CB",
-          "skill": "64"
+          "position": "cb",
+          "skill": 64
         },
         {
           "name": "Hannibal Mejbri",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "62"
+          "position": "am",
+          "skill": 62
         },
         {
           "name": "Shola Shoretire",
           "club": "Manchester United",
           "age": 25,
-          "position": "AM",
-          "skill": "62"
+          "position": "am",
+          "skill": 62
         },
         {
           "name": "D. Hoogewerf",
           "club": "Manchester United",
           "age": 25,
-          "position": "ST",
-          "skill": "60"
+          "position": "cf",
+          "skill": 60
         }
       ]
     },
@@ -708,232 +708,232 @@
           "name": "N. Kant\u00e9",
           "club": "Chelsea",
           "age": 25,
-          "position": "DM",
-          "skill": "90"
+          "position": "dm",
+          "skill": 90
         },
         {
           "name": "Romelu Lukaku",
           "club": "Chelsea",
           "age": 25,
-          "position": "ST",
-          "skill": "88"
+          "position": "cf",
+          "skill": 88
         },
         {
           "name": "Jorginho",
           "club": "Chelsea",
           "age": 25,
-          "position": "CM",
-          "skill": "85"
+          "position": "cm",
+          "skill": 85
         },
         {
           "name": "Thiago Silva",
           "club": "Chelsea",
           "age": 25,
-          "position": "CB",
-          "skill": "85"
+          "position": "cb",
+          "skill": 85
         },
         {
           "name": "Kai Havertz",
           "club": "Chelsea",
           "age": 25,
-          "position": "AM",
-          "skill": "84"
+          "position": "am",
+          "skill": 84
         },
         {
           "name": "Timo Werner",
           "club": "Chelsea",
           "age": 25,
-          "position": "ST",
-          "skill": "84"
+          "position": "cf",
+          "skill": 84
         },
         {
           "name": "Hakim Ziyech",
           "club": "Chelsea",
           "age": 25,
-          "position": "RW",
-          "skill": "84"
+          "position": "rw",
+          "skill": 84
         },
         {
           "name": "Mason Mount",
           "club": "Chelsea",
           "age": 25,
-          "position": "AM",
-          "skill": "83"
+          "position": "am",
+          "skill": 83
         },
         {
           "name": "\u00c9douard Mendy",
           "club": "Chelsea",
           "age": 25,
-          "position": "GK",
-          "skill": "83"
+          "position": "gk",
+          "skill": 83
         },
         {
           "name": "Mateo Kova\u010di\u0107",
           "club": "Chelsea",
           "age": 25,
-          "position": "CM",
-          "skill": "83"
+          "position": "cm",
+          "skill": 83
         },
         {
           "name": "A. R\u00fcdiger",
           "club": "Chelsea",
           "age": 25,
-          "position": "CB",
-          "skill": "83"
+          "position": "cb",
+          "skill": 83
         },
         {
           "name": "Azpilicueta",
           "club": "Chelsea",
           "age": 25,
-          "position": "CB",
-          "skill": "83"
+          "position": "cb",
+          "skill": 83
         },
         {
           "name": "C. Pulisic",
           "club": "Chelsea",
           "age": 25,
-          "position": "RM",
-          "skill": "82"
+          "position": "rm",
+          "skill": 82
         },
         {
           "name": "Ben Chilwell",
           "club": "Chelsea",
           "age": 25,
-          "position": "LWB",
-          "skill": "82"
+          "position": "lb",
+          "skill": 82
         },
         {
           "name": "Sa\u00fal",
           "club": "Chelsea",
           "age": 25,
-          "position": "CM",
-          "skill": "82"
+          "position": "cm",
+          "skill": 82
         },
         {
           "name": "Reece James",
           "club": "Chelsea",
           "age": 25,
-          "position": "RWB",
-          "skill": "81"
+          "position": "rb",
+          "skill": 81
         },
         {
           "name": "A. Christensen",
           "club": "Chelsea",
           "age": 25,
-          "position": "CB",
-          "skill": "80"
+          "position": "cb",
+          "skill": 80
         },
         {
           "name": "Kepa",
           "club": "Chelsea",
           "age": 25,
-          "position": "GK",
-          "skill": "79"
+          "position": "gk",
+          "skill": 79
         },
         {
           "name": "Marcos Alonso",
           "club": "Chelsea",
           "age": 25,
-          "position": "LWB",
-          "skill": "79"
+          "position": "lb",
+          "skill": 79
         },
         {
           "name": "Ross Barkley",
           "club": "Chelsea",
           "age": 25,
-          "position": "AM",
-          "skill": "78"
+          "position": "am",
+          "skill": 78
         },
         {
           "name": "C. Hudson-Odoi",
           "club": "Chelsea",
           "age": 25,
-          "position": "AM",
-          "skill": "77"
+          "position": "am",
+          "skill": 77
         },
         {
           "name": "R. Loftus-Cheek",
           "club": "Chelsea",
           "age": 25,
-          "position": "AM",
-          "skill": "75"
+          "position": "am",
+          "skill": 75
         },
         {
           "name": "Malang Sarr",
           "club": "Chelsea",
           "age": 25,
-          "position": "CB",
-          "skill": "74"
+          "position": "cb",
+          "skill": 74
         },
         {
           "name": "Trevoh Chalobah",
           "club": "Chelsea",
           "age": 25,
-          "position": "CB",
-          "skill": "73"
+          "position": "cb",
+          "skill": 73
         },
         {
           "name": "Charly Musonda",
           "club": "Chelsea",
           "age": 25,
-          "position": "AM",
-          "skill": "72"
+          "position": "am",
+          "skill": 72
         },
         {
           "name": "M. Bettinelli",
           "club": "Chelsea",
           "age": 25,
-          "position": "GK",
-          "skill": "71"
+          "position": "gk",
+          "skill": 71
         },
         {
           "name": "Lewis Baker",
           "club": "Chelsea",
           "age": 25,
-          "position": "CM",
-          "skill": "70"
+          "position": "cm",
+          "skill": 70
         },
         {
           "name": "Tariq Uwakwe",
           "club": "Chelsea",
           "age": 25,
-          "position": "LWB",
-          "skill": "63"
+          "position": "lb",
+          "skill": 63
         },
         {
           "name": "G. McEachran",
           "club": "Chelsea",
           "age": 25,
-          "position": "AM",
-          "skill": "60"
+          "position": "am",
+          "skill": 60
         },
         {
           "name": "Josh Brooking",
           "club": "Chelsea",
           "age": 25,
-          "position": "CB",
-          "skill": "59"
+          "position": "cb",
+          "skill": 59
         },
         {
           "name": "Jon Russell",
           "club": "Chelsea",
           "age": 25,
-          "position": "AM",
-          "skill": "59"
+          "position": "am",
+          "skill": 59
         },
         {
           "name": "Sam McClelland",
           "club": "Chelsea",
           "age": 25,
-          "position": "CB",
-          "skill": "55"
+          "position": "cb",
+          "skill": 55
         },
         {
           "name": "L. Bergstr\u00f6m",
           "club": "Chelsea",
           "age": 25,
-          "position": "GK",
-          "skill": "54"
+          "position": "gk",
+          "skill": 54
         }
       ]
     },
@@ -944,232 +944,232 @@
           "name": "Harry Kane",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "ST",
-          "skill": "90"
+          "position": "cf",
+          "skill": 90
         },
         {
           "name": "Heung Min Son",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "LM",
-          "skill": "89"
+          "position": "lm",
+          "skill": 89
         },
         {
           "name": "Hugo Lloris",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "GK",
-          "skill": "87"
+          "position": "gk",
+          "skill": 87
         },
         {
           "name": "P. H\u00f8jbjerg",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "DM",
-          "skill": "83"
+          "position": "dm",
+          "skill": 83
         },
         {
           "name": "Tanguy Ndombele",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "AM",
-          "skill": "82"
+          "position": "am",
+          "skill": 82
         },
         {
           "name": "Cristian Romero",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CB",
-          "skill": "82"
+          "position": "cb",
+          "skill": 82
         },
         {
           "name": "P. Gollini",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "GK",
-          "skill": "82"
+          "position": "gk",
+          "skill": 82
         },
         {
           "name": "G. Lo Celso",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "AM",
-          "skill": "81"
+          "position": "am",
+          "skill": 81
         },
         {
           "name": "Reguil\u00f3n",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "LB",
-          "skill": "81"
+          "position": "lb",
+          "skill": 81
         },
         {
           "name": "Lucas Moura",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "RM",
-          "skill": "81"
+          "position": "rm",
+          "skill": 81
         },
         {
           "name": "Steven Bergwijn",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "AM",
-          "skill": "80"
+          "position": "am",
+          "skill": 80
         },
         {
           "name": "Dele Alli",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "AM",
-          "skill": "80"
+          "position": "am",
+          "skill": 80
         },
         {
           "name": "Emerson",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "RB",
-          "skill": "79"
+          "position": "rb",
+          "skill": 79
         },
         {
           "name": "D. S\u00e1nchez",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CB",
-          "skill": "79"
+          "position": "cb",
+          "skill": 79
         },
         {
           "name": "Eric Dier",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CB",
-          "skill": "79"
+          "position": "cb",
+          "skill": 79
         },
         {
           "name": "Ben Davies",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "LB",
-          "skill": "79"
+          "position": "lb",
+          "skill": 79
         },
         {
           "name": "Matt Doherty",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "RB",
-          "skill": "78"
+          "position": "rb",
+          "skill": 78
         },
         {
           "name": "Harry Winks",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CM",
-          "skill": "77"
+          "position": "cm",
+          "skill": 77
         },
         {
           "name": "Bryan Gil",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "AM",
-          "skill": "76"
+          "position": "am",
+          "skill": 76
         },
         {
           "name": "Oliver Skipp",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "DM",
-          "skill": "75"
+          "position": "dm",
+          "skill": 75
         },
         {
           "name": "Ryan Sessegnon",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "LM",
-          "skill": "75"
+          "position": "lm",
+          "skill": 75
         },
         {
           "name": "Japhet Tanganga",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CB",
-          "skill": "74"
+          "position": "cb",
+          "skill": 74
         },
         {
           "name": "Joe Rodon",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CB",
-          "skill": "72"
+          "position": "cb",
+          "skill": 72
         },
         {
           "name": "Jack Clarke",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "RM",
-          "skill": "67"
+          "position": "rm",
+          "skill": 67
         },
         {
           "name": "Dane Scarlett",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "ST",
-          "skill": "63"
+          "position": "cf",
+          "skill": 63
         },
         {
           "name": "Harvey White",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "LM",
-          "skill": "62"
+          "position": "lm",
+          "skill": 62
         },
         {
           "name": "Nile John",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "AM",
-          "skill": "61"
+          "position": "am",
+          "skill": 61
         },
         {
           "name": "M. Fagan-Walcott",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CB",
-          "skill": "61"
+          "position": "cb",
+          "skill": 61
         },
         {
           "name": "Maksim Paskotsi",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "RB",
-          "skill": "60"
+          "position": "rb",
+          "skill": 60
         },
         {
           "name": "Dilan Markanday",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "RM",
-          "skill": "58"
+          "position": "rm",
+          "skill": 58
         },
         {
           "name": "Marcel Lavinier",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CB",
-          "skill": "58"
+          "position": "cb",
+          "skill": 58
         },
         {
           "name": "Alfie Devine",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "AM",
-          "skill": "57"
+          "position": "am",
+          "skill": 57
         },
         {
           "name": "B. Lyons-Foster",
           "club": "Tottenham Hotspur",
           "age": 25,
-          "position": "CB",
-          "skill": "57"
+          "position": "cb",
+          "skill": 57
         }
       ]
     },
@@ -1180,232 +1180,232 @@
           "name": "Jamie Vardy",
           "club": "Leicester City",
           "age": 25,
-          "position": "ST",
-          "skill": "86"
+          "position": "cf",
+          "skill": 86
         },
         {
           "name": "Wilfred Ndidi",
           "club": "Leicester City",
           "age": 25,
-          "position": "CB",
-          "skill": "85"
+          "position": "cb",
+          "skill": 85
         },
         {
           "name": "K. Schmeichel",
           "club": "Leicester City",
           "age": 25,
-          "position": "GK",
-          "skill": "85"
+          "position": "gk",
+          "skill": 85
         },
         {
           "name": "Youri Tielemans",
           "club": "Leicester City",
           "age": 25,
-          "position": "CM",
-          "skill": "84"
+          "position": "cm",
+          "skill": 84
         },
         {
           "name": "Ricardo Pereira",
           "club": "Leicester City",
           "age": 25,
-          "position": "RB",
-          "skill": "84"
+          "position": "rb",
+          "skill": 84
         },
         {
           "name": "James Maddison",
           "club": "Leicester City",
           "age": 25,
-          "position": "AM",
-          "skill": "82"
+          "position": "am",
+          "skill": 82
         },
         {
           "name": "Harvey Barnes",
           "club": "Leicester City",
           "age": 25,
-          "position": "AM",
-          "skill": "81"
+          "position": "am",
+          "skill": 81
         },
         {
           "name": "C. S\u00f6y\u00fcnc\u00fc",
           "club": "Leicester City",
           "age": 25,
-          "position": "CB",
-          "skill": "80"
+          "position": "cb",
+          "skill": 80
         },
         {
           "name": "Jonny Evans",
           "club": "Leicester City",
           "age": 25,
-          "position": "CB",
-          "skill": "80"
+          "position": "cb",
+          "skill": 80
         },
         {
           "name": "T. Castagne",
           "club": "Leicester City",
           "age": 25,
-          "position": "RB",
-          "skill": "79"
+          "position": "rb",
+          "skill": 79
         },
         {
           "name": "Wesley Fofana",
           "club": "Leicester City",
           "age": 25,
-          "position": "CB",
-          "skill": "78"
+          "position": "cb",
+          "skill": 78
         },
         {
           "name": "B. Soumar\u00e9",
           "club": "Leicester City",
           "age": 25,
-          "position": "DM",
-          "skill": "78"
+          "position": "dm",
+          "skill": 78
         },
         {
           "name": "K. Iheanacho",
           "club": "Leicester City",
           "age": 25,
-          "position": "ST",
-          "skill": "78"
+          "position": "cf",
+          "skill": 78
         },
         {
           "name": "J. Vestergaard",
           "club": "Leicester City",
           "age": 25,
-          "position": "CB",
-          "skill": "78"
+          "position": "cb",
+          "skill": 78
         },
         {
           "name": "Ayoze P\u00e9rez",
           "club": "Leicester City",
           "age": 25,
-          "position": "RW",
-          "skill": "78"
+          "position": "rw",
+          "skill": 78
         },
         {
           "name": "Patson Daka",
           "club": "Leicester City",
           "age": 25,
-          "position": "ST",
-          "skill": "77"
+          "position": "cf",
+          "skill": 77
         },
         {
           "name": "James Justin",
           "club": "Leicester City",
           "age": 25,
-          "position": "LWB",
-          "skill": "77"
+          "position": "lb",
+          "skill": 77
         },
         {
           "name": "Ademola Lookman",
           "club": "Leicester City",
           "age": 25,
-          "position": "RM",
-          "skill": "77"
+          "position": "rm",
+          "skill": 77
         },
         {
           "name": "Daniel Amartey",
           "club": "Leicester City",
           "age": 25,
-          "position": "CB",
-          "skill": "76"
+          "position": "cb",
+          "skill": 76
         },
         {
           "name": "Marc Albrighton",
           "club": "Leicester City",
           "age": 25,
-          "position": "RM",
-          "skill": "76"
+          "position": "rm",
+          "skill": 76
         },
         {
           "name": "Ryan Bertrand",
           "club": "Leicester City",
           "age": 25,
-          "position": "LB",
-          "skill": "76"
+          "position": "lb",
+          "skill": 76
         },
         {
           "name": "Nampalys Mendy",
           "club": "Leicester City",
           "age": 25,
-          "position": "DM",
-          "skill": "75"
+          "position": "dm",
+          "skill": 75
         },
         {
           "name": "Danny Ward",
           "club": "Leicester City",
           "age": 25,
-          "position": "GK",
-          "skill": "74"
+          "position": "gk",
+          "skill": 74
         },
         {
           "name": "Hamza Choudhury",
           "club": "Leicester City",
           "age": 25,
-          "position": "CB",
-          "skill": "73"
+          "position": "cb",
+          "skill": 73
         },
         {
           "name": "Luke Thomas",
           "club": "Leicester City",
           "age": 25,
-          "position": "LWB",
-          "skill": "71"
+          "position": "lb",
+          "skill": 71
         },
         {
           "name": "K. Dewsbury-Hall",
           "club": "Leicester City",
           "age": 25,
-          "position": "CM",
-          "skill": "71"
+          "position": "cm",
+          "skill": 71
         },
         {
           "name": "Filip Benkovi\u0107",
           "club": "Leicester City",
           "age": 25,
-          "position": "CB",
-          "skill": "71"
+          "position": "cb",
+          "skill": 71
         },
         {
           "name": "E. Jakupovi\u0107",
           "club": "Leicester City",
           "age": 25,
-          "position": "GK",
-          "skill": "64"
+          "position": "gk",
+          "skill": 64
         },
         {
           "name": "Josh Eppiah",
           "club": "Leicester City",
           "age": 25,
-          "position": "ST",
-          "skill": "63"
+          "position": "cf",
+          "skill": 63
         },
         {
           "name": "Oliver Bosworth",
           "club": "Leicester City",
           "age": 25,
-          "position": "GK",
-          "skill": "60"
+          "position": "gk",
+          "skill": 60
         },
         {
           "name": "V. Daley-Campbell",
           "club": "Leicester City",
           "age": 25,
-          "position": "RB",
-          "skill": "60"
+          "position": "rb",
+          "skill": 60
         },
         {
           "name": "T. Suengchitthawon",
           "club": "Leicester City",
           "age": 25,
-          "position": "RM",
-          "skill": "60"
+          "position": "rm",
+          "skill": 60
         },
         {
           "name": "Ali Reghba",
           "club": "Leicester City",
           "age": 25,
-          "position": "AM",
-          "skill": "58"
+          "position": "am",
+          "skill": 58
         }
       ]
     },
@@ -1416,232 +1416,232 @@
           "name": "P. Aubameyang",
           "club": "Arsenal",
           "age": 25,
-          "position": "ST",
-          "skill": "85"
+          "position": "cf",
+          "skill": 85
         },
         {
           "name": "Bernd Leno",
           "club": "Arsenal",
           "age": 25,
-          "position": "GK",
-          "skill": "83"
+          "position": "gk",
+          "skill": 83
         },
         {
           "name": "Thomas Partey",
           "club": "Arsenal",
           "age": 25,
-          "position": "CM",
-          "skill": "83"
+          "position": "cm",
+          "skill": 83
         },
         {
           "name": "M. \u00d8degaard",
           "club": "Arsenal",
           "age": 25,
-          "position": "AM",
-          "skill": "82"
+          "position": "am",
+          "skill": 82
         },
         {
           "name": "A. Lacazette",
           "club": "Arsenal",
           "age": 25,
-          "position": "ST",
-          "skill": "82"
+          "position": "cf",
+          "skill": 82
         },
         {
           "name": "Nicolas P\u00e9p\u00e9",
           "club": "Arsenal",
           "age": 25,
-          "position": "RM",
-          "skill": "81"
+          "position": "rm",
+          "skill": 81
         },
         {
           "name": "Bukayo Saka",
           "club": "Arsenal",
           "age": 25,
-          "position": "LM",
-          "skill": "80"
+          "position": "lm",
+          "skill": 80
         },
         {
           "name": "Kieran Tierney",
           "club": "Arsenal",
           "age": 25,
-          "position": "LWB",
-          "skill": "80"
+          "position": "lb",
+          "skill": 80
         },
         {
           "name": "Gabriel",
           "club": "Arsenal",
           "age": 25,
-          "position": "CB",
-          "skill": "79"
+          "position": "cb",
+          "skill": 79
         },
         {
           "name": "Granit Xhaka",
           "club": "Arsenal",
           "age": 25,
-          "position": "DM",
-          "skill": "79"
+          "position": "dm",
+          "skill": 79
         },
         {
           "name": "Rob Holding",
           "club": "Arsenal",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Mohamed Elneny",
           "club": "Arsenal",
           "age": 25,
-          "position": "DM",
-          "skill": "77"
+          "position": "dm",
+          "skill": 77
         },
         {
           "name": "Gabriel Martinelli",
           "club": "Arsenal",
           "age": 25,
-          "position": "RM",
-          "skill": "76"
+          "position": "rm",
+          "skill": 76
         },
         {
           "name": "E. Smith Rowe",
           "club": "Arsenal",
           "age": 25,
-          "position": "AM",
-          "skill": "76"
+          "position": "am",
+          "skill": 76
         },
         {
           "name": "Ben White",
           "club": "Arsenal",
           "age": 25,
-          "position": "CB",
-          "skill": "76"
+          "position": "cb",
+          "skill": 76
         },
         {
           "name": "Pablo Mar\u00ed",
           "club": "Arsenal",
           "age": 25,
-          "position": "CB",
-          "skill": "76"
+          "position": "cb",
+          "skill": 76
         },
         {
           "name": "C\u00e9dric",
           "club": "Arsenal",
           "age": 25,
-          "position": "RB",
-          "skill": "76"
+          "position": "rb",
+          "skill": 76
         },
         {
           "name": "T. Tomiyasu",
           "club": "Arsenal",
           "age": 25,
-          "position": "CB",
-          "skill": "75"
+          "position": "cb",
+          "skill": 75
         },
         {
           "name": "A. Maitland-Niles",
           "club": "Arsenal",
           "age": 25,
-          "position": "RWB",
-          "skill": "75"
+          "position": "rb",
+          "skill": 75
         },
         {
           "name": "Calum Chambers",
           "club": "Arsenal",
           "age": 25,
-          "position": "RB",
-          "skill": "75"
+          "position": "rb",
+          "skill": 75
         },
         {
           "name": "Sead Kola\u0161inac",
           "club": "Arsenal",
           "age": 25,
-          "position": "LB",
-          "skill": "75"
+          "position": "lb",
+          "skill": 75
         },
         {
           "name": "Eddie Nketiah",
           "club": "Arsenal",
           "age": 25,
-          "position": "ST",
-          "skill": "74"
+          "position": "cf",
+          "skill": 74
         },
         {
           "name": "Aaron Ramsdale",
           "club": "Arsenal",
           "age": 25,
-          "position": "GK",
-          "skill": "74"
+          "position": "gk",
+          "skill": 74
         },
         {
           "name": "A. Sambi Lokonga",
           "club": "Arsenal",
           "age": 25,
-          "position": "CM",
-          "skill": "73"
+          "position": "cm",
+          "skill": 73
         },
         {
           "name": "Nuno Tavares",
           "club": "Arsenal",
           "age": 25,
-          "position": "LM",
-          "skill": "70"
+          "position": "lm",
+          "skill": 70
         },
         {
           "name": "Folarin Balogun",
           "club": "Arsenal",
           "age": 25,
-          "position": "ST",
-          "skill": "64"
+          "position": "cf",
+          "skill": 64
         },
         {
           "name": "C. C\u00eerjan",
           "club": "Arsenal",
           "age": 25,
-          "position": "AM",
-          "skill": "62"
+          "position": "am",
+          "skill": 62
         },
         {
           "name": "Joel Ideho",
           "club": "Arsenal",
           "age": 25,
-          "position": "RM",
-          "skill": "62"
+          "position": "rm",
+          "skill": 62
         },
         {
           "name": "Tim Akinola",
           "club": "Arsenal",
           "age": 25,
-          "position": "DM",
-          "skill": "61"
+          "position": "dm",
+          "skill": 61
         },
         {
           "name": "Arthur Okonkwo",
           "club": "Arsenal",
           "age": 25,
-          "position": "GK",
-          "skill": "61"
+          "position": "gk",
+          "skill": 61
         },
         {
           "name": "Zane Monlouis",
           "club": "Arsenal",
           "age": 25,
-          "position": "CB",
-          "skill": "61"
+          "position": "cb",
+          "skill": 61
         },
         {
           "name": "Joel L\u00f3pez",
           "club": "Arsenal",
           "age": 25,
-          "position": "LB",
-          "skill": "60"
+          "position": "lb",
+          "skill": 60
         },
         {
           "name": "James Olayinka",
           "club": "Arsenal",
           "age": 25,
-          "position": "AM",
-          "skill": "60"
+          "position": "am",
+          "skill": 60
         }
       ]
     },
@@ -1652,225 +1652,225 @@
           "name": "Declan Rice",
           "club": "West Ham United",
           "age": 25,
-          "position": "DM",
-          "skill": "82"
+          "position": "dm",
+          "skill": 82
         },
         {
           "name": "Tom\u00e1\u0161 Sou\u010dek",
           "club": "West Ham United",
           "age": 25,
-          "position": "DM",
-          "skill": "82"
+          "position": "dm",
+          "skill": 82
         },
         {
           "name": "Alphonse Areola",
           "club": "West Ham United",
           "age": 25,
-          "position": "GK",
-          "skill": "82"
+          "position": "gk",
+          "skill": 82
         },
         {
           "name": "L. Fabia\u0144ski",
           "club": "West Ham United",
           "age": 25,
-          "position": "GK",
-          "skill": "82"
+          "position": "gk",
+          "skill": 82
         },
         {
           "name": "Kurt Zouma",
           "club": "West Ham United",
           "age": 25,
-          "position": "CB",
-          "skill": "81"
+          "position": "cb",
+          "skill": 81
         },
         {
           "name": "Nikola Vla\u0161i\u0107",
           "club": "West Ham United",
           "age": 25,
-          "position": "AM",
-          "skill": "80"
+          "position": "am",
+          "skill": 80
         },
         {
           "name": "V. Coufal",
           "club": "West Ham United",
           "age": 25,
-          "position": "RB",
-          "skill": "80"
+          "position": "rb",
+          "skill": 80
         },
         {
           "name": "Angelo Ogbonna",
           "club": "West Ham United",
           "age": 25,
-          "position": "CB",
-          "skill": "80"
+          "position": "cb",
+          "skill": 80
         },
         {
           "name": "Pablo Fornals",
           "club": "West Ham United",
           "age": 25,
-          "position": "CM",
-          "skill": "79"
+          "position": "cm",
+          "skill": 79
         },
         {
           "name": "Michail Antonio",
           "club": "West Ham United",
           "age": 25,
-          "position": "ST",
-          "skill": "79"
+          "position": "cf",
+          "skill": 79
         },
         {
           "name": "Aaron Cresswell",
           "club": "West Ham United",
           "age": 25,
-          "position": "LB",
-          "skill": "79"
+          "position": "lb",
+          "skill": 79
         },
         {
           "name": "Jarrod Bowen",
           "club": "West Ham United",
           "age": 25,
-          "position": "LM",
-          "skill": "78"
+          "position": "lm",
+          "skill": 78
         },
         {
           "name": "Issa Diop",
           "club": "West Ham United",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Sa\u00efd Benrahma",
           "club": "West Ham United",
           "age": 25,
-          "position": "AM",
-          "skill": "77"
+          "position": "am",
+          "skill": 77
         },
         {
           "name": "Arthur Masuaku",
           "club": "West Ham United",
           "age": 25,
-          "position": "LWB",
-          "skill": "77"
+          "position": "lb",
+          "skill": 77
         },
         {
           "name": "Manuel Lanzini",
           "club": "West Ham United",
           "age": 25,
-          "position": "AM",
-          "skill": "77"
+          "position": "am",
+          "skill": 77
         },
         {
           "name": "Craig Dawson",
           "club": "West Ham United",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "A. Yarmolenko",
           "club": "West Ham United",
           "age": 25,
-          "position": "CF",
-          "skill": "76"
+          "position": "cf",
+          "skill": 76
         },
         {
           "name": "Ryan Fredericks",
           "club": "West Ham United",
           "age": 25,
-          "position": "RB",
-          "skill": "76"
+          "position": "rb",
+          "skill": 76
         },
         {
           "name": "Alex Kr\u00e1l",
           "club": "West Ham United",
           "age": 25,
-          "position": "DM",
-          "skill": "75"
+          "position": "dm",
+          "skill": 75
         },
         {
           "name": "Darren Randolph",
           "club": "West Ham United",
           "age": 25,
-          "position": "GK",
-          "skill": "75"
+          "position": "gk",
+          "skill": 75
         },
         {
           "name": "Winston Reid",
           "club": "West Ham United",
           "age": 25,
-          "position": "CB",
-          "skill": "72"
+          "position": "cb",
+          "skill": 72
         },
         {
           "name": "Ben Johnson",
           "club": "West Ham United",
           "age": 25,
-          "position": "RB",
-          "skill": "68"
+          "position": "rb",
+          "skill": 68
         },
         {
           "name": "David Martin",
           "club": "West Ham United",
           "age": 25,
-          "position": "GK",
-          "skill": "65"
+          "position": "gk",
+          "skill": 65
         },
         {
           "name": "A. Okoflex",
           "club": "West Ham United",
           "age": 25,
-          "position": "AM",
-          "skill": "59"
+          "position": "am",
+          "skill": 59
         },
         {
           "name": "Harrison Ashby",
           "club": "West Ham United",
           "age": 25,
-          "position": "RB",
-          "skill": "59"
+          "position": "rb",
+          "skill": 59
         },
         {
           "name": "Jamal Baptiste",
           "club": "West Ham United",
           "age": 25,
-          "position": "CB",
-          "skill": "57"
+          "position": "cb",
+          "skill": 57
         },
         {
           "name": "Ajibola Alese",
           "club": "West Ham United",
           "age": 25,
-          "position": "CB",
-          "skill": "57"
+          "position": "cb",
+          "skill": 57
         },
         {
           "name": "P. Ekwah Elimby",
           "club": "West Ham United",
           "age": 25,
-          "position": "CB",
-          "skill": "56"
+          "position": "cb",
+          "skill": 56
         },
         {
           "name": "M\u00e9saque Dj\u00fa",
           "club": "West Ham United",
           "age": 25,
-          "position": "ST",
-          "skill": "56"
+          "position": "cf",
+          "skill": 56
         },
         {
           "name": "Bernardo Rosa",
           "club": "West Ham United",
           "age": 25,
-          "position": "AM",
-          "skill": "55"
+          "position": "am",
+          "skill": 55
         },
         {
           "name": "Ossama Ashley",
           "club": "West Ham United",
           "age": 25,
-          "position": "RM",
-          "skill": "52"
+          "position": "rm",
+          "skill": 52
         }
       ]
     },
@@ -1881,232 +1881,232 @@
           "name": "Lucas Digne",
           "club": "Everton",
           "age": 25,
-          "position": "LB",
-          "skill": "84"
+          "position": "lb",
+          "skill": 84
         },
         {
           "name": "Jordan Pickford",
           "club": "Everton",
           "age": 25,
-          "position": "GK",
-          "skill": "83"
+          "position": "gk",
+          "skill": 83
         },
         {
           "name": "Allan",
           "club": "Everton",
           "age": 25,
-          "position": "DM",
-          "skill": "83"
+          "position": "dm",
+          "skill": 83
         },
         {
           "name": "Richarlison",
           "club": "Everton",
           "age": 25,
-          "position": "ST",
-          "skill": "82"
+          "position": "cf",
+          "skill": 82
         },
         {
           "name": "D. Calvert-Lewin",
           "club": "Everton",
           "age": 25,
-          "position": "ST",
-          "skill": "81"
+          "position": "cf",
+          "skill": 81
         },
         {
           "name": "J. Rodr\u00edguez",
           "club": "Everton",
           "age": 25,
-          "position": "AM",
-          "skill": "81"
+          "position": "am",
+          "skill": 81
         },
         {
           "name": "Michael Keane",
           "club": "Everton",
           "age": 25,
-          "position": "CB",
-          "skill": "80"
+          "position": "cb",
+          "skill": 80
         },
         {
           "name": "Yerry Mina",
           "club": "Everton",
           "age": 25,
-          "position": "CB",
-          "skill": "79"
+          "position": "cb",
+          "skill": 79
         },
         {
           "name": "A. Doucour\u00e9",
           "club": "Everton",
           "age": 25,
-          "position": "CM",
-          "skill": "79"
+          "position": "cm",
+          "skill": 79
         },
         {
           "name": "G. Sigur\u00f0sson",
           "club": "Everton",
           "age": 25,
-          "position": "AM",
-          "skill": "79"
+          "position": "am",
+          "skill": 79
         },
         {
           "name": "S\u00e9amus Coleman",
           "club": "Everton",
           "age": 25,
-          "position": "RB",
-          "skill": "78"
+          "position": "rb",
+          "skill": 78
         },
         {
           "name": "Ben Godfrey",
           "club": "Everton",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Mason Holgate",
           "club": "Everton",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "J. Gbamin",
           "club": "Everton",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Alex Iwobi",
           "club": "Everton",
           "age": 25,
-          "position": "RM",
-          "skill": "77"
+          "position": "rm",
+          "skill": 77
         },
         {
           "name": "Andr\u00e9 Gomes",
           "club": "Everton",
           "age": 25,
-          "position": "CM",
-          "skill": "77"
+          "position": "cm",
+          "skill": 77
         },
         {
           "name": "Andros Townsend",
           "club": "Everton",
           "age": 25,
-          "position": "RM",
-          "skill": "77"
+          "position": "rm",
+          "skill": 77
         },
         {
           "name": "S. Rond\u00f3n",
           "club": "Everton",
           "age": 25,
-          "position": "ST",
-          "skill": "77"
+          "position": "cf",
+          "skill": 77
         },
         {
           "name": "Asmir Begovi\u0107",
           "club": "Everton",
           "age": 25,
-          "position": "GK",
-          "skill": "76"
+          "position": "gk",
+          "skill": 76
         },
         {
           "name": "Tom Davies",
           "club": "Everton",
           "age": 25,
-          "position": "CM",
-          "skill": "75"
+          "position": "cm",
+          "skill": 75
         },
         {
           "name": "Demarai Gray",
           "club": "Everton",
           "age": 25,
-          "position": "AM",
-          "skill": "75"
+          "position": "am",
+          "skill": 75
         },
         {
           "name": "Fabian Delph",
           "club": "Everton",
           "age": 25,
-          "position": "DM",
-          "skill": "75"
+          "position": "dm",
+          "skill": 75
         },
         {
           "name": "Jonjoe Kenny",
           "club": "Everton",
           "age": 25,
-          "position": "RB",
-          "skill": "74"
+          "position": "rb",
+          "skill": 74
         },
         {
           "name": "Cenk Tosun",
           "club": "Everton",
           "age": 25,
-          "position": "ST",
-          "skill": "74"
+          "position": "cf",
+          "skill": 74
         },
         {
           "name": "Anthony Gordon",
           "club": "Everton",
           "age": 25,
-          "position": "RM",
-          "skill": "67"
+          "position": "rm",
+          "skill": 67
         },
         {
           "name": "J. Branthwaite",
           "club": "Everton",
           "age": 25,
-          "position": "CB",
-          "skill": "66"
+          "position": "cb",
+          "skill": 66
         },
         {
           "name": "Ellis Simms",
           "club": "Everton",
           "age": 25,
-          "position": "ST",
-          "skill": "65"
+          "position": "cf",
+          "skill": 65
         },
         {
           "name": "Andy Lonergan",
           "club": "Everton",
           "age": 25,
-          "position": "GK",
-          "skill": "64"
+          "position": "gk",
+          "skill": 64
         },
         {
           "name": "Kyle John",
           "club": "Everton",
           "age": 25,
-          "position": "RB",
-          "skill": "63"
+          "position": "rb",
+          "skill": 63
         },
         {
           "name": "Ryan Astley",
           "club": "Everton",
           "age": 25,
-          "position": "CB",
-          "skill": "62"
+          "position": "cb",
+          "skill": 62
         },
         {
           "name": "Tyler Onyango",
           "club": "Everton",
           "age": 25,
-          "position": "CM",
-          "skill": "60"
+          "position": "cm",
+          "skill": 60
         },
         {
           "name": "Lewis Dobbin",
           "club": "Everton",
           "age": 25,
-          "position": "ST",
-          "skill": "57"
+          "position": "cf",
+          "skill": 57
         },
         {
           "name": "Einar Iversen",
           "club": "Everton",
           "age": 25,
-          "position": "CM",
-          "skill": "57"
+          "position": "cm",
+          "skill": 57
         }
       ]
     },
@@ -2117,232 +2117,232 @@
           "name": "Ra\u00fal Jim\u00e9nez",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "ST",
-          "skill": "83"
+          "position": "cf",
+          "skill": 83
         },
         {
           "name": "R\u00faben Neves",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CM",
-          "skill": "82"
+          "position": "cm",
+          "skill": 82
         },
         {
           "name": "N\u00e9lson Semedo",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "RWB",
-          "skill": "80"
+          "position": "rb",
+          "skill": 80
         },
         {
           "name": "Jonny",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "LWB",
-          "skill": "80"
+          "position": "lb",
+          "skill": 80
         },
         {
           "name": "Jo\u00e3o Moutinho",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CM",
-          "skill": "80"
+          "position": "cm",
+          "skill": 80
         },
         {
           "name": "Conor Coady",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "DM",
-          "skill": "79"
+          "position": "dm",
+          "skill": 79
         },
         {
           "name": "Jos\u00e9 S\u00e1",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "GK",
-          "skill": "79"
+          "position": "gk",
+          "skill": 79
         },
         {
           "name": "Willy Boly",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CB",
-          "skill": "79"
+          "position": "cb",
+          "skill": 79
         },
         {
           "name": "Pedro Neto",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "78"
+          "position": "am",
+          "skill": 78
         },
         {
           "name": "Adama Traor\u00e9",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "RM",
-          "skill": "78"
+          "position": "rm",
+          "skill": 78
         },
         {
           "name": "Daniel Podence",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "78"
+          "position": "am",
+          "skill": 78
         },
         {
           "name": "Romain Sa\u00efss",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CB",
-          "skill": "78"
+          "position": "cb",
+          "skill": 78
         },
         {
           "name": "L. Dendoncker",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CM",
-          "skill": "77"
+          "position": "cm",
+          "skill": 77
         },
         {
           "name": "Trinc\u00e3o",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "76"
+          "position": "am",
+          "skill": 76
         },
         {
           "name": "Hee Chan Hwang",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "75"
+          "position": "am",
+          "skill": 75
         },
         {
           "name": "Mar\u00e7al",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "LB",
-          "skill": "75"
+          "position": "lb",
+          "skill": 75
         },
         {
           "name": "R. A\u00eft Nouri",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "LWB",
-          "skill": "73"
+          "position": "lb",
+          "skill": 73
         },
         {
           "name": "F\u00e1bio Silva",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "ST",
-          "skill": "70"
+          "position": "cf",
+          "skill": 70
         },
         {
           "name": "Max Kilman",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CB",
-          "skill": "70"
+          "position": "cb",
+          "skill": 70
         },
         {
           "name": "John Ruddy",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "GK",
-          "skill": "70"
+          "position": "gk",
+          "skill": 70
         },
         {
           "name": "Ki-Jana Hoever",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "RWB",
-          "skill": "65"
+          "position": "rb",
+          "skill": 65
         },
         {
           "name": "Yerson Mosquera",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CB",
-          "skill": "64"
+          "position": "cb",
+          "skill": 64
         },
         {
           "name": "Luke Matheson",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "RWB",
-          "skill": "62"
+          "position": "rb",
+          "skill": 62
         },
         {
           "name": "Bruno Jord\u00e3o",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "62"
+          "position": "am",
+          "skill": 62
         },
         {
           "name": "Meritan Shabani",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "62"
+          "position": "am",
+          "skill": 62
         },
         {
           "name": "Hugo Bueno",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "LWB",
-          "skill": "59"
+          "position": "lb",
+          "skill": 59
         },
         {
           "name": "Christian Marques",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CB",
-          "skill": "58"
+          "position": "cb",
+          "skill": 58
         },
         {
           "name": "Chem Campbell",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "58"
+          "position": "am",
+          "skill": 58
         },
         {
           "name": "Joe Hodge",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "55"
+          "position": "am",
+          "skill": 55
         },
         {
           "name": "Luke Cundle",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "AM",
-          "skill": "54"
+          "position": "am",
+          "skill": 54
         },
         {
           "name": "Lewis Richards",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CB",
-          "skill": "54"
+          "position": "cb",
+          "skill": 54
         },
         {
           "name": "Conor Carty",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "ST",
-          "skill": "54"
+          "position": "cf",
+          "skill": 54
         },
         {
           "name": "P. Estrada",
           "club": "Wolverhampton Wanderers",
           "age": 25,
-          "position": "CB",
-          "skill": "51"
+          "position": "cb",
+          "skill": 51
         }
       ]
     },
@@ -2353,204 +2353,204 @@
           "name": "E. Mart\u00ednez",
           "club": "Aston Villa",
           "age": 25,
-          "position": "GK",
-          "skill": "84"
+          "position": "gk",
+          "skill": 84
         },
         {
           "name": "Leon Bailey",
           "club": "Aston Villa",
           "age": 25,
-          "position": "LM",
-          "skill": "82"
+          "position": "lm",
+          "skill": 82
         },
         {
           "name": "Danny Ings",
           "club": "Aston Villa",
           "age": 25,
-          "position": "ST",
-          "skill": "81"
+          "position": "cf",
+          "skill": 81
         },
         {
           "name": "E. Buend\u00eda",
           "club": "Aston Villa",
           "age": 25,
-          "position": "AM",
-          "skill": "79"
+          "position": "am",
+          "skill": 79
         },
         {
           "name": "Ezri Konsa",
           "club": "Aston Villa",
           "age": 25,
-          "position": "CB",
-          "skill": "78"
+          "position": "cb",
+          "skill": 78
         },
         {
           "name": "Matty Cash",
           "club": "Aston Villa",
           "age": 25,
-          "position": "RB",
-          "skill": "78"
+          "position": "rb",
+          "skill": 78
         },
         {
           "name": "Ollie Watkins",
           "club": "Aston Villa",
           "age": 25,
-          "position": "ST",
-          "skill": "78"
+          "position": "cf",
+          "skill": 78
         },
         {
           "name": "John McGinn",
           "club": "Aston Villa",
           "age": 25,
-          "position": "CM",
-          "skill": "78"
+          "position": "cm",
+          "skill": 78
         },
         {
           "name": "Tyrone Mings",
           "club": "Aston Villa",
           "age": 25,
-          "position": "CB",
-          "skill": "78"
+          "position": "cb",
+          "skill": 78
         },
         {
           "name": "Ashley Young",
           "club": "Aston Villa",
           "age": 25,
-          "position": "LWB",
-          "skill": "78"
+          "position": "lb",
+          "skill": 78
         },
         {
           "name": "Douglas Luiz",
           "club": "Aston Villa",
           "age": 25,
-          "position": "DM",
-          "skill": "77"
+          "position": "dm",
+          "skill": 77
         },
         {
           "name": "Matt Targett",
           "club": "Aston Villa",
           "age": 25,
-          "position": "LB",
-          "skill": "77"
+          "position": "lb",
+          "skill": 77
         },
         {
           "name": "B. Traor\u00e9",
           "club": "Aston Villa",
           "age": 25,
-          "position": "AM",
-          "skill": "77"
+          "position": "am",
+          "skill": 77
         },
         {
           "name": "Morgan Sanson",
           "club": "Aston Villa",
           "age": 25,
-          "position": "AM",
-          "skill": "76"
+          "position": "am",
+          "skill": 76
         },
         {
           "name": "Anwar El Ghazi",
           "club": "Aston Villa",
           "age": 25,
-          "position": "ST",
-          "skill": "76"
+          "position": "cf",
+          "skill": 76
         },
         {
           "name": "Kortney Hause",
           "club": "Aston Villa",
           "age": 25,
-          "position": "CB",
-          "skill": "75"
+          "position": "cb",
+          "skill": 75
         },
         {
           "name": "Axel Tuanzebe",
           "club": "Aston Villa",
           "age": 25,
-          "position": "CB",
-          "skill": "74"
+          "position": "cb",
+          "skill": 74
         },
         {
           "name": "Jed Steer",
           "club": "Aston Villa",
           "age": 25,
-          "position": "GK",
-          "skill": "72"
+          "position": "gk",
+          "skill": 72
         },
         {
           "name": "Keinan Davis",
           "club": "Aston Villa",
           "age": 25,
-          "position": "ST",
-          "skill": "69"
+          "position": "cf",
+          "skill": 69
         },
         {
           "name": "Jacob Ramsey",
           "club": "Aston Villa",
           "age": 25,
-          "position": "AM",
-          "skill": "68"
+          "position": "am",
+          "skill": 68
         },
         {
           "name": "C. Chukwuemeka",
           "club": "Aston Villa",
           "age": 25,
-          "position": "AM",
-          "skill": "63"
+          "position": "am",
+          "skill": 63
         },
         {
           "name": "J. Philogene-Bidace",
           "club": "Aston Villa",
           "age": 25,
-          "position": "AM",
-          "skill": "60"
+          "position": "am",
+          "skill": 60
         },
         {
           "name": "Lamare Bogarde",
           "club": "Aston Villa",
           "age": 25,
-          "position": "CB",
-          "skill": "58"
+          "position": "cb",
+          "skill": 58
         },
         {
           "name": "Cameron Archer",
           "club": "Aston Villa",
           "age": 25,
-          "position": "ST",
-          "skill": "58"
+          "position": "cf",
+          "skill": 58
         },
         {
           "name": "C. Chukwuemeka",
           "club": "Aston Villa",
           "age": 25,
-          "position": "RM",
-          "skill": "57"
+          "position": "rm",
+          "skill": 57
         },
         {
           "name": "Hayden Lindley",
           "club": "Aston Villa",
           "age": 25,
-          "position": "RM",
-          "skill": "57"
+          "position": "rm",
+          "skill": 57
         },
         {
           "name": "Sil Swinkels",
           "club": "Aston Villa",
           "age": 25,
-          "position": "CB",
-          "skill": "56"
+          "position": "cb",
+          "skill": 56
         },
         {
           "name": "V. Sinisalo",
           "club": "Aston Villa",
           "age": 25,
-          "position": "GK",
-          "skill": "55"
+          "position": "gk",
+          "skill": 55
         },
         {
           "name": "Ben Chrisene",
           "club": "Aston Villa",
           "age": 25,
-          "position": "LM",
-          "skill": "53"
+          "position": "lm",
+          "skill": 53
         }
       ]
     },
@@ -2561,204 +2561,204 @@
           "name": "Raphinha",
           "club": "Leeds United",
           "age": 25,
-          "position": "LM",
-          "skill": "82"
+          "position": "lm",
+          "skill": 82
         },
         {
           "name": "Kalvin Phillips",
           "club": "Leeds United",
           "age": 25,
-          "position": "DM",
-          "skill": "81"
+          "position": "dm",
+          "skill": 81
         },
         {
           "name": "Rodrigo",
           "club": "Leeds United",
           "age": 25,
-          "position": "LW",
-          "skill": "79"
+          "position": "lw",
+          "skill": 79
         },
         {
           "name": "Jack Harrison",
           "club": "Leeds United",
           "age": 25,
-          "position": "LM",
-          "skill": "78"
+          "position": "lm",
+          "skill": 78
         },
         {
           "name": "Junior Firpo",
           "club": "Leeds United",
           "age": 25,
-          "position": "LB",
-          "skill": "78"
+          "position": "lb",
+          "skill": 78
         },
         {
           "name": "Patrick Bamford",
           "club": "Leeds United",
           "age": 25,
-          "position": "ST",
-          "skill": "78"
+          "position": "cf",
+          "skill": 78
         },
         {
           "name": "Illan Meslier",
           "club": "Leeds United",
           "age": 25,
-          "position": "GK",
-          "skill": "77"
+          "position": "gk",
+          "skill": 77
         },
         {
           "name": "Robin Koch",
           "club": "Leeds United",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Daniel James",
           "club": "Leeds United",
           "age": 25,
-          "position": "RM",
-          "skill": "77"
+          "position": "rm",
+          "skill": 77
         },
         {
           "name": "Diego Llorente",
           "club": "Leeds United",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Luke Ayling",
           "club": "Leeds United",
           "age": 25,
-          "position": "RB",
-          "skill": "76"
+          "position": "rb",
+          "skill": 76
         },
         {
           "name": "Mateusz Klich",
           "club": "Leeds United",
           "age": 25,
-          "position": "CM",
-          "skill": "75"
+          "position": "cm",
+          "skill": 75
         },
         {
           "name": "Pascal Struijk",
           "club": "Leeds United",
           "age": 25,
-          "position": "CB",
-          "skill": "74"
+          "position": "cb",
+          "skill": 74
         },
         {
           "name": "Tyler Roberts",
           "club": "Leeds United",
           "age": 25,
-          "position": "AM",
-          "skill": "73"
+          "position": "am",
+          "skill": 73
         },
         {
           "name": "Adam Forshaw",
           "club": "Leeds United",
           "age": 25,
-          "position": "CM",
-          "skill": "71"
+          "position": "cm",
+          "skill": 71
         },
         {
           "name": "J. Shackleton",
           "club": "Leeds United",
           "age": 25,
-          "position": "RM",
-          "skill": "69"
+          "position": "rm",
+          "skill": 69
         },
         {
           "name": "C. Summerville",
           "club": "Leeds United",
           "age": 25,
-          "position": "RM",
-          "skill": "68"
+          "position": "rm",
+          "skill": 68
         },
         {
           "name": "Joe Gelhardt",
           "club": "Leeds United",
           "age": 25,
-          "position": "ST",
-          "skill": "66"
+          "position": "cf",
+          "skill": 66
         },
         {
           "name": "Sam Greenwood",
           "club": "Leeds United",
           "age": 25,
-          "position": "AM",
-          "skill": "65"
+          "position": "am",
+          "skill": 65
         },
         {
           "name": "K. Klaesson",
           "club": "Leeds United",
           "age": 25,
-          "position": "GK",
-          "skill": "64"
+          "position": "gk",
+          "skill": 64
         },
         {
           "name": "Lewis Bate",
           "club": "Leeds United",
           "age": 25,
-          "position": "AM",
-          "skill": "63"
+          "position": "am",
+          "skill": 63
         },
         {
           "name": "C. Cresswell",
           "club": "Leeds United",
           "age": 25,
-          "position": "CB",
-          "skill": "63"
+          "position": "cb",
+          "skill": 63
         },
         {
           "name": "Cody Drameh",
           "club": "Leeds United",
           "age": 25,
-          "position": "RB",
-          "skill": "63"
+          "position": "rb",
+          "skill": 63
         },
         {
           "name": "Sean McGurk",
           "club": "Leeds United",
           "age": 25,
-          "position": "AM",
-          "skill": "61"
+          "position": "am",
+          "skill": 61
         },
         {
           "name": "Jack Jenkins",
           "club": "Leeds United",
           "age": 25,
-          "position": "DM",
-          "skill": "61"
+          "position": "dm",
+          "skill": 61
         },
         {
           "name": "Leo Hjelde",
           "club": "Leeds United",
           "age": 25,
-          "position": "CB",
-          "skill": "60"
+          "position": "cb",
+          "skill": 60
         },
         {
           "name": "Amari Miller",
           "club": "Leeds United",
           "age": 25,
-          "position": "RM",
-          "skill": "60"
+          "position": "rm",
+          "skill": 60
         },
         {
           "name": "D. van den Heuvel",
           "club": "Leeds United",
           "age": 25,
-          "position": "GK",
-          "skill": "59"
+          "position": "gk",
+          "skill": 59
         },
         {
           "name": "Liam McCarron",
           "club": "Leeds United",
           "age": 25,
-          "position": "LM",
-          "skill": "59"
+          "position": "lm",
+          "skill": 59
         }
       ]
     },
@@ -2769,225 +2769,225 @@
           "name": "M. D\u00fabravka",
           "club": "Newcastle United",
           "age": 25,
-          "position": "GK",
-          "skill": "81"
+          "position": "gk",
+          "skill": 81
         },
         {
           "name": "A. Saint-Maximin",
           "club": "Newcastle United",
           "age": 25,
-          "position": "AM",
-          "skill": "79"
+          "position": "am",
+          "skill": 79
         },
         {
           "name": "Callum Wilson",
           "club": "Newcastle United",
           "age": 25,
-          "position": "ST",
-          "skill": "79"
+          "position": "cf",
+          "skill": 79
         },
         {
           "name": "J. Lascelles",
           "club": "Newcastle United",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Miguel Almir\u00f3n",
           "club": "Newcastle United",
           "age": 25,
-          "position": "LM",
-          "skill": "77"
+          "position": "lm",
+          "skill": 77
         },
         {
           "name": "Isaac Hayden",
           "club": "Newcastle United",
           "age": 25,
-          "position": "DM",
-          "skill": "76"
+          "position": "dm",
+          "skill": 76
         },
         {
           "name": "Fabian Sch\u00e4r",
           "club": "Newcastle United",
           "age": 25,
-          "position": "CB",
-          "skill": "76"
+          "position": "cb",
+          "skill": 76
         },
         {
           "name": "Karl Darlow",
           "club": "Newcastle United",
           "age": 25,
-          "position": "GK",
-          "skill": "76"
+          "position": "gk",
+          "skill": 76
         },
         {
           "name": "Joe Willock",
           "club": "Newcastle United",
           "age": 25,
-          "position": "AM",
-          "skill": "75"
+          "position": "am",
+          "skill": 75
         },
         {
           "name": "Jonjo Shelvey",
           "club": "Newcastle United",
           "age": 25,
-          "position": "CM",
-          "skill": "75"
+          "position": "cm",
+          "skill": 75
         },
         {
           "name": "Ryan Fraser",
           "club": "Newcastle United",
           "age": 25,
-          "position": "LM",
-          "skill": "75"
+          "position": "lm",
+          "skill": 75
         },
         {
           "name": "Ciaran Clark",
           "club": "Newcastle United",
           "age": 25,
-          "position": "CB",
-          "skill": "75"
+          "position": "cb",
+          "skill": 75
         },
         {
           "name": "Freddie Woodman",
           "club": "Newcastle United",
           "age": 25,
-          "position": "GK",
-          "skill": "74"
+          "position": "gk",
+          "skill": 74
         },
         {
           "name": "Joelinton",
           "club": "Newcastle United",
           "age": 25,
-          "position": "ST",
-          "skill": "74"
+          "position": "cf",
+          "skill": 74
         },
         {
           "name": "Manquillo",
           "club": "Newcastle United",
           "age": 25,
-          "position": "RB",
-          "skill": "74"
+          "position": "rb",
+          "skill": 74
         },
         {
           "name": "Matt Ritchie",
           "club": "Newcastle United",
           "age": 25,
-          "position": "LWB",
-          "skill": "74"
+          "position": "lb",
+          "skill": 74
         },
         {
           "name": "Jeff Hendrick",
           "club": "Newcastle United",
           "age": 25,
-          "position": "CM",
-          "skill": "74"
+          "position": "cm",
+          "skill": 74
         },
         {
           "name": "Paul Dummett",
           "club": "Newcastle United",
           "age": 25,
-          "position": "CB",
-          "skill": "74"
+          "position": "cb",
+          "skill": 74
         },
         {
           "name": "Jamal Lewis",
           "club": "Newcastle United",
           "age": 25,
-          "position": "LWB",
-          "skill": "73"
+          "position": "lb",
+          "skill": 73
         },
         {
           "name": "Emil Krafth",
           "club": "Newcastle United",
           "age": 25,
-          "position": "RB",
-          "skill": "73"
+          "position": "rb",
+          "skill": 73
         },
         {
           "name": "Dwight Gayle",
           "club": "Newcastle United",
           "age": 25,
-          "position": "ST",
-          "skill": "73"
+          "position": "cf",
+          "skill": 73
         },
         {
           "name": "Sean Longstaff",
           "club": "Newcastle United",
           "age": 25,
-          "position": "CM",
-          "skill": "72"
+          "position": "cm",
+          "skill": 72
         },
         {
           "name": "Jacob Murphy",
           "club": "Newcastle United",
           "age": 25,
-          "position": "RM",
-          "skill": "72"
+          "position": "rm",
+          "skill": 72
         },
         {
           "name": "Mark Gillespie",
           "club": "Newcastle United",
           "age": 25,
-          "position": "GK",
-          "skill": "70"
+          "position": "gk",
+          "skill": 70
         },
         {
           "name": "Santiago Mu\u00f1oz",
           "club": "Newcastle United",
           "age": 25,
-          "position": "ST",
-          "skill": "67"
+          "position": "cf",
+          "skill": 67
         },
         {
           "name": "Elliot Anderson",
           "club": "Newcastle United",
           "age": 25,
-          "position": "AM",
-          "skill": "62"
+          "position": "am",
+          "skill": 62
         },
         {
           "name": "Remi Savage",
           "club": "Newcastle United",
           "age": 25,
-          "position": "CB",
-          "skill": "61"
+          "position": "cb",
+          "skill": 61
         },
         {
           "name": "Charlie Wiggett",
           "club": "Newcastle United",
           "age": 25,
-          "position": "LB",
-          "skill": "59"
+          "position": "lb",
+          "skill": 59
         },
         {
           "name": "M. Bondswell",
           "club": "Newcastle United",
           "age": 25,
-          "position": "LB",
-          "skill": "59"
+          "position": "lb",
+          "skill": 59
         },
         {
           "name": "Dan Langley",
           "club": "Newcastle United",
           "age": 25,
-          "position": "GK",
-          "skill": "58"
+          "position": "gk",
+          "skill": 58
         },
         {
           "name": "Jack Young",
           "club": "Newcastle United",
           "age": 25,
-          "position": "AM",
-          "skill": "58"
+          "position": "am",
+          "skill": 58
         },
         {
           "name": "M. Sangare",
           "club": "Newcastle United",
           "age": 25,
-          "position": "DM",
-          "skill": "58"
+          "position": "dm",
+          "skill": 58
         }
       ]
     },
@@ -2998,232 +2998,232 @@
           "name": "J. Ward-Prowse",
           "club": "Southampton",
           "age": 25,
-          "position": "CM",
-          "skill": "81"
+          "position": "cm",
+          "skill": 81
         },
         {
           "name": "Oriol Romeu",
           "club": "Southampton",
           "age": 25,
-          "position": "DM",
-          "skill": "78"
+          "position": "dm",
+          "skill": 78
         },
         {
           "name": "Romain Perraud",
           "club": "Southampton",
           "age": 25,
-          "position": "LWB",
-          "skill": "77"
+          "position": "lb",
+          "skill": 77
         },
         {
           "name": "K. Walker-Peters",
           "club": "Southampton",
           "age": 25,
-          "position": "RB",
-          "skill": "77"
+          "position": "rb",
+          "skill": 77
         },
         {
           "name": "S. Armstrong",
           "club": "Southampton",
           "age": 25,
-          "position": "RM",
-          "skill": "77"
+          "position": "rm",
+          "skill": 77
         },
         {
           "name": "Mohammed Salisu",
           "club": "Southampton",
           "age": 25,
-          "position": "CB",
-          "skill": "76"
+          "position": "cb",
+          "skill": 76
         },
         {
           "name": "Adam Armstrong",
           "club": "Southampton",
           "age": 25,
-          "position": "ST",
-          "skill": "76"
+          "position": "cf",
+          "skill": 76
         },
         {
           "name": "Jan Bednarek",
           "club": "Southampton",
           "age": 25,
-          "position": "CB",
-          "skill": "76"
+          "position": "cb",
+          "skill": 76
         },
         {
           "name": "Ch\u00e9 Adams",
           "club": "Southampton",
           "age": 25,
-          "position": "ST",
-          "skill": "76"
+          "position": "cf",
+          "skill": 76
         },
         {
           "name": "Theo Walcott",
           "club": "Southampton",
           "age": 25,
-          "position": "RM",
-          "skill": "76"
+          "position": "rm",
+          "skill": 76
         },
         {
           "name": "Nathan Redmond",
           "club": "Southampton",
           "age": 25,
-          "position": "RW",
-          "skill": "76"
+          "position": "rw",
+          "skill": 76
         },
         {
           "name": "M. Elyounoussi",
           "club": "Southampton",
           "age": 25,
-          "position": "LM",
-          "skill": "75"
+          "position": "lm",
+          "skill": 75
         },
         {
           "name": "Alex McCarthy",
           "club": "Southampton",
           "age": 25,
-          "position": "GK",
-          "skill": "75"
+          "position": "gk",
+          "skill": 75
         },
         {
           "name": "Fraser Forster",
           "club": "Southampton",
           "age": 25,
-          "position": "GK",
-          "skill": "75"
+          "position": "gk",
+          "skill": 75
         },
         {
           "name": "Moussa Djenepo",
           "club": "Southampton",
           "age": 25,
-          "position": "AM",
-          "skill": "74"
+          "position": "am",
+          "skill": 74
         },
         {
           "name": "Jack Stephens",
           "club": "Southampton",
           "age": 25,
-          "position": "CB",
-          "skill": "74"
+          "position": "cb",
+          "skill": 74
         },
         {
           "name": "Ibrahima Diallo",
           "club": "Southampton",
           "age": 25,
-          "position": "DM",
-          "skill": "73"
+          "position": "dm",
+          "skill": 73
         },
         {
           "name": "Lyanco",
           "club": "Southampton",
           "age": 25,
-          "position": "CB",
-          "skill": "72"
+          "position": "cb",
+          "skill": 72
         },
         {
           "name": "Shane Long",
           "club": "Southampton",
           "age": 25,
-          "position": "ST",
-          "skill": "72"
+          "position": "cf",
+          "skill": 72
         },
         {
           "name": "Yan Valery",
           "club": "Southampton",
           "age": 25,
-          "position": "RB",
-          "skill": "71"
+          "position": "rb",
+          "skill": 71
         },
         {
           "name": "Armando Broja",
           "club": "Southampton",
           "age": 25,
-          "position": "ST",
-          "skill": "70"
+          "position": "cf",
+          "skill": 70
         },
         {
           "name": "Nathan Tella",
           "club": "Southampton",
           "age": 25,
-          "position": "RM",
-          "skill": "66"
+          "position": "rm",
+          "skill": 66
         },
         {
           "name": "Will Smallbone",
           "club": "Southampton",
           "age": 25,
-          "position": "AM",
-          "skill": "66"
+          "position": "am",
+          "skill": 66
         },
         {
           "name": "Sam McQueen",
           "club": "Southampton",
           "age": 25,
-          "position": "CB",
-          "skill": "63"
+          "position": "cb",
+          "skill": 63
         },
         {
           "name": "Tino Livramento",
           "club": "Southampton",
           "age": 25,
-          "position": "RB",
-          "skill": "62"
+          "position": "rb",
+          "skill": 62
         },
         {
           "name": "Harry Lewis",
           "club": "Southampton",
           "age": 25,
-          "position": "GK",
-          "skill": "62"
+          "position": "gk",
+          "skill": 62
         },
         {
           "name": "Caleb Watts",
           "club": "Southampton",
           "age": 25,
-          "position": "RM",
-          "skill": "60"
+          "position": "rm",
+          "skill": 60
         },
         {
           "name": "Thierry Small",
           "club": "Southampton",
           "age": 25,
-          "position": "LB",
-          "skill": "58"
+          "position": "lb",
+          "skill": 58
         },
         {
           "name": "Kgaogelo Chauke",
           "club": "Southampton",
           "age": 25,
-          "position": "AM",
-          "skill": "58"
+          "position": "am",
+          "skill": 58
         },
         {
           "name": "O. Olufunwa",
           "club": "Southampton",
           "age": 25,
-          "position": "RB",
-          "skill": "57"
+          "position": "rb",
+          "skill": 57
         },
         {
           "name": "Dynel Simeu",
           "club": "Southampton",
           "age": 25,
-          "position": "CB",
-          "skill": "56"
+          "position": "cb",
+          "skill": 56
         },
         {
           "name": "A. Tchaptchet",
           "club": "Southampton",
           "age": 25,
-          "position": "CB",
-          "skill": "56"
+          "position": "cb",
+          "skill": 56
         },
         {
           "name": "Ryan Finnigan",
           "club": "Southampton",
           "age": 25,
-          "position": "AM",
-          "skill": "55"
+          "position": "am",
+          "skill": 55
         }
       ]
     },
@@ -3234,225 +3234,225 @@
           "name": "Nick Pope",
           "club": "Burnley",
           "age": 25,
-          "position": "GK",
-          "skill": "83"
+          "position": "gk",
+          "skill": 83
         },
         {
           "name": "James Tarkowski",
           "club": "Burnley",
           "age": 25,
-          "position": "CB",
-          "skill": "81"
+          "position": "cb",
+          "skill": 81
         },
         {
           "name": "Chris Wood",
           "club": "Burnley",
           "age": 25,
-          "position": "ST",
-          "skill": "79"
+          "position": "cf",
+          "skill": 79
         },
         {
           "name": "Ben Mee",
           "club": "Burnley",
           "age": 25,
-          "position": "CB",
-          "skill": "79"
+          "position": "cb",
+          "skill": 79
         },
         {
           "name": "Ashley Westwood",
           "club": "Burnley",
           "age": 25,
-          "position": "DM",
-          "skill": "78"
+          "position": "dm",
+          "skill": 78
         },
         {
           "name": "Dwight McNeil",
           "club": "Burnley",
           "age": 25,
-          "position": "AM",
-          "skill": "77"
+          "position": "am",
+          "skill": 77
         },
         {
           "name": "Josh Brownhill",
           "club": "Burnley",
           "age": 25,
-          "position": "CM",
-          "skill": "76"
+          "position": "cm",
+          "skill": 76
         },
         {
           "name": "Charlie Taylor",
           "club": "Burnley",
           "age": 25,
-          "position": "LB",
-          "skill": "76"
+          "position": "lb",
+          "skill": 76
         },
         {
           "name": "Matthew Lowton",
           "club": "Burnley",
           "age": 25,
-          "position": "RB",
-          "skill": "76"
+          "position": "rb",
+          "skill": 76
         },
         {
           "name": "Jack Cork",
           "club": "Burnley",
           "age": 25,
-          "position": "DM",
-          "skill": "76"
+          "position": "dm",
+          "skill": 76
         },
         {
           "name": "Maxwel Cornet",
           "club": "Burnley",
           "age": 25,
-          "position": "ST",
-          "skill": "75"
+          "position": "cf",
+          "skill": 75
         },
         {
           "name": "Connor Roberts",
           "club": "Burnley",
           "age": 25,
-          "position": "RWB",
-          "skill": "75"
+          "position": "rb",
+          "skill": 75
         },
         {
           "name": "J. Gu\u00f0mundsson",
           "club": "Burnley",
           "age": 25,
-          "position": "RM",
-          "skill": "75"
+          "position": "rm",
+          "skill": 75
         },
         {
           "name": "Mat\u011bj Vydra",
           "club": "Burnley",
           "age": 25,
-          "position": "CF",
-          "skill": "74"
+          "position": "cf",
+          "skill": 74
         },
         {
           "name": "Jay Rodriguez",
           "club": "Burnley",
           "age": 25,
-          "position": "ST",
-          "skill": "74"
+          "position": "cf",
+          "skill": 74
         },
         {
           "name": "Erik Pieters",
           "club": "Burnley",
           "age": 25,
-          "position": "LB",
-          "skill": "74"
+          "position": "lb",
+          "skill": 74
         },
         {
           "name": "Wayne Hennessey",
           "club": "Burnley",
           "age": 25,
-          "position": "GK",
-          "skill": "74"
+          "position": "gk",
+          "skill": 74
         },
         {
           "name": "Dale Stephens",
           "club": "Burnley",
           "age": 25,
-          "position": "DM",
-          "skill": "73"
+          "position": "dm",
+          "skill": 73
         },
         {
           "name": "Aaron Lennon",
           "club": "Burnley",
           "age": 25,
-          "position": "RM",
-          "skill": "73"
+          "position": "rm",
+          "skill": 73
         },
         {
           "name": "Nathan Collins",
           "club": "Burnley",
           "age": 25,
-          "position": "CB",
-          "skill": "71"
+          "position": "cb",
+          "skill": 71
         },
         {
           "name": "Phil Bardsley",
           "club": "Burnley",
           "age": 25,
-          "position": "CB",
-          "skill": "71"
+          "position": "cb",
+          "skill": 71
         },
         {
           "name": "Kevin Long",
           "club": "Burnley",
           "age": 25,
-          "position": "CB",
-          "skill": "71"
+          "position": "cb",
+          "skill": 71
         },
         {
           "name": "Will Norris",
           "club": "Burnley",
           "age": 25,
-          "position": "GK",
-          "skill": "65"
+          "position": "gk",
+          "skill": 65
         },
         {
           "name": "Anthony Glennon",
           "club": "Burnley",
           "age": 25,
-          "position": "LB",
-          "skill": "62"
+          "position": "lb",
+          "skill": 62
         },
         {
           "name": "L. Richardson",
           "club": "Burnley",
           "age": 25,
-          "position": "ST",
-          "skill": "61"
+          "position": "cf",
+          "skill": 61
         },
         {
           "name": "Bobby Thomas",
           "club": "Burnley",
           "age": 25,
-          "position": "CB",
-          "skill": "61"
+          "position": "cb",
+          "skill": 61
         },
         {
           "name": "A. Gomez Mancini",
           "club": "Burnley",
           "age": 25,
-          "position": "CM",
-          "skill": "60"
+          "position": "cm",
+          "skill": 60
         },
         {
           "name": "Max Thompson",
           "club": "Burnley",
           "age": 25,
-          "position": "ST",
-          "skill": "60"
+          "position": "cf",
+          "skill": 60
         },
         {
           "name": "Jacob Bedeau",
           "club": "Burnley",
           "age": 25,
-          "position": "CB",
-          "skill": "59"
+          "position": "cb",
+          "skill": 59
         },
         {
           "name": "Mark Helm",
           "club": "Burnley",
           "age": 25,
-          "position": "AM",
-          "skill": "58"
+          "position": "am",
+          "skill": 58
         },
         {
           "name": "Robert Harker",
           "club": "Burnley",
           "age": 25,
-          "position": "ST",
-          "skill": "58"
+          "position": "cf",
+          "skill": 58
         },
         {
           "name": "Owen Dodgson",
           "club": "Burnley",
           "age": 25,
-          "position": "LWB",
-          "skill": "56"
+          "position": "lb",
+          "skill": 56
         }
       ]
     },
@@ -3463,218 +3463,218 @@
           "name": "Cucurella",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "LM",
-          "skill": "81"
+          "position": "lm",
+          "skill": 81
         },
         {
           "name": "Yves Bissouma",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CM",
-          "skill": "79"
+          "position": "cm",
+          "skill": 79
         },
         {
           "name": "Lewis Dunk",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CB",
-          "skill": "78"
+          "position": "cb",
+          "skill": 78
         },
         {
           "name": "Neal Maupay",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "ST",
-          "skill": "77"
+          "position": "cf",
+          "skill": 77
         },
         {
           "name": "L. Trossard",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "77"
+          "position": "am",
+          "skill": 77
         },
         {
           "name": "Jo\u00ebl Veltman",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Robert Sanch\u00e9z",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "GK",
-          "skill": "76"
+          "position": "gk",
+          "skill": 76
         },
         {
           "name": "Pascal Gro\u00df",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CM",
-          "skill": "76"
+          "position": "cm",
+          "skill": 76
         },
         {
           "name": "A. Mac Allister",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "75"
+          "position": "am",
+          "skill": 75
         },
         {
           "name": "Enock Mwepu",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "75"
+          "position": "am",
+          "skill": 75
         },
         {
           "name": "Adam Lallana",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "75"
+          "position": "am",
+          "skill": 75
         },
         {
           "name": "Dan Burn",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CB",
-          "skill": "75"
+          "position": "cb",
+          "skill": 75
         },
         {
           "name": "Tariq Lamptey",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "RWB",
-          "skill": "74"
+          "position": "rb",
+          "skill": 74
         },
         {
           "name": "Danny Welbeck",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "ST",
-          "skill": "73"
+          "position": "cf",
+          "skill": 73
         },
         {
           "name": "Shane Duffy",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CB",
-          "skill": "72"
+          "position": "cb",
+          "skill": 72
         },
         {
           "name": "Tudor B\u0103lu\u021b\u0103",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "DM",
-          "skill": "71"
+          "position": "dm",
+          "skill": 71
         },
         {
           "name": "J\u00fcrgen Locadia",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "ST",
-          "skill": "71"
+          "position": "cf",
+          "skill": 71
         },
         {
           "name": "Jakub Moder",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CM",
-          "skill": "70"
+          "position": "cm",
+          "skill": 70
         },
         {
           "name": "Steven Alzate",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "70"
+          "position": "am",
+          "skill": 70
         },
         {
           "name": "Aaron Connolly",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "ST",
-          "skill": "70"
+          "position": "cf",
+          "skill": 70
         },
         {
           "name": "Kjell Scherpen",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "GK",
-          "skill": "69"
+          "position": "gk",
+          "skill": 69
         },
         {
           "name": "Taylor Richards",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "66"
+          "position": "am",
+          "skill": 66
         },
         {
           "name": "Jason Steele",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "GK",
-          "skill": "66"
+          "position": "gk",
+          "skill": 66
         },
         {
           "name": "Antef Tsoungui",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CB",
-          "skill": "60"
+          "position": "cb",
+          "skill": 60
         },
         {
           "name": "Odel Offiah",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CB",
-          "skill": "59"
+          "position": "cb",
+          "skill": 59
         },
         {
           "name": "J. Sarmiento",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "RM",
-          "skill": "59"
+          "position": "rm",
+          "skill": 59
         },
         {
           "name": "U. Eneme-Ella",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "59"
+          "position": "am",
+          "skill": 59
         },
         {
           "name": "Andrew Moran",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "58"
+          "position": "am",
+          "skill": 58
         },
         {
           "name": "Haydon Roberts",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "CB",
-          "skill": "58"
+          "position": "cb",
+          "skill": 58
         },
         {
           "name": "Zak Emmerson",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "AM",
-          "skill": "55"
+          "position": "am",
+          "skill": 55
         },
         {
           "name": "James Furlong",
           "club": "Brighton Hove Albion",
           "age": 25,
-          "position": "LB",
-          "skill": "54"
+          "position": "lb",
+          "skill": 54
         }
       ]
     },
@@ -3685,211 +3685,211 @@
           "name": "Isma\u00efla Sarr",
           "club": "Watford",
           "age": 25,
-          "position": "RW",
-          "skill": "78"
+          "position": "rw",
+          "skill": 78
         },
         {
           "name": "Moussa Sissoko",
           "club": "Watford",
           "age": 25,
-          "position": "DM",
-          "skill": "78"
+          "position": "dm",
+          "skill": 78
         },
         {
           "name": "Ben Foster",
           "club": "Watford",
           "age": 25,
-          "position": "GK",
-          "skill": "78"
+          "position": "gk",
+          "skill": 78
         },
         {
           "name": "Juraj Kucka",
           "club": "Watford",
           "age": 25,
-          "position": "CB",
-          "skill": "77"
+          "position": "cb",
+          "skill": 77
         },
         {
           "name": "Ozan Tufan",
           "club": "Watford",
           "age": 25,
-          "position": "CM",
-          "skill": "76"
+          "position": "cm",
+          "skill": 76
         },
         {
           "name": "J. Hern\u00e1ndez",
           "club": "Watford",
           "age": 25,
-          "position": "ST",
-          "skill": "75"
+          "position": "cf",
+          "skill": 75
         },
         {
           "name": "Imran Louza",
           "club": "Watford",
           "age": 25,
-          "position": "CM",
-          "skill": "75"
+          "position": "cm",
+          "skill": 75
         },
         {
           "name": "Danny Rose",
           "club": "Watford",
           "age": 25,
-          "position": "LB",
-          "skill": "75"
+          "position": "lb",
+          "skill": 75
         },
         {
           "name": "Kiko Femen\u00eda",
           "club": "Watford",
           "age": 25,
-          "position": "RB",
-          "skill": "75"
+          "position": "rb",
+          "skill": 75
         },
         {
           "name": "Joshua King",
           "club": "Watford",
           "age": 25,
-          "position": "ST",
-          "skill": "75"
+          "position": "cf",
+          "skill": 75
         },
         {
           "name": "C. Kabasele",
           "club": "Watford",
           "age": 25,
-          "position": "CB",
-          "skill": "75"
+          "position": "cb",
+          "skill": 75
         },
         {
           "name": "Emmanuel Dennis",
           "club": "Watford",
           "age": 25,
-          "position": "ST",
-          "skill": "74"
+          "position": "cf",
+          "skill": 74
         },
         {
           "name": "Adam Masina",
           "club": "Watford",
           "age": 25,
-          "position": "LB",
-          "skill": "74"
+          "position": "lb",
+          "skill": 74
         },
         {
           "name": "Tom Cleverley",
           "club": "Watford",
           "age": 25,
-          "position": "CM",
-          "skill": "74"
+          "position": "cm",
+          "skill": 74
         },
         {
           "name": "W. Troost-Ekong",
           "club": "Watford",
           "age": 25,
-          "position": "CB",
-          "skill": "73"
+          "position": "cb",
+          "skill": 73
         },
         {
           "name": "Ken Sema",
           "club": "Watford",
           "age": 25,
-          "position": "LW",
-          "skill": "73"
+          "position": "lw",
+          "skill": 73
         },
         {
           "name": "F. Sierralta",
           "club": "Watford",
           "age": 25,
-          "position": "CB",
-          "skill": "72"
+          "position": "cb",
+          "skill": 72
         },
         {
           "name": "O. Etebo",
           "club": "Watford",
           "age": 25,
-          "position": "DM",
-          "skill": "72"
+          "position": "dm",
+          "skill": 72
         },
         {
           "name": "Dan Gosling",
           "club": "Watford",
           "age": 25,
-          "position": "CM",
-          "skill": "72"
+          "position": "cm",
+          "skill": 72
         },
         {
           "name": "Craig Cathcart",
           "club": "Watford",
           "age": 25,
-          "position": "CB",
-          "skill": "72"
+          "position": "cb",
+          "skill": 72
         },
         {
           "name": "Jo\u00e3o Pedro",
           "club": "Watford",
           "age": 25,
-          "position": "ST",
-          "skill": "71"
+          "position": "cf",
+          "skill": 71
         },
         {
           "name": "Daniel Bachmann",
           "club": "Watford",
           "age": 25,
-          "position": "GK",
-          "skill": "70"
+          "position": "gk",
+          "skill": 70
         },
         {
           "name": "Jeremy Ngakia",
           "club": "Watford",
           "age": 25,
-          "position": "RB",
-          "skill": "69"
+          "position": "rb",
+          "skill": 69
         },
         {
           "name": "Ashley Fletcher",
           "club": "Watford",
           "age": 25,
-          "position": "ST",
-          "skill": "69"
+          "position": "cf",
+          "skill": 69
         },
         {
           "name": "Rob Elliot",
           "club": "Watford",
           "age": 25,
-          "position": "GK",
-          "skill": "69"
+          "position": "gk",
+          "skill": 69
         },
         {
           "name": "D. Tour\u00e9",
           "club": "Watford",
           "age": 25,
-          "position": "ST",
-          "skill": "60"
+          "position": "cf",
+          "skill": 60
         },
         {
           "name": "Kwadwo Baah",
           "club": "Watford",
           "age": 25,
-          "position": "RM",
-          "skill": "60"
+          "position": "rm",
+          "skill": 60
         },
         {
           "name": "Ryan Cassidy",
           "club": "Watford",
           "age": 25,
-          "position": "ST",
-          "skill": "60"
+          "position": "cf",
+          "skill": 60
         },
         {
           "name": "Henry Wise",
           "club": "Watford",
           "age": 25,
-          "position": "CM",
-          "skill": "59"
+          "position": "cm",
+          "skill": 59
         },
         {
           "name": "M. Pochettino",
           "club": "Watford",
           "age": 25,
-          "position": "RM",
-          "skill": "56"
+          "position": "rm",
+          "skill": 56
         }
       ]
     },
@@ -3900,232 +3900,232 @@
           "name": "Milot Rashica",
           "club": "Norwich City",
           "age": 25,
-          "position": "RM",
-          "skill": "77"
+          "position": "rm",
+          "skill": 77
         },
         {
           "name": "Tim Krul",
           "club": "Norwich City",
           "age": 25,
-          "position": "GK",
-          "skill": "77"
+          "position": "gk",
+          "skill": 77
         },
         {
           "name": "Ozan Kabak",
           "club": "Norwich City",
           "age": 25,
-          "position": "CB",
-          "skill": "76"
+          "position": "cb",
+          "skill": 76
         },
         {
           "name": "Mathias Normann",
           "club": "Norwich City",
           "age": 25,
-          "position": "DM",
-          "skill": "76"
+          "position": "dm",
+          "skill": 76
         },
         {
           "name": "P. Lees-Melou",
           "club": "Norwich City",
           "age": 25,
-          "position": "CM",
-          "skill": "76"
+          "position": "cm",
+          "skill": 76
         },
         {
           "name": "Teemu Pukki",
           "club": "Norwich City",
           "age": 25,
-          "position": "ST",
-          "skill": "76"
+          "position": "cf",
+          "skill": 76
         },
         {
           "name": "Max Aarons",
           "club": "Norwich City",
           "age": 25,
-          "position": "RWB",
-          "skill": "75"
+          "position": "rb",
+          "skill": 75
         },
         {
           "name": "Todd Cantwell",
           "club": "Norwich City",
           "age": 25,
-          "position": "AM",
-          "skill": "75"
+          "position": "am",
+          "skill": 75
         },
         {
           "name": "B. Williams",
           "club": "Norwich City",
           "age": 25,
-          "position": "RB",
-          "skill": "75"
+          "position": "rb",
+          "skill": 75
         },
         {
           "name": "Grant Hanley",
           "club": "Norwich City",
           "age": 25,
-          "position": "CB",
-          "skill": "75"
+          "position": "cb",
+          "skill": 75
         },
         {
           "name": "Christos Tzolis",
           "club": "Norwich City",
           "age": 25,
-          "position": "RM",
-          "skill": "74"
+          "position": "rm",
+          "skill": 74
         },
         {
           "name": "D. Giannoulis",
           "club": "Norwich City",
           "age": 25,
-          "position": "LB",
-          "skill": "74"
+          "position": "lb",
+          "skill": 74
         },
         {
           "name": "Kenny McLean",
           "club": "Norwich City",
           "age": 25,
-          "position": "CM",
-          "skill": "73"
+          "position": "cm",
+          "skill": 73
         },
         {
           "name": "Lukas Rupp",
           "club": "Norwich City",
           "age": 25,
-          "position": "CM",
-          "skill": "73"
+          "position": "cm",
+          "skill": 73
         },
         {
           "name": "Sam Byram",
           "club": "Norwich City",
           "age": 25,
-          "position": "LB",
-          "skill": "73"
+          "position": "lb",
+          "skill": 73
         },
         {
           "name": "Billy Gilmour",
           "club": "Norwich City",
           "age": 25,
-          "position": "CM",
-          "skill": "72"
+          "position": "cm",
+          "skill": 72
         },
         {
           "name": "Angus Gunn",
           "club": "Norwich City",
           "age": 25,
-          "position": "GK",
-          "skill": "72"
+          "position": "gk",
+          "skill": 72
         },
         {
           "name": "Ben Gibson",
           "club": "Norwich City",
           "age": 25,
-          "position": "CB",
-          "skill": "72"
+          "position": "cb",
+          "skill": 72
         },
         {
           "name": "Josh Sargent",
           "club": "Norwich City",
           "age": 25,
-          "position": "ST",
-          "skill": "71"
+          "position": "cf",
+          "skill": 71
         },
         {
           "name": "Kieran Dowell",
           "club": "Norwich City",
           "age": 25,
-          "position": "AM",
-          "skill": "71"
+          "position": "am",
+          "skill": 71
         },
         {
           "name": "C. Zimmermann",
           "club": "Norwich City",
           "age": 25,
-          "position": "CB",
-          "skill": "71"
+          "position": "cb",
+          "skill": 71
         },
         {
           "name": "Jacob S\u00f8rensen",
           "club": "Norwich City",
           "age": 25,
-          "position": "LB",
-          "skill": "70"
+          "position": "lb",
+          "skill": 70
         },
         {
           "name": "P. P\u0142acheta",
           "club": "Norwich City",
           "age": 25,
-          "position": "LM",
-          "skill": "69"
+          "position": "lm",
+          "skill": 69
         },
         {
           "name": "Adam Idah",
           "club": "Norwich City",
           "age": 25,
-          "position": "ST",
-          "skill": "67"
+          "position": "cf",
+          "skill": 67
         },
         {
           "name": "A. Omobamidele",
           "club": "Norwich City",
           "age": 25,
-          "position": "CB",
-          "skill": "67"
+          "position": "cb",
+          "skill": 67
         },
         {
           "name": "M. McGovern",
           "club": "Norwich City",
           "age": 25,
-          "position": "GK",
-          "skill": "67"
+          "position": "gk",
+          "skill": 67
         },
         {
           "name": "Bali Mumba",
           "club": "Norwich City",
           "age": 25,
-          "position": "RB",
-          "skill": "65"
+          "position": "rb",
+          "skill": 65
         },
         {
           "name": "Rocky Bushiri",
           "club": "Norwich City",
           "age": 25,
-          "position": "CB",
-          "skill": "65"
+          "position": "cb",
+          "skill": 65
         },
         {
           "name": "Archie Mair",
           "club": "Norwich City",
           "age": 25,
-          "position": "GK",
-          "skill": "58"
+          "position": "gk",
+          "skill": 58
         },
         {
           "name": "Flynn Clarke",
           "club": "Norwich City",
           "age": 25,
-          "position": "AM",
-          "skill": "57"
+          "position": "am",
+          "skill": 57
         },
         {
           "name": "T. Dickson-Peters",
           "club": "Norwich City",
           "age": 25,
-          "position": "ST",
-          "skill": "57"
+          "position": "cf",
+          "skill": 57
         },
         {
           "name": "Liam Gibbs",
           "club": "Norwich City",
           "age": 25,
-          "position": "AM",
-          "skill": "55"
+          "position": "am",
+          "skill": 55
         },
         {
           "name": "Jon McCracken",
           "club": "Norwich City",
           "age": 25,
-          "position": "GK",
-          "skill": "54"
+          "position": "gk",
+          "skill": 54
         }
       ]
     },
@@ -4136,225 +4136,454 @@
           "name": "Ivan Toney",
           "club": "Brentford",
           "age": 25,
-          "position": "ST",
-          "skill": "76"
+          "position": "cf",
+          "skill": 76
         },
         {
           "name": "Frank Onyeka",
           "club": "Brentford",
           "age": 25,
-          "position": "DM",
-          "skill": "75"
+          "position": "dm",
+          "skill": 75
         },
         {
           "name": "Yoane Wissa",
           "club": "Brentford",
           "age": 25,
-          "position": "RM",
-          "skill": "75"
+          "position": "rm",
+          "skill": 75
         },
         {
           "name": "Pontus Jansson",
           "club": "Brentford",
           "age": 25,
-          "position": "CB",
-          "skill": "75"
+          "position": "cb",
+          "skill": 75
         },
         {
           "name": "Bryan Mbeumo",
           "club": "Brentford",
           "age": 25,
-          "position": "AM",
-          "skill": "74"
+          "position": "am",
+          "skill": 74
         },
         {
           "name": "Rico Henry",
           "club": "Brentford",
           "age": 25,
-          "position": "LWB",
-          "skill": "74"
+          "position": "lb",
+          "skill": 74
         },
         {
           "name": "David Raya",
           "club": "Brentford",
           "age": 25,
-          "position": "GK",
-          "skill": "74"
+          "position": "gk",
+          "skill": 74
         },
         {
           "name": "Mathias Jensen",
           "club": "Brentford",
           "age": 25,
-          "position": "CM",
-          "skill": "74"
+          "position": "cm",
+          "skill": 74
         },
         {
           "name": "Ethan Pinnock",
           "club": "Brentford",
           "age": 25,
-          "position": "CB",
-          "skill": "74"
+          "position": "cb",
+          "skill": 74
         },
         {
           "name": "Josh Dasilva",
           "club": "Brentford",
           "age": 25,
-          "position": "AM",
-          "skill": "73"
+          "position": "am",
+          "skill": 73
         },
         {
           "name": "\u00c1lvaro",
           "club": "Brentford",
           "age": 25,
-          "position": "GK",
-          "skill": "73"
+          "position": "gk",
+          "skill": 73
         },
         {
           "name": "Vitaly Janelt",
           "club": "Brentford",
           "age": 25,
-          "position": "DM",
-          "skill": "73"
+          "position": "dm",
+          "skill": 73
         },
         {
           "name": "C. N\u00f8rgaard",
           "club": "Brentford",
           "age": 25,
-          "position": "DM",
-          "skill": "73"
+          "position": "dm",
+          "skill": 73
         },
         {
           "name": "Sergi Can\u00f3s",
           "club": "Brentford",
           "age": 25,
-          "position": "AM",
-          "skill": "72"
+          "position": "am",
+          "skill": 72
         },
         {
           "name": "Zanka",
           "club": "Brentford",
           "age": 25,
-          "position": "CB",
-          "skill": "72"
+          "position": "cb",
+          "skill": 72
         },
         {
           "name": "Tariqe Fosu",
           "club": "Brentford",
           "age": 25,
-          "position": "RM",
-          "skill": "71"
+          "position": "rm",
+          "skill": 71
         },
         {
           "name": "Saman Ghoddos",
           "club": "Brentford",
           "age": 25,
-          "position": "AM",
-          "skill": "70"
+          "position": "am",
+          "skill": 70
         },
         {
           "name": "Julian Jeanvier",
           "club": "Brentford",
           "age": 25,
-          "position": "CB",
-          "skill": "70"
+          "position": "cb",
+          "skill": 70
         },
         {
           "name": "Marcus Forss",
           "club": "Brentford",
           "age": 25,
-          "position": "ST",
-          "skill": "68"
+          "position": "cf",
+          "skill": 68
         },
         {
           "name": "M. S\u00f8rensen",
           "club": "Brentford",
           "age": 25,
-          "position": "CB",
-          "skill": "68"
+          "position": "cb",
+          "skill": 68
         },
         {
           "name": "Mads Roerslev",
           "club": "Brentford",
           "age": 25,
-          "position": "RWB",
-          "skill": "67"
+          "position": "rb",
+          "skill": 67
         },
         {
           "name": "Charlie Goode",
           "club": "Brentford",
           "age": 25,
-          "position": "CB",
-          "skill": "67"
+          "position": "cb",
+          "skill": 67
         },
         {
           "name": "S. Baptiste",
           "club": "Brentford",
           "age": 25,
-          "position": "AM",
-          "skill": "66"
+          "position": "am",
+          "skill": 66
         },
         {
           "name": "M. Peart-Harris",
           "club": "Brentford",
           "age": 25,
-          "position": "AM",
-          "skill": "65"
+          "position": "am",
+          "skill": 65
         },
         {
           "name": "Joel Valencia",
           "club": "Brentford",
           "age": 25,
-          "position": "LM",
-          "skill": "65"
+          "position": "lm",
+          "skill": 65
         },
         {
           "name": "Mads Bidstrup",
           "club": "Brentford",
           "age": 25,
-          "position": "DM",
-          "skill": "64"
+          "position": "dm",
+          "skill": 64
         },
         {
           "name": "D. Thompson",
           "club": "Brentford",
           "age": 25,
-          "position": "LB",
-          "skill": "63"
+          "position": "lb",
+          "skill": 63
         },
         {
           "name": "Jan \u017damb\u016frek",
           "club": "Brentford",
           "age": 25,
-          "position": "AM",
-          "skill": "62"
+          "position": "am",
+          "skill": 62
         },
         {
           "name": "Luka Racic",
           "club": "Brentford",
           "age": 25,
-          "position": "CB",
-          "skill": "62"
+          "position": "cb",
+          "skill": 62
         },
         {
           "name": "Fin Stevens",
           "club": "Brentford",
           "age": 25,
-          "position": "RWB",
-          "skill": "59"
+          "position": "rb",
+          "skill": 59
         },
         {
           "name": "M. Haygarth",
           "club": "Brentford",
           "age": 25,
-          "position": "AM",
-          "skill": "59"
+          "position": "am",
+          "skill": 59
         },
         {
           "name": "Lewis Gordon",
           "club": "Brentford",
           "age": 25,
-          "position": "LB",
-          "skill": "58"
+          "position": "lb",
+          "skill": 58
+        }
+      ]
+    },
+    {
+      "name": "Crystal Palace",
+      "player_list": [
+        {
+          "name": "Wilfried Zaha",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cf",
+          "skill": 82
+        },
+        {
+          "name": "Guaita",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "gk",
+          "skill": 80
+        },
+        {
+          "name": "C. Kouyat\u00e9",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cb",
+          "skill": 78
+        },
+        {
+          "name": "Eberechi Eze",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "am",
+          "skill": 77
+        },
+        {
+          "name": "J. Andersen",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cb",
+          "skill": 77
+        },
+        {
+          "name": "Will Hughes",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "am",
+          "skill": 76
+        },
+        {
+          "name": "L. Milivojevi\u0107",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "dm",
+          "skill": 76
+        },
+        {
+          "name": "Odsonne Edouard",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "am",
+          "skill": 75
+        },
+        {
+          "name": "J. Mateta",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cf",
+          "skill": 75
+        },
+        {
+          "name": "J. Riedewald",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "dm",
+          "skill": 75
+        },
+        {
+          "name": "Jeffrey Schlupp",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "lm",
+          "skill": 75
+        },
+        {
+          "name": "James McArthur",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "dm",
+          "skill": 75
+        },
+        {
+          "name": "Jordan Ayew",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cf",
+          "skill": 75
+        },
+        {
+          "name": "Nathaniel Clyne",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "rb",
+          "skill": 75
+        },
+        {
+          "name": "James Tomkins",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cb",
+          "skill": 75
+        },
+        {
+          "name": "Conor Gallagher",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cm",
+          "skill": 74
+        },
+        {
+          "name": "Joel Ward",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "rb",
+          "skill": 74
+        },
+        {
+          "name": "Martin Kelly",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cb",
+          "skill": 74
+        },
+        {
+          "name": "Michael Olise",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "am",
+          "skill": 73
+        },
+        {
+          "name": "Marc Gu\u00e9hi",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cb",
+          "skill": 73
+        },
+        {
+          "name": "Jack Butland",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "gk",
+          "skill": 73
+        },
+        {
+          "name": "Tyrick Mitchell",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "lb",
+          "skill": 71
+        },
+        {
+          "name": "Nathan Ferguson",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "rb",
+          "skill": 69
+        },
+        {
+          "name": "Remi Matthews",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "gk",
+          "skill": 65
+        },
+        {
+          "name": "Jaros\u0142aw Jach",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cb",
+          "skill": 64
+        },
+        {
+          "name": "J. Rak-Sakyi",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "am",
+          "skill": 61
+        },
+        {
+          "name": "Robert Street",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "cf",
+          "skill": 61
+        },
+        {
+          "name": "Nya Kirby",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "rm",
+          "skill": 60
+        },
+        {
+          "name": "Scott Banks",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "am",
+          "skill": 59
+        },
+        {
+          "name": "Jacob Montes",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "am",
+          "skill": 57
+        },
+        {
+          "name": "Reece Hannam",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "lb",
+          "skill": 53
+        },
+        {
+          "name": "Oliver Webber",
+          "club": "Crystal Palace",
+          "age": 25,
+          "position": "gk",
+          "skill": 51
         }
       ]
     }

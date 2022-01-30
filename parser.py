@@ -39,13 +39,19 @@ def get_data(team):
     current_team["player_list"] = []
     filtered_team_name = filter_club_name(team)
     for i in range(len(names)):
-        current_team["player_list"].append({"name": names[i].text, "club": filtered_team_name,"age":25, "position": positions[i], "skill": ratings[i].text})
+        current_team["player_list"].append({"name": names[i].text, "club": filtered_team_name,"age":25, "position": positions[i].lower(), "skill": int(ratings[i].text)})
 
     all_data["clubs"].append(current_team)
 
 def filter_position(s):
     if s == "CDM" or s == "CAM":
         return s[1:]
+    if s == "ST":
+        return "CF"
+    if s == "LWB":
+        return "LB"
+    if s == "RWB":
+        return "RB"
     return s
 
 def filter_club_name(club):
@@ -62,12 +68,12 @@ def filter_club_name(club):
 
 club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "tottenham-hotspur", "leicester-city", "arsenal", "west-ham-united",
               "everton", "wolverhampton-wanderers", "aston-villa", "leeds-united", "newcastle-united", "southampton", "burnley", "brighton-hove-albion",
-              "watford", "norwich-city", "brentford"
+              "watford", "norwich-city", "brentford", "crystal-palace"
               ]
 
 for club in club_names:
     get_data(club)
 
 
-with open("all_team_data.json", "w") as file:
+with open("data.json", "w") as file:
     json.dump(all_data, file)
