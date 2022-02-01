@@ -2,9 +2,10 @@ from player import Player
 
 
 class Club:
-    def __init__(self, name, player_list):
+    def __init__(self, name, player_list, color):
         self.name = name
-        self.player_list = []
+        self.player_list = player_list
+        self.color = color
         self.formation = ""
         self.best_squad = []
     def player_list_for_game(self):

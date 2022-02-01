@@ -3,20 +3,36 @@ from player import Player
 from club import Club
 from tournament import Tournament
 
+def filter_club_name(club):
+    new_name = ""
+    for i in range(len(club)):
+        if i == 0 or club[i-1] == "-":
+            new_name += club[i].upper()
+        elif club[i] == "-":
+            new_name += " "
+        else:
+            new_name += club[i]
+    return new_name
+
 f = open("data.json")
 data = json.load(f)
 premier_league_clubs = data["clubs"]
-team1 = Club("", [])
-team2 = Club("", [])
+club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "tottenham-hotspur", "leicester-city", "arsenal", "west-ham-united",
+              "everton", "wolverhampton-wanderers", "aston-villa", "leeds-united", "newcastle-united", "southampton", "burnley", "brighton-hove-albion",
+              "watford", "norwich-city", "brentford", "crystal-palace"
+              ]
 
-
+epl = Tournament("Premier League", [Club(filter_club_name(club_name), [], "") for club_name in club_names])
+epl.generate_standings()
+epl.print_standings()
+epl.generate_matches()
+epl.print_matches()
+team1 = epl.clubs[0]
+team2 = epl.clubs[6]
 for club in premier_league_clubs:
-    if club["name"] == "Brentford":
-        team1.name = club["name"]
+    if club["name"] == team1.name:
         pl_list = club["player_list"]
         for player in pl_list:
-            print(f"{player['name']} - {player['position']}")
-
             new_player = Player(
                 player["name"],
                 player["age"],
@@ -25,10 +41,7 @@ for club in premier_league_clubs:
                 player["position"]
             )
             team1.player_list.append(new_player)
-
-    elif club["name"] == "Crystal Palace":
-
-        team2.name = club["name"]
+    elif club["name"] == team2.name:
         pl_list = club["player_list"]
         for player in pl_list:
             new_player = Player(
@@ -39,3 +52,33 @@ for club in premier_league_clubs:
                 player["position"]
             )
             team2.player_list.append(new_player)
+
+# for club in premier_league_clubs:
+#     if club["name"] == "Manchester City":
+#         team1.name = club["name"]
+#         pl_list = club["player_list"]
+#         for player in pl_list:
+#             print(f"{player['name']} - {player['position']}")
+#
+#             new_player = Player(
+#                 player["name"],
+#                 player["age"],
+#                 player["skill"],
+#                 player["club"],
+#                 player["position"]
+#             )
+#             team1.player_list.append(new_player)
+#
+#     elif club["name"] == "Manchester United":
+#
+#         team2.name = club["name"]
+#         pl_list = club["player_list"]
+#         for player in pl_list:
+#             new_player = Player(
+#                 player["name"],
+#                 player["age"],
+#                 player["skill"],
+#                 player["club"],
+#                 player["position"]
+#             )
+#             team2.player_list.append(new_player)
