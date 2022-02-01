@@ -25,8 +25,7 @@ club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "t
 epl = Tournament("Premier League", [Club(filter_club_name(club_name), [], "") for club_name in club_names])
 epl.generate_standings()
 epl.print_standings()
-epl.generate_matches()
-epl.print_matches()
+
 team1 = epl.clubs[0]
 team2 = epl.clubs[6]
 for club in premier_league_clubs:
@@ -52,33 +51,3 @@ for club in premier_league_clubs:
                 player["position"]
             )
             team2.player_list.append(new_player)
-
-# for club in premier_league_clubs:
-#     if club["name"] == "Manchester City":
-#         team1.name = club["name"]
-#         pl_list = club["player_list"]
-#         for player in pl_list:
-#             print(f"{player['name']} - {player['position']}")
-#
-#             new_player = Player(
-#                 player["name"],
-#                 player["age"],
-#                 player["skill"],
-#                 player["club"],
-#                 player["position"]
-#             )
-#             team1.player_list.append(new_player)
-#
-#     elif club["name"] == "Manchester United":
-#
-#         team2.name = club["name"]
-#         pl_list = club["player_list"]
-#         for player in pl_list:
-#             new_player = Player(
-#                 player["name"],
-#                 player["age"],
-#                 player["skill"],
-#                 player["club"],
-#                 player["position"]
-#             )
-#             team2.player_list.append(new_player)
