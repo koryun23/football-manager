@@ -69,13 +69,13 @@ while game.minute <= 90:
     for pl in game.team1.best_squad:
         current_position_x = pl.pos_x
         current_position_y = pl.pos_y
-        create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "maroon",
+        create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "lightblue",
                       team1_player_tag_dict[pl.name])
         counter1 += 1
     for pl in game.team2.best_squad:
         current_position_x = pl.pos_x
         current_position_y = pl.pos_y
-        create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "",
+        create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "red",
                       team2_player_tag_dict[pl.name])
     create_circle(5 * game.ball_pos_x, 8 * (50 - game.ball_pos_y), 5, myCanvas, "white", "ball")
     tk.update()

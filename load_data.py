@@ -24,10 +24,11 @@ club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "t
 
 epl = Tournament("Premier League", [Club(filter_club_name(club_name), [], "") for club_name in club_names])
 epl.generate_standings()
-epl.print_standings()
-
+# epl.print_standings()
+epl.generate_pairings()
+epl.print_pairings()
 team1 = epl.clubs[0]
-team2 = epl.clubs[6]
+team2 = epl.clubs[1]
 for club in premier_league_clubs:
     if club["name"] == team1.name:
         pl_list = club["player_list"]

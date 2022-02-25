@@ -86,7 +86,6 @@ class Player:
             for skill in self.skill_set:
                 all_skills += self.skill_set[skill]
             self.skill = all_skills/7
-
 # pl=Player("Josh", 23, 78, "Bradford", 748590, 12000, "cf")
 # print(pl.skill_set)
 
