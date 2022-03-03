@@ -1,8 +1,5 @@
 import random
-from itertools import *
 from typing import List, Dict
-
-from player import Player
 from club import Club
 
 
@@ -34,7 +31,8 @@ class Tournament:
             arr1.insert(1, arr2.pop(0))
             arr2.append(arr1.pop())
             for a, b in zip(arr1, arr2):
-                matches.append((self.clubs[a], self.clubs[b]))
+                possible_pairings = ((self.clubs[a], self.clubs[b]), (self.clubs[b], self.clubs[a]))
+                matches.append(random.choice(possible_pairings))
         return matches
 
     def format_pairings(self):
