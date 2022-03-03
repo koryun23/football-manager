@@ -21,12 +21,15 @@ club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "t
               "everton", "wolverhampton-wanderers", "aston-villa", "leeds-united", "newcastle-united", "southampton", "burnley", "brighton-hove-albion",
               "watford", "norwich-city", "brentford", "crystal-palace"
               ]
-
-epl = Tournament("Premier League", [Club(filter_club_name(club_name), [], "") for club_name in club_names])
+clubs = []
+for club in club_names:
+    clubs.append(Club(filter_club_name(club), [], ""))
+epl = Tournament("Premier League", clubs)
 epl.generate_standings()
-# epl.print_standings()
 epl.generate_pairings()
+epl.format_pairings()
 epl.print_pairings()
+# epl.print_clubs()
 team1 = epl.clubs[0]
 team2 = epl.clubs[1]
 for club in premier_league_clubs:
