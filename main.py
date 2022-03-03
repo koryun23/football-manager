@@ -4,6 +4,7 @@ from game import Game
 from player import Player
 from tournament import Tournament
 from club import Club
+from threading import Thread
 from load_data import *
 
 tk = Tk()
@@ -17,6 +18,44 @@ def create_circle(x, y, r, canvas_name, fill, tag):  # center coordinates, radiu
     x1 = x + r
     y1 = y + r
     return canvas_name.create_oval(x0, y0, x1, y1, fill=fill, tags=tag)
+
+
+def graphics():
+    team1_player_tag_dict = {}
+    team2_player_tag_dict = {}
+
+    counter1 = 1
+    for pl in game.team1.best_squad:
+        team1_player_tag_dict[pl.name] = f"team1player{counter1}"
+        counter1 += 1
+    counter2 = 1
+    for pl in game.team2.best_squad:
+        team2_player_tag_dict[pl.name] = f"team2player{counter2}"
+
+    game.reset_origin_positions()
+    while game.minute <= 90:
+        # game.set_attacking_defending_positions()
+        counter1 = 1
+        counter2 = 1
+        #     # First we need to remove the circles
+        for i in range(1, 3):
+            for j in range(1, 12):
+                myCanvas.delete(f"team{i}player{j}")
+        myCanvas.delete("ball")
+        for pl in game.team1.best_squad:
+            current_position_x = pl.pos_x
+            current_position_y = pl.pos_y
+            create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "lightblue",
+                          team1_player_tag_dict[pl.name])
+            counter1 += 1
+        for pl in game.team2.best_squad:
+            current_position_x = pl.pos_x
+            current_position_y = pl.pos_y
+            create_circle(5 * current_position_x, 8 * (50 - current_position_y), 10, myCanvas, "red",
+                          team2_player_tag_dict[pl.name])
+        create_circle(5 * game.ball_pos_x, 8 * (50 - game.ball_pos_y), 5, myCanvas, "white", "ball")
+        tk.update()
+        time.sleep(0.1)
 
 
 team1_squad = team1.player_list_for_game()[0]
@@ -44,6 +83,7 @@ for pl in team2_squad:
     print(pl.position + "  " + pl.name + "    " + f"{[pl.pos_x, pl.pos_y]}")
 print("\n\n\n")
 print("Game starts!")
+
 team1_player_tag_dict = {}
 team2_player_tag_dict = {}
 
@@ -55,8 +95,8 @@ counter2 = 1
 for pl in game.team2.best_squad:
     team2_player_tag_dict[pl.name] = f"team2player{counter2}"
 
-game.reset_origin_positions()
-while game.minute <= 90:
+
+def graphics():
     # game.set_attacking_defending_positions()
     counter1 = 1
     counter2 = 1
@@ -80,21 +120,35 @@ while game.minute <= 90:
     create_circle(5 * game.ball_pos_x, 8 * (50 - game.ball_pos_y), 5, myCanvas, "white", "ball")
     tk.update()
     time.sleep(0.1)
-    game.play()
-winning_side = game.team1.name
-if game.team1_score < game.team2_score:
-    winning_side = game.team2.name
-elif game.team1_score == game.team2_score:
-    winning_side = None
 
-if winning_side:
-    print(f"The game ended! {winning_side} won the game {game.team1_score} - {game.team2_score}")
-else:
-    print(f"The game ended in a draw. {game.team1_score} - {game.team2_score}")
+def run_game(game):
+    game.reset_origin_positions()
+    while game.minute <= 90:
+        # graphics()
+        time.sleep(0.1)
+        game.play()
+    winning_side = game.team1.name
+    if game.team1_score < game.team2_score:
+        winning_side = game.team2.name
+    elif game.team1_score == game.team2_score:
+        winning_side = None
 
-print("The goal scorers")
-for pl in game.team1_scorers:
-    print(pl.name)
-for pl in game.team2_scorers:
-    print(pl.name)
-myCanvas.mainloop()
+    if winning_side:
+        print(f"The game ended! {winning_side} won the game {game.team1_score} - {game.team2_score}")
+    else:
+        print(f"The game ended in a draw. {game.team1_score} - {game.team2_score}")
+
+    print("The goal scorers")
+    for pl in game.team1_scorers:
+        print(pl.name)
+    for pl in game.team2_scorers:
+        print(pl.name)
+
+    myCanvas.mainloop()
+def main():
+    run_game(game)
+
+
+
+if __name__ == "__main__":
+    main()
