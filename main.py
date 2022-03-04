@@ -15,10 +15,18 @@ def create_circle(x, y, r, canvas_name, fill, tag):  # center coordinates, radiu
     y1 = y + r
     return canvas_name.create_oval(x0, y0, x1, y1, fill=fill, tags=tag)
 
-def load_new_game():
+
+def get_team_by_name(team_name, teams):
+    for team in teams:
+        if team.name == team_name:
+            return team
+    return None
+
+
+def load_new_game(team1_name, team2_name):
     premier_league = load_league("Premier League")
     premier_league_clubs = premier_league.clubs
-    teams = load_teams(premier_league_clubs[0].name, premier_league_clubs[1].name)
+    teams = load_teams(get_team_by_name(team1_name, premier_league_clubs), get_team_by_name(team2_name, premier_league_clubs), "Premier League")
     team1 = teams[0]
     team2 = teams[1]
 
@@ -74,12 +82,11 @@ def run_game(game):
 
     myCanvas.mainloop()
 def main():
-    game = load_new_game()
+    game = load_new_game("Manchester City", "Liverpool")
     print(game.team1.name)
     print(game.team1.best_squad)
     print(game.team1.formation)
     run_game(game)
-
 
 
 if __name__ == "__main__":

@@ -1,7 +1,10 @@
 import json
+from typing import Dict, List
+
 from player import Player
 from club import Club
 from tournament import Tournament
+from team_not_found_exception import TeamNotFoundException
 
 
 def filter_club_name(club):
@@ -21,10 +24,10 @@ def load_teams_from_json(tournament_name):
     data = json.load(f)
     league_clubs = data[tournament_name]["clubs"]
     print(league_clubs)
-    return league_clubs
+    return league_clubs  # list of maps containing information about teams in a league
 
 
-def get_clubs_array():
+def get_clubs_array():  # returns an array consisting of Club objects having a name and empty player list
     club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "tottenham-hotspur", "leicester-city",
                   "arsenal", "west-ham-united",
                   "everton", "wolverhampton-wanderers", "aston-villa", "leeds-united", "newcastle-united",
@@ -37,39 +40,59 @@ def get_clubs_array():
     return clubs
 
 
-def load_league(tournament_name):  # must return an array containing all Club objects in the current tournament
-    league = Tournament(tournament_name, get_clubs_array())
+def load_league(tournament_name):  # creates and returns a new tournament
+    teams_as_list_of_maps = load_teams_from_json(tournament_name)
+    clubs_array = get_clubs_array()
+    league = Tournament(tournament_name, clubs_array)
+    # will perhaps need to fill the player list of every club in the current tournament here
+    for j in range(len(clubs_array)):
+        current_team = None
+        for i in range(len(teams_as_list_of_maps)):
+            if teams_as_list_of_maps[i]["name"] == clubs_array[j].name:
+                current_team = teams_as_list_of_maps[i]
+                break
+        for i in range(len(current_team["player_list"])):
+            clubs_array[j].player_list.append(Player(
+                current_team["player_list"][i]["name"],
+                current_team["player_list"][i]["age"],
+                current_team["player_list"][i]["skill"],
+                current_team["player_list"][i]["club"],
+                current_team["player_list"][i]["position"]
+            ))
     league.generate_standings()
     league.generate_pairings()
     league.format_pairings()
     return league
 
 
-def load_teams(team1_name, team2_name):
-    league_clubs = load_teams_from_json("Premier League")
-    team1 = Club(team1_name, [], "")
-    team2 = Club(team2_name, [], "")
+def load_all_teams_of_tournament(tournament_name):
+    pass
+
+
+def load_teams(team1_name, team2_name, tournament_name):
+    league_clubs = load_teams_from_json(tournament_name)
+    team1 = None
+    team2 = None
+    for club in league_clubs:
+        pl_list = club["player_list"]
+        new_club = Club(club["name"], [], "")
+        for player in pl_list:
+            new_player = Player(
+                player["name"],
+                player["age"],
+                player["skill"],
+                player["club"],
+                player["position"]
+            )
+            new_club.player_list.append(new_player)
+
     for club in league_clubs:
         if club["name"] == team1_name:
-            pl_list = club["player_list"]
-            for player in pl_list:
-                new_player = Player(
-                    player["name"],
-                    player["age"],
-                    player["skill"],
-                    player["club"],
-                    player["position"]
-                )
-                team1.player_list.append(new_player)
+            team1 = club
         elif club["name"] == team2_name:
-            pl_list = club["player_list"]
-            for player in pl_list:
-                new_player = Player(
-                    player["name"],
-                    player["age"],
-                    player["skill"],
-                    player["club"],
-                    player["position"]
-                )
-                team2.player_list.append(new_player)
+            team2 = club
+    if team1 is None:
+        raise TeamNotFoundException(team1_name)
+    if team2 is None:
+        raise TeamNotFoundException(team2_name)
     return team1, team2
