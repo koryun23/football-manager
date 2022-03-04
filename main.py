@@ -25,8 +25,8 @@ def get_team_by_name(team_name, teams):
 
 def load_new_game(team1_name, team2_name):
     premier_league = load_league("Premier League")
-    premier_league_clubs = premier_league.clubs
-    teams = load_teams(get_team_by_name(team1_name, premier_league_clubs), get_team_by_name(team2_name, premier_league_clubs), "Premier League")
+    # premier_league_clubs = premier_league.clubs
+    teams = load_teams(team1_name, team2_name, "Premier League")
     team1 = teams[0]
     team2 = teams[1]
 

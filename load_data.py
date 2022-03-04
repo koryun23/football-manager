@@ -43,7 +43,6 @@ def get_clubs_array():  # returns an array consisting of Club objects having a n
 def load_league(tournament_name):  # creates and returns a new tournament
     teams_as_list_of_maps = load_teams_from_json(tournament_name)
     clubs_array = get_clubs_array()
-    league = Tournament(tournament_name, clubs_array)
     # will perhaps need to fill the player list of every club in the current tournament here
     for j in range(len(clubs_array)):
         current_team = None
@@ -59,6 +58,7 @@ def load_league(tournament_name):  # creates and returns a new tournament
                 current_team["player_list"][i]["club"],
                 current_team["player_list"][i]["position"]
             ))
+    league = Tournament(tournament_name, clubs_array)
     league.generate_standings()
     league.generate_pairings()
     league.format_pairings()
@@ -70,27 +70,17 @@ def load_all_teams_of_tournament(tournament_name):
 
 
 def load_teams(team1_name, team2_name, tournament_name):
-    league_clubs = load_teams_from_json(tournament_name)
+    league = load_league("Premier League")
     team1 = None
     team2 = None
-    for club in league_clubs:
-        pl_list = club["player_list"]
-        new_club = Club(club["name"], [], "")
-        for player in pl_list:
-            new_player = Player(
-                player["name"],
-                player["age"],
-                player["skill"],
-                player["club"],
-                player["position"]
-            )
-            new_club.player_list.append(new_player)
-
-    for club in league_clubs:
-        if club["name"] == team1_name:
+    for club in league.clubs:
+        if club.name == team1_name:
+            print("found team1")
             team1 = club
-        elif club["name"] == team2_name:
+        elif club.name == team2_name:
+            print("found team2")
             team2 = club
+    print([c.name for c in league.clubs])
     if team1 is None:
         raise TeamNotFoundException(team1_name)
     if team2 is None:
