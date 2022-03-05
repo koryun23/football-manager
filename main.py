@@ -44,7 +44,10 @@ def load_new_game(team1_name, team2_name, tournament_name):
 
     return game
 
+
 results = []
+
+
 def run_game(game):
     game.reset_origin_positions()
     while game.minute <= 90:
@@ -62,10 +65,11 @@ def run_game(game):
         print(f"The game ended in a draw. {game.team1_score} - {game.team2_score}")
     results.append([(game.team1_score, game.team2_score)])
     print("The goal scorers")
-    for pl in game.team1_scorers:
-        print(pl.name)
-    for pl in game.team2_scorers:
-        print(pl.name)
+    # for pl in game.team1_scorers:
+    #     print(pl.name)
+    # for pl in game.team2_scorers:
+    #     print(pl.name)
+
 
 def main():
     epl = load_league("Premier League")
@@ -80,8 +84,23 @@ def main():
     for thread in threads:
         thread.join()
 
+    for thread in threads:
+        if not thread.is_alive():
+            thread.handled = True
     for result in results:
         print(result)
+
+    for i in range(len(results)):
+        if result[i][0] > result[i][1]:
+            winning_side = pairings_for_first_round[i][0]
+        elif result[i][1] < result[i][1]:
+            winning_side = pairings_for_first_round[i][1]
+        else:
+            winning_side = None
+        print(f"{winning_side} won!")
+    epl.standings.sort(key=lambda row: row["Points"])
+    for row in epl.standings:
+        print(row["Name"], row["Points"])
 
 
 if __name__ == "__main__":

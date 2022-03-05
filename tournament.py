@@ -8,7 +8,7 @@ class Tournament:
         self.name: str = name
         self.clubs: List[Club] = clubs
         random.shuffle(self.clubs)
-        self.standings: List[Dict[str, int]] = []
+        self.standings = []
         self.pairings = []
     def print_clubs(self):
         print([club.name for club in self.clubs])
