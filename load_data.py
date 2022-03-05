@@ -23,7 +23,6 @@ def load_teams_from_json(tournament_name):
     f = open("data.json")
     data = json.load(f)
     league_clubs = data[tournament_name]["clubs"]
-    print(league_clubs)
     return league_clubs  # list of maps containing information about teams in a league
 
 
@@ -65,22 +64,15 @@ def load_league(tournament_name):  # creates and returns a new tournament
     return league
 
 
-def load_all_teams_of_tournament(tournament_name):
-    pass
-
-
 def load_teams(team1_name, team2_name, tournament_name):
-    league = load_league("Premier League")
+    league = load_league(tournament_name)
     team1 = None
     team2 = None
     for club in league.clubs:
         if club.name == team1_name:
-            print("found team1")
             team1 = club
         elif club.name == team2_name:
-            print("found team2")
             team2 = club
-    print([c.name for c in league.clubs])
     if team1 is None:
         raise TeamNotFoundException(team1_name)
     if team2 is None:

@@ -1,20 +1,6 @@
-import time
-from tkinter import *
 from game import Game
 from threading import Thread
 from load_data import *
-
-tk = Tk()
-myCanvas = Canvas(tk, width=500, height=400)
-myCanvas.pack()
-
-def create_circle(x, y, r, canvas_name, fill, tag):  # center coordinates, radius
-    x0 = x - r
-    y0 = y - r
-    x1 = x + r
-    y1 = y + r
-    return canvas_name.create_oval(x0, y0, x1, y1, fill=fill, tags=tag)
-
 
 def get_team_by_name(team_name, teams):
     for team in teams:
@@ -23,10 +9,10 @@ def get_team_by_name(team_name, teams):
     return None
 
 
-def load_new_game(team1_name, team2_name):
-    premier_league = load_league("Premier League")
+def load_new_game(team1_name, team2_name, tournament_name):
+    # premier_league = load_league(tournament_name)
     # premier_league_clubs = premier_league.clubs
-    teams = load_teams(team1_name, team2_name, "Premier League")
+    teams = load_teams(team1_name, team2_name, tournament_name)
     team1 = teams[0]
     team2 = teams[1]
 
@@ -58,6 +44,7 @@ def load_new_game(team1_name, team2_name):
 
     return game
 
+results = []
 def run_game(game):
     game.reset_origin_positions()
     while game.minute <= 90:
@@ -73,20 +60,28 @@ def run_game(game):
         print(f"The game ended! {winning_side} won the game {game.team1_score} - {game.team2_score}")
     else:
         print(f"The game ended in a draw. {game.team1_score} - {game.team2_score}")
-
+    results.append([f"{game.team1.name} {game.team1_score} - {game.team2_score} {game.team2.name}"])
     print("The goal scorers")
     for pl in game.team1_scorers:
         print(pl.name)
     for pl in game.team2_scorers:
         print(pl.name)
 
-    myCanvas.mainloop()
 def main():
-    game = load_new_game("Manchester City", "Liverpool")
-    print(game.team1.name)
-    print(game.team1.best_squad)
-    print(game.team1.formation)
-    run_game(game)
+    epl = load_league("Premier League")
+    pairings_for_first_round = [(pairing[0], pairing[1]) for pairing in epl.pairings[0]]
+
+    threads = []
+    for pair in pairings_for_first_round:
+        game = load_new_game(pair[0].name, pair[1].name, epl.name)
+        threads.append(Thread(target=run_game, args=(game,)))
+    for thread in threads:
+        thread.start()
+    for thread in threads:
+        thread.join()
+
+    for result in results:
+        print(result)
 
 
 if __name__ == "__main__":
