@@ -63,7 +63,7 @@ def run_game(game):
         print(f"The game ended! {winning_side} won the game {game.team1_score} - {game.team2_score}")
     else:
         print(f"The game ended in a draw. {game.team1_score} - {game.team2_score}")
-    results.append([(game.team1_score, game.team2_score)])
+    results.append((game.team1_score, game.team2_score))
     print("The goal scorers")
     # for pl in game.team1_scorers:
     #     print(pl.name)
@@ -87,18 +87,26 @@ def main():
     for thread in threads:
         if not thread.is_alive():
             thread.handled = True
+
     for result in results:
         print(result)
-
     for i in range(len(results)):
-        if result[i][0] > result[i][1]:
+        winning_side = None
+        if results[i][0] > results[i][1]:
             winning_side = pairings_for_first_round[i][0]
-        elif result[i][1] < result[i][1]:
+        elif results[i][0] < results[i][1]:
             winning_side = pairings_for_first_round[i][1]
+        if winning_side:
+            print(f"{winning_side.name} won!")
+            for row in epl.standings:
+                if row["Name"] == winning_side.name:
+                    row["Points"] += 3
         else:
-            winning_side = None
-        print(f"{winning_side} won!")
-    epl.standings.sort(key=lambda row: row["Points"])
+            print("draw(")
+            for row in epl.standings:
+                if row["Name"] == pairings_for_first_round[i][0] or row["Name"] == pairings_for_first_round[i][1]:
+                    row["Points"] += 1
+    epl.standings = sorted(epl.standings, key=lambda r: r["Points"])
     for row in epl.standings:
         print(row["Name"], row["Points"])
 
