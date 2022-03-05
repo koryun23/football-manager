@@ -60,7 +60,7 @@ def run_game(game):
         print(f"The game ended! {winning_side} won the game {game.team1_score} - {game.team2_score}")
     else:
         print(f"The game ended in a draw. {game.team1_score} - {game.team2_score}")
-    results.append([f"{game.team1.name} {game.team1_score} - {game.team2_score} {game.team2.name}"])
+    results.append([(game.team1_score, game.team2_score)])
     print("The goal scorers")
     for pl in game.team1_scorers:
         print(pl.name)
