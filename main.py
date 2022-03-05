@@ -106,7 +106,7 @@ def main():
             for row in epl.standings:
                 if row["Name"] == pairings_for_first_round[i][0].name or row["Name"] == pairings_for_first_round[i][1].name:
                     row["Points"] += 1
-    epl.standings = sorted(epl.standings, key=lambda r: -r["Points"])
+    epl.standings.sort(key=lambda row: (-row["Points"], row["Goals Scored"]))
     for row in epl.standings:
         print(row["Name"], row["Points"])
 
