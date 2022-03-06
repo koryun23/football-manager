@@ -2,6 +2,7 @@ from game import Game
 from threading import Thread
 from load_data import *
 
+
 def get_team_by_name(team_name, teams):
     for team in teams:
         if team.name == team_name:
