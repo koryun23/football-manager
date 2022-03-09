@@ -1,6 +1,7 @@
 from game import Game
 from threading import Thread
 from load_data import *
+from standing_row import StandingRow
 
 
 def get_team_by_name(team_name, teams):
@@ -54,28 +55,12 @@ def run_game(game):
     while game.minute <= 90:
         # graphics()
         game.play()
-    winning_side = game.team1.name
-    if game.team1_score < game.team2_score:
-        winning_side = game.team2.name
-    elif game.team1_score == game.team2_score:
-        winning_side = None
 
-    if winning_side:
-        print(f"The game ended! {winning_side} won the game {game.team1_score} - {game.team2_score}")
-    else:
-        print(f"The game ended in a draw. {game.team1_score} - {game.team2_score}")
     results.append((game.team1_score, game.team2_score))
-    print("The goal scorers")
-    # for pl in game.team1_scorers:
-    #     print(pl.name)
-    # for pl in game.team2_scorers:
-    #     print(pl.name)
-
 
 def main():
     epl = load_league("Premier League")
     pairings_for_first_round = [(pairing[0], pairing[1]) for pairing in epl.pairings[0]]
-
     threads = []
     for pair in pairings_for_first_round:
         game = load_new_game(pair[0].name, pair[1].name, epl.name)
@@ -92,24 +77,30 @@ def main():
     for result in results:
         print(result)
     for i in range(len(results)):
+        # set scored goals and conceded gaols for each team
+        row = epl.get_row_by_club_name(pairings_for_first_round[i][0])
+        row.set_goals_scored(results[i][0])
+        row.set_goals_conceded(results[i][1])
+        row = epl.get_row_by_club_name(pairings_for_first_round[i][1])
+        row.set_goals_scored(results[i][1])
+        row.set_goals_conceded(results[i][0])
         winning_side = None
         if results[i][0] > results[i][1]:
             winning_side = pairings_for_first_round[i][0]
         elif results[i][0] < results[i][1]:
             winning_side = pairings_for_first_round[i][1]
         if winning_side:
-            print(f"{winning_side.name} won!")
             for row in epl.standings:
-                if row["Name"] == winning_side.name:
-                    row["Points"] += 3
+                if winning_side == row.get_club():
+                    row.set_points(row.get_points() + 3)
         else:
-            print("draw(")
             for row in epl.standings:
-                if row["Name"] == pairings_for_first_round[i][0].name or row["Name"] == pairings_for_first_round[i][1].name:
-                    row["Points"] += 1
-    epl.standings.sort(key=lambda row: (-row["Points"], row["Goals Scored"]))
+                if pairings_for_first_round[i][0] == row.get_club() or pairings_for_first_round[i][1] == row.get_club():
+                    row.set_points(row.get_points() + 1)
+
+    epl.standings.sort(key=lambda standing_row: (-standing_row.get_points(), standing_row.get_goals_difference()))
     for row in epl.standings:
-        print(row["Name"], row["Points"])
+        print(f"{row.get_club().name} - points: {row.get_points()}, goals scored: {row.get_goals_scored()}, goals conceded: {row.get_goals_conceded()}")
 
 
 if __name__ == "__main__":

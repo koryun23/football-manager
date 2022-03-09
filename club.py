@@ -1,6 +1,3 @@
-from player import Player
-
-
 class Club:
     def __init__(self, name, player_list, color):
         self.name = name
@@ -219,3 +216,9 @@ class Club:
         self.formation = formation
         self.best_squad = best_squad
         return best_squad, max_rating, formation
+
+    def __eq__(self, club):
+        if type(club) != Club:
+            raise RuntimeError("Type mismatch")
+        print(self.name, " ", club.name)
+        return self.name == club.name

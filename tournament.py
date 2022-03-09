@@ -1,22 +1,27 @@
 import random
 from typing import List, Dict
 from club import Club
-
+from standing_row import StandingRow
 
 class Tournament:
     def __init__(self, name: str, clubs: List[Club]):
         self.name: str = name
         self.clubs: List[Club] = clubs
         random.shuffle(self.clubs)
-        self.standings = []
+        self.standings: List[StandingRow] = []
         self.pairings = []
+
     def print_clubs(self):
         print([club.name for club in self.clubs])
 
     def generate_standings(self) -> None:
         for club in self.clubs:
-            self.standings.append(
-                {"Name": club.name, "Points": 0, "Goals Scored": 0, "Goals Conceded": 0, "Goal Difference": 0})
+            self.standings.append(StandingRow(club, 0, 0, 0))
+
+    def get_row_by_club_name(self, club: Club):
+        for row in self.standings:
+            if row.get_club() == club:
+                return row
 
     def print_standings(self) -> None:
         for row in self.standings:
