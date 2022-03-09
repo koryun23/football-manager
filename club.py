@@ -219,6 +219,5 @@ class Club:
 
     def __eq__(self, club):
         if type(club) != Club:
-            raise RuntimeError("Type mismatch")
-        print(self.name, " ", club.name)
+            raise RuntimeError(f"Type mismatch: Tried to compare Club object with a {type(club)}")
         return self.name == club.name

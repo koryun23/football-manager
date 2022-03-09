@@ -74,10 +74,7 @@ def main():
         if not thread.is_alive():
             thread.handled = True
 
-    for result in results:
-        print(result)
     for i in range(len(results)):
-        # set scored goals and conceded gaols for each team
         row = epl.get_row_by_club_name(pairings_for_first_round[i][0])
         row.set_goals_scored(results[i][0])
         row.set_goals_conceded(results[i][1])
@@ -99,8 +96,9 @@ def main():
                     row.set_points(row.get_points() + 1)
 
     epl.standings.sort(key=lambda standing_row: (-standing_row.get_points(), standing_row.get_goals_difference()))
-    for row in epl.standings:
-        print(f"{row.get_club().name} - points: {row.get_points()}, goals scored: {row.get_goals_scored()}, goals conceded: {row.get_goals_conceded()}")
+    print("-------------------------------------------------------------")
+    for i in range(len(epl.standings)):
+        print(f"{i+1}) {epl.standings[i].get_club().name} - points: {epl.standings[i].get_points()}, goals scored: {epl.standings[i].get_goals_scored()}, goals conceded: {epl.standings[i].get_goals_conceded()}")
 
 
 if __name__ == "__main__":
