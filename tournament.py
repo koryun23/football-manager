@@ -1,7 +1,9 @@
 import random
-from typing import List, Dict
+from typing import List
+
 from club import Club
 from standing_row import StandingRow
+
 
 class Tournament:
     def __init__(self, name: str, clubs: List[Club]):

@@ -1,7 +1,7 @@
-from game import Game
 from threading import Thread
+
+from game import Game
 from load_data import *
-from standing_row import StandingRow
 
 
 def get_team_by_name(team_name, teams):

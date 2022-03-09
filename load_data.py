@@ -1,10 +1,9 @@
 import json
-from typing import Dict, List
 
-from player import Player
 from club import Club
-from tournament import Tournament
+from player import Player
 from team_not_found_exception import TeamNotFoundException
+from tournament import Tournament
 
 
 def filter_club_name(club):
