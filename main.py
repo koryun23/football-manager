@@ -95,7 +95,7 @@ def main():
                 if pairings_for_first_round[i][0] == row.get_club() or pairings_for_first_round[i][1] == row.get_club():
                     row.set_points(row.get_points() + 1)
 
-    epl.standings.sort(key=lambda standing_row: (-standing_row.get_points(), standing_row.get_goals_difference()))
+    epl.standings.sort(key=lambda standing_row: (-standing_row.get_points(), -standing_row.get_goals_scored(), -standing_row.get_goals_difference()))
     print("-------------------------------------------------------------")
     for i in range(len(epl.standings)):
         print(f"{i+1}) {epl.standings[i].get_club().name} - points: {epl.standings[i].get_points()}, goals scored: {epl.standings[i].get_goals_scored()}, goals conceded: {epl.standings[i].get_goals_conceded()}")
