@@ -100,6 +100,5 @@ def main():
     for i in range(len(epl.standings)):
         print(f"{i+1}) {epl.standings[i].get_club().name} - points: {epl.standings[i].get_points()}, goals scored: {epl.standings[i].get_goals_scored()}, goals conceded: {epl.standings[i].get_goals_conceded()}")
 
-
 if __name__ == "__main__":
     main()
