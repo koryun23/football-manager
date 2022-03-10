@@ -103,16 +103,8 @@ def main():
                     row.set_points(row.get_points() + 1)
     epl.standings.sort(key=lambda standing_row: (-standing_row.get_points(), -standing_row.get_goals_scored(), -standing_row.get_goals_difference()))
     print("-------------------------------------------------------------")
-    for i in range(len(epl.standings)):
-        club_name = epl.standings[i].get_club().name
-        club_points = epl.standings[i].get_points()
-        club_goals_scored = epl.standings[i].get_goals_scored()
-        club_goals_conceded = epl.standings[i].get_goals_conceded()
-        club_matches_played = epl.standings[i].get_matches_played()
-        club_matches_won = epl.standings[i].get_matches_won()
-        club_matches_lost = epl.standings[i].get_matches_lost()
-        club_matches_drawn = epl.standings[i].get_matches_drawn()
-        print(f"{i+1}) {club_name} - points: {club_points}, goals scored: {club_goals_scored}, goals conceded: {club_goals_conceded}, matches played: {club_matches_played} matches won: {club_matches_won}, matches lost: {club_matches_lost}, matches drawn: {club_matches_drawn}")
+    epl.print_standings()
+
 
 if __name__ == "__main__":
     main()

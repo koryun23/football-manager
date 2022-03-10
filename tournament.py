@@ -26,9 +26,17 @@ class Tournament:
                 return row
 
     def print_standings(self) -> None:
-        for row in self.standings:
-            print(row)
-
+        for i in range(len(self.standings)):
+            club_name = self.standings[i].get_club().name
+            club_points = self.standings[i].get_points()
+            club_goals_scored = self.standings[i].get_goals_scored()
+            club_goals_conceded = self.standings[i].get_goals_conceded()
+            club_matches_played = self.standings[i].get_matches_played()
+            club_matches_won = self.standings[i].get_matches_won()
+            club_matches_lost = self.standings[i].get_matches_lost()
+            club_matches_drawn = self.standings[i].get_matches_drawn()
+            print(
+                f"{i + 1}) {club_name} - points: {club_points}, goals scored: {club_goals_scored}, goals conceded: {club_goals_conceded}, matches played: {club_matches_played} matches won: {club_matches_won}, matches lost: {club_matches_lost}, matches drawn: {club_matches_drawn}")
     def generate_pairings(self):
         half_len = int(len(self.clubs)/2)
         arr1 = [i for i in range(half_len)]
