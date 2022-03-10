@@ -18,7 +18,7 @@ class Tournament:
 
     def generate_standings(self) -> None:
         for club in self.clubs:
-            self.standings.append(StandingRow(club, 0, 0, 0))
+            self.standings.append(StandingRow(club, 0, 0, 0, 0, 0, 0, 0))
 
     def get_row_by_club_name(self, club: Club):
         for row in self.standings:

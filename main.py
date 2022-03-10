@@ -48,8 +48,6 @@ def load_new_game(team1_name, team2_name, tournament_name):
 
 
 results = []
-
-
 def run_game(game):
     game.reset_origin_positions()
     while game.minute <= 90:
@@ -60,7 +58,7 @@ def run_game(game):
 
 def main():
     epl = load_league("Premier League")
-    pairings_for_first_round = [(pairing[0], pairing[1]) for pairing in epl.pairings[0]]
+    pairings_for_first_round = [pairing for pairing in epl.pairings[0]]
     threads = []
     for pair in pairings_for_first_round:
         game = load_new_game(pair[0].name, pair[1].name, epl.name)
@@ -75,12 +73,21 @@ def main():
             thread.handled = True
 
     for i in range(len(results)):
+        print(i, len(pairings_for_first_round))
         row = epl.get_row_by_club_name(pairings_for_first_round[i][0])
-        row.set_goals_scored(results[i][0])
-        row.set_goals_conceded(results[i][1])
+        row.set_goals_scored(row.get_goals_scored() + results[i][0])
+        row.set_goals_conceded(row.get_goals_conceded() + results[i][1])
+        row.set_matches_played(row.get_matches_played() + 1)
+        if results[i][0] > results[i][1]: row.set_matches_won(row.get_matches_won() + 1)
+        elif results[i][0] < results[i][1]: row.set_matches_lost(row.get_matches_lost() + 1)
+        else: row.set_matches_drawn(row.get_matches_drawn() + 1)
         row = epl.get_row_by_club_name(pairings_for_first_round[i][1])
         row.set_goals_scored(results[i][1])
         row.set_goals_conceded(results[i][0])
+        row.set_matches_played(row.get_matches_played() + 1)
+        if results[i][0] < results[i][1]: row.set_matches_won(row.get_matches_won() + 1)
+        elif results[i][0] > results[i][1]: row.set_matches_lost(row.get_matches_lost() + 1)
+        else: row.set_matches_drawn(row.get_matches_drawn() + 1)
         winning_side = None
         if results[i][0] > results[i][1]:
             winning_side = pairings_for_first_round[i][0]
@@ -94,11 +101,18 @@ def main():
             for row in epl.standings:
                 if pairings_for_first_round[i][0] == row.get_club() or pairings_for_first_round[i][1] == row.get_club():
                     row.set_points(row.get_points() + 1)
-
     epl.standings.sort(key=lambda standing_row: (-standing_row.get_points(), -standing_row.get_goals_scored(), -standing_row.get_goals_difference()))
     print("-------------------------------------------------------------")
     for i in range(len(epl.standings)):
-        print(f"{i+1}) {epl.standings[i].get_club().name} - points: {epl.standings[i].get_points()}, goals scored: {epl.standings[i].get_goals_scored()}, goals conceded: {epl.standings[i].get_goals_conceded()}")
+        club_name = epl.standings[i].get_club().name
+        club_points = epl.standings[i].get_points()
+        club_goals_scored = epl.standings[i].get_goals_scored()
+        club_goals_conceded = epl.standings[i].get_goals_conceded()
+        club_matches_played = epl.standings[i].get_matches_played()
+        club_matches_won = epl.standings[i].get_matches_won()
+        club_matches_lost = epl.standings[i].get_matches_lost()
+        club_matches_drawn = epl.standings[i].get_matches_drawn()
+        print(f"{i+1}) {club_name} - points: {club_points}, goals scored: {club_goals_scored}, goals conceded: {club_goals_conceded}, matches played: {club_matches_played} matches won: {club_matches_won}, matches lost: {club_matches_lost}, matches drawn: {club_matches_drawn}")
 
 if __name__ == "__main__":
     main()
