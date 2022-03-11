@@ -49,7 +49,13 @@ class Tournament:
             for a, b in zip(arr1, arr2):
                 possible_pairings = ((self.clubs[a], self.clubs[b]), (self.clubs[b], self.clubs[a]))
                 matches.append(random.choice(possible_pairings))
+        self.double_matches(matches)
         return matches
+
+    def double_matches(self, matches):
+        length = len(matches)
+        for i in range(length):
+            matches.append((matches[i][1], matches[i][0]))
 
     def format_pairings(self):
         half = len(self.clubs) // 2

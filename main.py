@@ -72,7 +72,6 @@ def main():
             results.append((game.team1_score, game.team2_score))
 
         for i in range(len(results)):
-            print(i, len(pairings_for_first_round))
             row = epl.get_row_by_club_name(pairings_for_first_round[i][0])
             row.set_goals_scored(results[i][0])
             row.set_goals_conceded(results[i][1])
@@ -105,7 +104,7 @@ def main():
             else:
                 for row in epl.standings:
                     if pairings_for_first_round[i][0] == row.get_club() or pairings_for_first_round[i][
-                        1] == row.get_club():
+                            1] == row.get_club():
                         row.set_points(row.get_points() + 1)
     epl.standings.sort(key=lambda standing_row: (
         -standing_row.get_points(), -standing_row.get_goals_scored(), -standing_row.get_goals_difference()))
