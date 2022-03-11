@@ -74,8 +74,8 @@ def main():
         for i in range(len(results)):
             print(i, len(pairings_for_first_round))
             row = epl.get_row_by_club_name(pairings_for_first_round[i][0])
-            row.set_goals_scored(row.get_goals_scored() + results[i][0])
-            row.set_goals_conceded(row.get_goals_conceded() + results[i][1])
+            row.set_goals_scored(results[i][0])
+            row.set_goals_conceded(results[i][1])
             row.set_matches_played(row.get_matches_played() + 1)
             if results[i][0] > results[i][1]:
                 row.set_matches_won(row.get_matches_won() + 1)

@@ -46,13 +46,13 @@ class StandingRow:
         self.__points = points
 
     def set_goals_scored(self, goals_scored):
-        self.__goals_scored = goals_scored
+        self.__goals_scored += goals_scored
 
     def set_goals_conceded(self, goals_conceded):
-        self.__goals_conceded = goals_conceded
+        self.__goals_conceded += goals_conceded
 
     def set_matches_played(self, matches_played):
-        self.__matches_played = matches_played
+        self.__matches_played += matches_played
 
     def set_matches_won(self, matches_won):
         self.__matches_won = matches_won
