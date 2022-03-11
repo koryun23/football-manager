@@ -202,6 +202,7 @@ class Game:
                 self.ball_pos_x = pl.pos_x
                 self.ball_pos_y = pl.pos_y
                 self.player_with_ball = pl
+        self.game_events = []
 
     def is_saved(self, player):
         y = 25
@@ -288,6 +289,7 @@ class Game:
             if generator < possibility_of_miss:  # then it's a miss from the player
                 self.ball_pos_x = x
                 self.ball_pos_y = 51 - player.pos_y
+                self.game_events.append(f"{player.name} missed!  {self.minute}'")
                 print(f"{player.name} missed!  {self.minute}'")
                 self.actions+=1
                 self.move_to_origin(0)
@@ -296,6 +298,7 @@ class Game:
             else:  # then it's a goal
                 self.ball_pos_x = x
                 self.ball_pos_y = y
+                self.game_events.append(f"GOAL! {player.name} scored!  {self.minute}'")
                 print(f"GOAL! {player.name} scored!  {self.minute}'")
                 self.actions+=1
                 if self.player_with_ball.club == self.team1.name:
@@ -314,8 +317,9 @@ class Game:
             self.ball_pos_x = gk.pos_x
             self.ball_pos_y = gk.pos_y
             self.player_with_ball = gk
+            self.game_events.append(f"{gk.name} saved it!  {self.minute}'")
             print(f"{gk.name} saved it!  {self.minute}'")
-            self.actions+=1
+            self.actions += 1
             # move everyone from the opponent team to their origin positions except for the attackers(cf, lw, rw)
             attackers = ["cf", "lw", "rw"]
             for pl in opp_team.best_squad:
@@ -338,6 +342,7 @@ class Game:
                 self.player_with_ball = pl
                 self.ball_pos_y = pl.pos_y
                 self.ball_pos_x = pl.pos_x
+                self.game_events.append(f"{gk.name} passed the ball to {pl.name}!  {self.minute}'")
                 print(f"{gk.name} passed the ball to {pl.name}!  {self.minute}'")
                 self.actions+=1
                 break
@@ -350,6 +355,7 @@ class Game:
         self.ball_pos_x = teammate.pos_x
         self.ball_pos_y = teammate.pos_y
         self.player_with_ball = teammate
+        self.game_events.append(f"{player.name} passed the ball to {teammate.name}  {self.minute}'")
         print(f"{player.name} passed the ball to {teammate.name}  {self.minute}'")
         self.actions+=1
         # self.player_with_ball.pos_x += dir_x*5
@@ -408,6 +414,7 @@ class Game:
         else:
             player.pos_x += dir_x*5
             self.ball_pos_x = player.pos_x
+        self.game_events.append(f"{player.name} running with the ball  {self.minute}'")
         print(f"{player.name} running with the ball  {self.minute}'")
         self.actions+=1
 
@@ -527,7 +534,7 @@ class Game:
                 else:
                     if player.position not in defenders:
                         self.follow_attacking_position(player)
-
+        self.game_events.append(f"{self.team1_score} - {self.team2_score}")
         print(f"{self.team1_score} - {self.team2_score}")
         self.minute = self.actions//4
 
