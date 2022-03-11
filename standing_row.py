@@ -4,7 +4,8 @@ from club import Club
 
 
 class StandingRow:
-    def __init__(self, club: Club, points: int, goals_scored: int, goals_conceded: int, matches_played: int, matches_won: int, matches_lost: int, matches_drawn: int):
+    def __init__(self, club: Club, points: int, goals_scored: int, goals_conceded: int, matches_played: int,
+                 matches_won: int, matches_lost: int, matches_drawn: int):
         self.__club: Club = club
         self.__points: int = points
         self.__goals_scored: int = goals_scored
@@ -52,7 +53,7 @@ class StandingRow:
         self.__goals_conceded += goals_conceded
 
     def set_matches_played(self, matches_played):
-        self.__matches_played += matches_played
+        self.__matches_played = matches_played
 
     def set_matches_won(self, matches_won):
         self.__matches_won = matches_won
