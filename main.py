@@ -61,10 +61,9 @@ def main():
     epl = load_league("Premier League")
 
     # main loop
-    for j in range(len(epl.pairings) * 2):
-
+    for j in range(len(epl.pairings)):
         results = []
-        pairings_for_first_round = epl.pairings[0]
+        pairings_for_first_round = epl.pairings[j]
         for pair in pairings_for_first_round:
             game = load_new_game(pair[0].name, pair[1].name, epl.name)
             run_game(game)
