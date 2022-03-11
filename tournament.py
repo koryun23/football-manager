@@ -37,12 +37,13 @@ class Tournament:
             club_matches_drawn = self.standings[i].get_matches_drawn()
             print(
                 f"{i + 1}) {club_name} - points: {club_points}, goals scored: {club_goals_scored}, goals conceded: {club_goals_conceded}, matches played: {club_matches_played} matches won: {club_matches_won}, matches lost: {club_matches_lost}, matches drawn: {club_matches_drawn}")
+
     def generate_pairings(self):
-        half_len = int(len(self.clubs)/2)
+        half_len = len(self.clubs) // 2
         arr1 = [i for i in range(half_len)]
         arr2 = [i for i in range(half_len, len(self.clubs))][::-1]
         matches = []
-        for i in range(len(self.clubs)-1):
+        for i in range(len(self.clubs) - 1):
             arr1.insert(1, arr2.pop(0))
             arr2.append(arr1.pop())
             for a, b in zip(arr1, arr2):
@@ -54,18 +55,17 @@ class Tournament:
         half = len(self.clubs) // 2
         pairings = self.generate_pairings()
         round = 1
-        current_round_pairings = []
-        for i in range(len(pairings)):
-            if i % half == 0 and i > 0:
+        current_round_pairings = [pairings[0]]
+        for i in range(1, len(pairings)):
+            if i % half == 0:
                 round += 1
                 self.pairings.append(current_round_pairings)
                 current_round_pairings = []
             current_round_pairings.append(pairings[i])
-
+        self.pairings.append(current_round_pairings)
     def print_pairings(self) -> None:
         for i in range(len(self.pairings)):
             print("--------------")
-            print(f"Round {i+1}")
-            print()
+            print(f"Round {i + 1}\n")
             for pair in self.pairings[i]:
                 print(f"{pair[0].name} - {pair[1].name}")
