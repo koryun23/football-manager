@@ -63,6 +63,7 @@ class Tournament:
                 current_round_pairings = []
             current_round_pairings.append(pairings[i])
         self.pairings.append(current_round_pairings)
+
     def print_pairings(self) -> None:
         for i in range(len(self.pairings)):
             print("--------------")

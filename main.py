@@ -1,5 +1,3 @@
-from threading import Thread
-
 from game import Game
 from game_data import GameData
 from load_data import *
@@ -47,13 +45,17 @@ def load_new_game(team1_name, team2_name, tournament_name):
 
     return game
 
+
 list_of_game_data = []
+
+
 def run_game(game):
     game.reset_origin_positions()
     while game.minute <= 90:
         # graphics()
         game.play()
     list_of_game_data.append(GameData(game))
+
 
 def main():
     epl = load_league("Premier League")
@@ -76,16 +78,22 @@ def main():
             row.set_goals_scored(row.get_goals_scored() + results[i][0])
             row.set_goals_conceded(row.get_goals_conceded() + results[i][1])
             row.set_matches_played(row.get_matches_played() + 1)
-            if results[i][0] > results[i][1]: row.set_matches_won(row.get_matches_won() + 1)
-            elif results[i][0] < results[i][1]: row.set_matches_lost(row.get_matches_lost() + 1)
-            else: row.set_matches_drawn(row.get_matches_drawn() + 1)
+            if results[i][0] > results[i][1]:
+                row.set_matches_won(row.get_matches_won() + 1)
+            elif results[i][0] < results[i][1]:
+                row.set_matches_lost(row.get_matches_lost() + 1)
+            else:
+                row.set_matches_drawn(row.get_matches_drawn() + 1)
             row = epl.get_row_by_club_name(pairings_for_first_round[i][1])
             row.set_goals_scored(results[i][1])
             row.set_goals_conceded(results[i][0])
             row.set_matches_played(row.get_matches_played() + 1)
-            if results[i][0] < results[i][1]: row.set_matches_won(row.get_matches_won() + 1)
-            elif results[i][0] > results[i][1]: row.set_matches_lost(row.get_matches_lost() + 1)
-            else: row.set_matches_drawn(row.get_matches_drawn() + 1)
+            if results[i][0] < results[i][1]:
+                row.set_matches_won(row.get_matches_won() + 1)
+            elif results[i][0] > results[i][1]:
+                row.set_matches_lost(row.get_matches_lost() + 1)
+            else:
+                row.set_matches_drawn(row.get_matches_drawn() + 1)
             winning_side = None
             if results[i][0] > results[i][1]:
                 winning_side = pairings_for_first_round[i][0]
@@ -97,9 +105,11 @@ def main():
                         row.set_points(row.get_points() + 3)
             else:
                 for row in epl.standings:
-                    if pairings_for_first_round[i][0] == row.get_club() or pairings_for_first_round[i][1] == row.get_club():
+                    if pairings_for_first_round[i][0] == row.get_club() or pairings_for_first_round[i][
+                        1] == row.get_club():
                         row.set_points(row.get_points() + 1)
-    epl.standings.sort(key=lambda standing_row: (-standing_row.get_points(), -standing_row.get_goals_scored(), -standing_row.get_goals_difference()))
+    epl.standings.sort(key=lambda standing_row: (
+    -standing_row.get_points(), -standing_row.get_goals_scored(), -standing_row.get_goals_difference()))
     print("-------------------------------------------------------------")
     epl.print_standings()
 
