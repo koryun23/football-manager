@@ -36,8 +36,25 @@ class Tournament:
         matches_drawn_col = "D"
         print(
             f"{team_col}|{points_col} |{goals_scored_col}{(self.goals_scored_max_length()-2)*' '}|{goals_conceded_col}{(self.goals_conceded_max_length()-2)*' '}|{matches_played_col}|{matches_won_col}|{matches_lost_col}|{matches_drawn_col}")
+        goals_scored_max_length = self.goals_scored_max_length()
+        goals_conceded_max_length = self.goals_conceded_max_length()
+        clubs_max_length = Tournament.club_max_length(self.clubs)
+        points_max_length = self.points_max_length()
         for row in self.standings:
-            print(f"{row.get_club().name}{(Tournament.club_max_length(self.clubs) - len(row.get_club().name)) * ' '}|{row.get_points()}{(self.points_max_length()-row.get_points())*' '}|{row.get_goals_scored()}{(self.goals_scored_max_length()-row.get_goals_scored())*' '}|{row.get_goals_conceded()}{(self.goals_conceded_max_length()-row.get_goals_conceded())*' '}|{row.get_matches_played()}|{row.get_matches_won()}|{row.get_matches_lost()}|{row.get_matches_drawn()}")
+            row_points_length = 3 if row.get_points() >= 100 else 2 if row.get_points() >= 10 else 1
+            goals_scored_length = 3 if row.get_goals_scored() >= 100 else 2 if row.get_goals_scored() >= 10 else 1
+            goals_conceded_length = 3 if row.get_goals_conceded() >= 100 else 2 if row.get_goals_conceded() >= 10 else 1
+
+            goals_scored_string = str(row.get_goals_scored()) + (goals_scored_max_length - goals_scored_length) * " "
+            goals_conceded_string = str(row.get_goals_conceded()) + (goals_conceded_max_length - goals_conceded_length) * " "
+            club_string = row.get_club().name + (clubs_max_length - len(row.get_club().name)) * " "
+            points_string = str(row.get_points()) + (points_max_length - row_points_length) * " "
+            matches_played_string = str(row.get_matches_played())
+            matches_won_string = str(row.get_matches_won())
+            matches_lost_string = str(row.get_matches_lost())
+            matches_drawn_string = str(row.get_matches_drawn())
+            print(f"{club_string}|{points_string}|{goals_scored_string}|{goals_conceded_string}|{matches_played_string}|{matches_won_string}|{matches_lost_string}|{matches_drawn_string}")
+            #print(f"{row.get_club().name}{(Tournament.club_max_length(self.clubs) - len(row.get_club().name)) * ' '}|{row.get_points()}{(self.points_max_length()-row.get_points())*' '}|{row.get_goals_scored()}{(self.goals_scored_max_length()-row.get_goals_scored())*' '}|{row.get_goals_conceded()}{(self.goals_conceded_max_length()-row.get_goals_conceded())*' '}|{row.get_matches_played()}|{row.get_matches_won()}|{row.get_matches_lost()}|{row.get_matches_drawn()}")
 
     def generate_pairings(self):
         half_len = len(self.clubs) // 2
