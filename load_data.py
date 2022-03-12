@@ -25,7 +25,7 @@ def load_teams_from_json(tournament_name):
     return league_clubs  # list of maps containing information about teams in a league
 
 
-def get_clubs_array():  # returns an array consisting of Club objects having a name and empty player list
+def get_clubs_array_epl():  # returns an array consisting of Club objects having a name and empty player list
     club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "tottenham-hotspur", "leicester-city",
                   "arsenal", "west-ham-united",
                   "everton", "wolverhampton-wanderers", "aston-villa", "leeds-united", "newcastle-united",
@@ -38,9 +38,27 @@ def get_clubs_array():  # returns an array consisting of Club objects having a n
     return clubs
 
 
+def get_clubs_array_la_liga():
+    club_names = ["real-madrid", "atletico-madrid", "fc-barcelona", "sevilla-fc", "villarreal-cf", "real-sociedad", "athletic-club-de-bilbao",
+                     "real-betis", "valencia-cf", "levante-ud", "granada-cf", "rc-celta", "ca-osasuna", "rcd-espanyol", "getafe-cf",
+                     "elche-cf", "rcd-mallorca", "cadiz-cf", "rayo-vallecano", "deportivo-alaves"]
+    clubs = []
+    for club in club_names:
+        clubs.append(Club(filter_club_name(club), [], ""))
+
+    return clubs
+
+
+def get_clubs_array(tournament_name):
+    if tournament_name == "La Liga":
+        return get_clubs_array_la_liga()
+    elif tournament_name == "Premier League":
+        return get_clubs_array_epl()
+
+
 def load_league(tournament_name):  # creates and returns a new tournament
     teams_as_list_of_maps = load_teams_from_json(tournament_name)
-    clubs_array = get_clubs_array()
+    clubs_array = get_clubs_array(tournament_name)
     # will perhaps need to fill the player list of every club in the current tournament here
     for j in range(len(clubs_array)):
         current_team = None

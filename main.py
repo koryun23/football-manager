@@ -58,7 +58,7 @@ def run_game(game):
 
 
 def main():
-    epl = load_league("Premier League")
+    epl = load_league("La Liga")
     # main loop
     for j in range(len(epl.pairings)):
         results = []
