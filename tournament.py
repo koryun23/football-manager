@@ -26,7 +26,7 @@ class Tournament:
                 return row
 
     def print_standings(self) -> None:
-        team_col = "team" + (Tournament.club_max_length(self.clubs) - 4) * " "
+        team_col = "TEAM" + (Tournament.club_max_length(self.clubs) - 4) * " "
         points_col = "P"
         goals_scored_col = "GS"
         goals_conceded_col = "GC"
