@@ -538,5 +538,5 @@ class Game:
                         self.follow_attacking_position(player)
         self.game_events.append(f"{self.team1_score} - {self.team2_score}")
         print(f"{self.team1_score} - {self.team2_score}")
-        self.minute = self.actions//4
+        self.minute = self.actions//10
 
