@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 all_data = dict()
 all_data["Premier League"] = {"clubs": []}
 all_data["La Liga"] = {"clubs": []}
+all_data["Bundesliga"] = {"clubs": []}
 #all_data["clubs"] = []
 
 def get_data(tournament_name, team):
@@ -76,11 +77,18 @@ epl_club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea"
 la_liga_club_names = ["real-madrid", "atletico-madrid", "fc-barcelona", "sevilla-fc", "villarreal-cf", "real-sociedad", "athletic-club-de-bilbao",
                      "real-betis", "valencia-cf", "levante-ud", "granada-cf", "rc-celta", "ca-osasuna", "rcd-espanyol", "getafe-cf",
                      "elche-cf", "rcd-mallorca", "cadiz-cf", "rayo-vallecano", "deportivo-alaves"]
+
+bundesliga_club_names = ["fc-bayern-munchen", "borussia-dortmund", "rb-leipzig", "borussia-monchengladbach", "vfl-wolfsburg", "bayer-04-leverkusen",
+                        "eintracht-frankfurt", "tsg-1899-hoffenheim", "hertha-bsc", "1-fc-union-berlin", "fc-augsburg", "sc-freiburg", "vfb-stuttgart",
+                        "1-fc-koln", "1-fsv-mainz-05", "dsc-arminia-bielefeld", "vfl-bochum-1848", "spvgg-greuther-furth"]
 for club in epl_club_names:
     get_data("Premier League", club)
 
 for club in la_liga_club_names:
     get_data("La Liga", club)
+
+for club in bundesliga_club_names:
+    get_data("Bundesliga", club)
 
 with open("all_team_data.json", "w") as file:
     json.dump(all_data, file)

@@ -49,11 +49,24 @@ def get_clubs_array_la_liga():
     return clubs
 
 
+def get_clubs_array_bundesliga():
+    club_names = ["fc-bayern-munchen", "borussia-dortmund", "rb-leipzig", "borussia-monchengladbach", "vfl-wolfsburg", "bayer-04-leverkusen",
+                        "eintracht-frankfurt", "tsg-1899-hoffenheim", "hertha-bsc", "1-fc-union-berlin", "fc-augsburg", "sc-freiburg", "vfb-stuttgart",
+                        "1-fc-koln", "1-fsv-mainz-05", "dsc-arminia-bielefeld", "vfl-bochum-1848", "spvgg-greuther-furth"]
+    clubs = []
+    for club in club_names:
+        clubs.append(Club(filter_club_name(club), [], ""))
+
+    return clubs
+
+
 def get_clubs_array(tournament_name):
     if tournament_name == "La Liga":
         return get_clubs_array_la_liga()
     elif tournament_name == "Premier League":
         return get_clubs_array_epl()
+    elif tournament_name == "Bundesliga":
+        return get_clubs_array_bundesliga()
 
 
 def load_league(tournament_name):  # creates and returns a new tournament

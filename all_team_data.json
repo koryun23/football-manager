@@ -9061,5 +9061,3942 @@
         ]
       }
     ]
+  },
+  "Bundesliga": {
+    "clubs": [
+      {
+        "name": "Fc Bayern Munchen",
+        "player_list": [
+          {
+            "name": "R. Lewandowski",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cf",
+            "skill": 92
+          },
+          {
+            "name": "Manuel Neuer",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "gk",
+            "skill": 90
+          },
+          {
+            "name": "Joshua Kimmich",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "dm",
+            "skill": 89
+          },
+          {
+            "name": "Leon Goretzka",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cm",
+            "skill": 87
+          },
+          {
+            "name": "Thomas M\u00fcller",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "am",
+            "skill": 87
+          },
+          {
+            "name": "Kingsley Coman",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "lm",
+            "skill": 86
+          },
+          {
+            "name": "Serge Gnabry",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "rm",
+            "skill": 85
+          },
+          {
+            "name": "Leroy San\u00e9",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cf",
+            "skill": 84
+          },
+          {
+            "name": "Marcel Sabitzer",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cm",
+            "skill": 84
+          },
+          {
+            "name": "L. Hern\u00e1ndez",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cb",
+            "skill": 83
+          },
+          {
+            "name": "Dayot Upamecano",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "Alphonso Davies",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "lb",
+            "skill": 82
+          },
+          {
+            "name": "Niklas S\u00fcle",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "C. Tolisso",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cm",
+            "skill": 80
+          },
+          {
+            "name": "Benjamin Pavard",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "rb",
+            "skill": 79
+          },
+          {
+            "name": "Marc Roca",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cm",
+            "skill": 77
+          },
+          {
+            "name": "E. Choupo-Moting",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cf",
+            "skill": 76
+          },
+          {
+            "name": "Jamal Musiala",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "am",
+            "skill": 75
+          },
+          {
+            "name": "Bouna Sarr",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "rb",
+            "skill": 75
+          },
+          {
+            "name": "Sven Ulreich",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "gk",
+            "skill": 75
+          },
+          {
+            "name": "Omar Richards",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "M. Cuisance",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Tanguy Nianzou",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "C. Fr\u00fcchtl",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "gk",
+            "skill": 66
+          },
+          {
+            "name": "O. Batista Meier",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "am",
+            "skill": 65
+          },
+          {
+            "name": "J. Stani\u0161i\u0107",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "rb",
+            "skill": 64
+          },
+          {
+            "name": "Taylor Booth",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "am",
+            "skill": 62
+          },
+          {
+            "name": "Malik Tillman",
+            "club": "Fc Bayern Munchen",
+            "age": 25,
+            "position": "cf",
+            "skill": 61
+          }
+        ]
+      },
+      {
+        "name": "Borussia Dortmund",
+        "player_list": [
+          {
+            "name": "Erling Haaland",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cf",
+            "skill": 88
+          },
+          {
+            "name": "Mats Hummels",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cb",
+            "skill": 86
+          },
+          {
+            "name": "Marco Reus",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "am",
+            "skill": 85
+          },
+          {
+            "name": "R. Guerreiro",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "lb",
+            "skill": 84
+          },
+          {
+            "name": "Axel Witsel",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "dm",
+            "skill": 83
+          },
+          {
+            "name": "Emre Can",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "dm",
+            "skill": 82
+          },
+          {
+            "name": "Thorgan Hazard",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "lm",
+            "skill": 82
+          },
+          {
+            "name": "Julian Brandt",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "am",
+            "skill": 81
+          },
+          {
+            "name": "Donyell Malen",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cf",
+            "skill": 80
+          },
+          {
+            "name": "Manuel Akanji",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cb",
+            "skill": 80
+          },
+          {
+            "name": "Roman B\u00fcrki",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "gk",
+            "skill": 80
+          },
+          {
+            "name": "Jude Bellingham",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cm",
+            "skill": 79
+          },
+          {
+            "name": "Gregor Kobel",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "gk",
+            "skill": 79
+          },
+          {
+            "name": "Mahmoud Dahoud",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cm",
+            "skill": 79
+          },
+          {
+            "name": "D. Zagadou",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "Marwin Hitz",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "gk",
+            "skill": 78
+          },
+          {
+            "name": "Giovanni Reyna",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "am",
+            "skill": 77
+          },
+          {
+            "name": "Thomas Meunier",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "Nico Schulz",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "lb",
+            "skill": 77
+          },
+          {
+            "name": "M. Pongra\u010di\u0107",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Marius Wolf",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "rm",
+            "skill": 75
+          },
+          {
+            "name": "Mateu Morey",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "rb",
+            "skill": 73
+          },
+          {
+            "name": "Reinier",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "am",
+            "skill": 71
+          },
+          {
+            "name": "M. Schmelzer",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Felix Passlack",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "rb",
+            "skill": 70
+          },
+          {
+            "name": "Ansgar Knauff",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "rm",
+            "skill": 67
+          },
+          {
+            "name": "Steffen Tigges",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cf",
+            "skill": 66
+          },
+          {
+            "name": "Tobias Raschl",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "am",
+            "skill": 65
+          },
+          {
+            "name": "S. Coulibaly",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cb",
+            "skill": 61
+          },
+          {
+            "name": "Nnamdi Collins",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "cb",
+            "skill": 60
+          },
+          {
+            "name": "G. G\u00fcrp\u00fcz",
+            "club": "Borussia Dortmund",
+            "age": 25,
+            "position": "am",
+            "skill": 57
+          }
+        ]
+      },
+      {
+        "name": "Rb Leipzig",
+        "player_list": [
+          {
+            "name": "P\u00e9ter Gul\u00e1csi",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "gk",
+            "skill": 85
+          },
+          {
+            "name": "Andr\u00e9 Silva",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cf",
+            "skill": 84
+          },
+          {
+            "name": "Angeli\u00f1o",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "lm",
+            "skill": 83
+          },
+          {
+            "name": "Dani Olmo",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "am",
+            "skill": 82
+          },
+          {
+            "name": "C. Nkunku",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "am",
+            "skill": 81
+          },
+          {
+            "name": "Konrad Laimer",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "rb",
+            "skill": 81
+          },
+          {
+            "name": "Nordi Mukiele",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cb",
+            "skill": 81
+          },
+          {
+            "name": "Willi Orban",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cb",
+            "skill": 81
+          },
+          {
+            "name": "Kevin Kampl",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cm",
+            "skill": 81
+          },
+          {
+            "name": "Emil Forsberg",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "am",
+            "skill": 81
+          },
+          {
+            "name": "L. Klostermann",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "rb",
+            "skill": 80
+          },
+          {
+            "name": "Amadou Haidara",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cm",
+            "skill": 78
+          },
+          {
+            "name": "M. Halstenberg",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "D. Szoboszlai",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "am",
+            "skill": 77
+          },
+          {
+            "name": "Tyler Adams",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "dm",
+            "skill": 77
+          },
+          {
+            "name": "Yussuf Poulsen",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "B. Henrichs",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "rb",
+            "skill": 76
+          },
+          {
+            "name": "Jo\u0161ko Gvardiol",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Mohamed Simakan",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "M. Saracchi",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "lm",
+            "skill": 74
+          },
+          {
+            "name": "Ilaix Moriba",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Brian Brobbey",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "P. Tschauner",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "gk",
+            "skill": 71
+          },
+          {
+            "name": "Josep Mart\u00ednez",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "gk",
+            "skill": 68
+          },
+          {
+            "name": "Robin Friedrich",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cf",
+            "skill": 61
+          },
+          {
+            "name": "Hugo Novoa",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cf",
+            "skill": 60
+          },
+          {
+            "name": "Eric Uhlmann",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "dm",
+            "skill": 59
+          },
+          {
+            "name": "Julius Pfennig",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cb",
+            "skill": 59
+          },
+          {
+            "name": "Joscha Wosz",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "am",
+            "skill": 59
+          },
+          {
+            "name": "Mehmet Ibrahimi",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "am",
+            "skill": 59
+          },
+          {
+            "name": "Ben Klefisch",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "dm",
+            "skill": 58
+          },
+          {
+            "name": "David Lelle",
+            "club": "Rb Leipzig",
+            "age": 25,
+            "position": "cb",
+            "skill": 58
+          }
+        ]
+      },
+      {
+        "name": "Borussia Monchengladbach",
+        "player_list": [
+          {
+            "name": "Yann Sommer",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "gk",
+            "skill": 85
+          },
+          {
+            "name": "Matthias Ginter",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cb",
+            "skill": 84
+          },
+          {
+            "name": "Florian Neuhaus",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cm",
+            "skill": 82
+          },
+          {
+            "name": "Lars Stindl",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "am",
+            "skill": 82
+          },
+          {
+            "name": "Denis Zakaria",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cb",
+            "skill": 80
+          },
+          {
+            "name": "Stefan Lainer",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "rb",
+            "skill": 80
+          },
+          {
+            "name": "Marcus Thuram",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "Nico Elvedi",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cb",
+            "skill": 79
+          },
+          {
+            "name": "Ramy Bensebaini",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cb",
+            "skill": 79
+          },
+          {
+            "name": "Alassane Plea",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "Jonas Hofmann",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "rm",
+            "skill": 79
+          },
+          {
+            "name": "C. Kramer",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "dm",
+            "skill": 79
+          },
+          {
+            "name": "Breel Embolo",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "P. Herrmann",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "rm",
+            "skill": 74
+          },
+          {
+            "name": "Hannes Wolf",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "L\u00e1szl\u00f3 B\u00e9nes",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Tony Jantschke",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Tobias Sippel",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "gk",
+            "skill": 73
+          },
+          {
+            "name": "Jordan Beyer",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "K. Kon\u00e9",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "am",
+            "skill": 69
+          },
+          {
+            "name": "Luca Netz",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "lb",
+            "skill": 68
+          },
+          {
+            "name": "Jan Olschowsky",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "gk",
+            "skill": 63
+          },
+          {
+            "name": "Jordi Bongard",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cb",
+            "skill": 63
+          },
+          {
+            "name": "Mika Schroers",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cf",
+            "skill": 63
+          },
+          {
+            "name": "S. Christiansen",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cm",
+            "skill": 63
+          },
+          {
+            "name": "Joe Scally",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "rb",
+            "skill": 62
+          },
+          {
+            "name": "Conor No\u00df",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "am",
+            "skill": 62
+          },
+          {
+            "name": "Jonas Kersken",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "gk",
+            "skill": 62
+          },
+          {
+            "name": "Kaan Kurt",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "rb",
+            "skill": 62
+          },
+          {
+            "name": "M. Doucour\u00e9",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cb",
+            "skill": 62
+          },
+          {
+            "name": "Keanan Bennetts",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "lm",
+            "skill": 62
+          },
+          {
+            "name": "Jacob Italiano",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "rm",
+            "skill": 61
+          },
+          {
+            "name": "Torben M\u00fcsel",
+            "club": "Borussia Monchengladbach",
+            "age": 25,
+            "position": "cf",
+            "skill": 61
+          }
+        ]
+      },
+      {
+        "name": "Vfl Wolfsburg",
+        "player_list": [
+          {
+            "name": "Koen Casteels",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 86
+          },
+          {
+            "name": "Wout Weghorst",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 83
+          },
+          {
+            "name": "M. Arnold",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cm",
+            "skill": 81
+          },
+          {
+            "name": "Ridle Baku",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "rm",
+            "skill": 80
+          },
+          {
+            "name": "Xaver Schlager",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "dm",
+            "skill": 80
+          },
+          {
+            "name": "Maxence Lacroix",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 79
+          },
+          {
+            "name": "Kevin Mbabu",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "rb",
+            "skill": 79
+          },
+          {
+            "name": "John Brooks",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "Renato Steffen",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "lm",
+            "skill": 78
+          },
+          {
+            "name": "L. Waldschmidt",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "am",
+            "skill": 77
+          },
+          {
+            "name": "Y. Gerhardt",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cm",
+            "skill": 77
+          },
+          {
+            "name": "M. Philipp",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "am",
+            "skill": 77
+          },
+          {
+            "name": "J. Roussillon",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "lb",
+            "skill": 77
+          },
+          {
+            "name": "J. Guilavogui",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "S. Bornauw",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "Dodi Luk\u00e9bakio",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "am",
+            "skill": 76
+          },
+          {
+            "name": "Paulo Ot\u00e1vio",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "lb",
+            "skill": 76
+          },
+          {
+            "name": "Lukas Nmecha",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Admir Mehmedi",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Pavao Pervan",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 74
+          },
+          {
+            "name": "William",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "rb",
+            "skill": 73
+          },
+          {
+            "name": "Daniel Ginczek",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "M. van de Ven",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 68
+          },
+          {
+            "name": "Bartosz Bia\u0142ek",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 68
+          },
+          {
+            "name": "Aster Vranckx",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cm",
+            "skill": 67
+          },
+          {
+            "name": "M. Stefaniak",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "am",
+            "skill": 65
+          },
+          {
+            "name": "A. Garcia MacNulty",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 63
+          },
+          {
+            "name": "Felix Nmecha",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "am",
+            "skill": 62
+          },
+          {
+            "name": "Niklas Klinger",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 62
+          },
+          {
+            "name": "Jannis Lang",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 60
+          },
+          {
+            "name": "Philipp Schulze",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 58
+          },
+          {
+            "name": "G. Walther",
+            "club": "Vfl Wolfsburg",
+            "age": 25,
+            "position": "lm",
+            "skill": 57
+          }
+        ]
+      },
+      {
+        "name": "Bayer 04 Leverkusen",
+        "player_list": [
+          {
+            "name": "L. Hr\u00e1deck\u00fd",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "gk",
+            "skill": 83
+          },
+          {
+            "name": "Edmond Tapsoba",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cb",
+            "skill": 81
+          },
+          {
+            "name": "Moussa Diaby",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "lm",
+            "skill": 81
+          },
+          {
+            "name": "C. Ar\u00e1nguiz",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "dm",
+            "skill": 80
+          },
+          {
+            "name": "Patrik Schick",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "Kerem Demirbay",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cm",
+            "skill": 79
+          },
+          {
+            "name": "Karim Bellarabi",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "rw",
+            "skill": 79
+          },
+          {
+            "name": "Florian Wirtz",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "am",
+            "skill": 78
+          },
+          {
+            "name": "Jonathan Tah",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "Andrey Lunev",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "gk",
+            "skill": 78
+          },
+          {
+            "name": "J. Baumgartlinger",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "dm",
+            "skill": 78
+          },
+          {
+            "name": "Lucas Alario",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cf",
+            "skill": 78
+          },
+          {
+            "name": "E. Palacios",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cm",
+            "skill": 77
+          },
+          {
+            "name": "Nadiem Amiri",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "am",
+            "skill": 77
+          },
+          {
+            "name": "Robert Andrich",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cm",
+            "skill": 76
+          },
+          {
+            "name": "D. Sinkgraven",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cm",
+            "skill": 75
+          },
+          {
+            "name": "Mitchel Bakker",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "O. Kossounou",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "J. Frimpong",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "rm",
+            "skill": 73
+          },
+          {
+            "name": "Paulinho",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "T. Fosu-Mensah",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "P. Retsos",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Amine Adli",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "am",
+            "skill": 71
+          },
+          {
+            "name": "Piero Hincapi\u00e9",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "Niklas Lomb",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "gk",
+            "skill": 66
+          },
+          {
+            "name": "Emrehan Gedikli",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cf",
+            "skill": 60
+          },
+          {
+            "name": "Sadik Fofana",
+            "club": "Bayer 04 Leverkusen",
+            "age": 25,
+            "position": "cb",
+            "skill": 59
+          }
+        ]
+      },
+      {
+        "name": "Eintracht Frankfurt",
+        "player_list": [
+          {
+            "name": "Filip Kosti\u0107",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "lm",
+            "skill": 84
+          },
+          {
+            "name": "Kevin Trapp",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "gk",
+            "skill": 82
+          },
+          {
+            "name": "M. Hinteregger",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cb",
+            "skill": 80
+          },
+          {
+            "name": "Daichi Kamada",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "am",
+            "skill": 79
+          },
+          {
+            "name": "R. Borr\u00e9",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cf",
+            "skill": 78
+          },
+          {
+            "name": "Amin Younes",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "am",
+            "skill": 78
+          },
+          {
+            "name": "Evan Ndicka",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "Djibril Sow",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "dm",
+            "skill": 77
+          },
+          {
+            "name": "Sebastian Rode",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "dm",
+            "skill": 77
+          },
+          {
+            "name": "Makoto Hasebe",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "dm",
+            "skill": 77
+          },
+          {
+            "name": "J. Hauge",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "rm",
+            "skill": 76
+          },
+          {
+            "name": "Danny da Costa",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "rb",
+            "skill": 76
+          },
+          {
+            "name": "Gon\u00e7alo Paci\u00eancia",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "Sam Lammers",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Almamy Tour\u00e9",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "Erik Durm",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "Aymen Barkok",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "K. Jaki\u0107",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "dm",
+            "skill": 73
+          },
+          {
+            "name": "C. Lenz",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "lb",
+            "skill": 73
+          },
+          {
+            "name": "Timmy Chandler",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Stefan Ilsanker",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Tuta",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "J. Lindstr\u00f8m",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "am",
+            "skill": 71
+          },
+          {
+            "name": "Ajdin Hrusti\u0107",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "am",
+            "skill": 70
+          },
+          {
+            "name": "Ragnar Ache",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "cf",
+            "skill": 68
+          },
+          {
+            "name": "Jens Grahl",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "gk",
+            "skill": 66
+          },
+          {
+            "name": "Fabio Blanco",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "rm",
+            "skill": 62
+          },
+          {
+            "name": "Diant Ramaj",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "gk",
+            "skill": 62
+          },
+          {
+            "name": "Martin Pe\u010dar",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "am",
+            "skill": 57
+          },
+          {
+            "name": "Jan Schr\u00f6der",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "lb",
+            "skill": 56
+          },
+          {
+            "name": "G. Sch\u00e4fer",
+            "club": "Eintracht Frankfurt",
+            "age": 25,
+            "position": "lm",
+            "skill": 56
+          }
+        ]
+      },
+      {
+        "name": "Tsg 1899 Hoffenheim",
+        "player_list": [
+          {
+            "name": "A. Kramari\u0107",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cf",
+            "skill": 83
+          },
+          {
+            "name": "Oliver Baumann",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "gk",
+            "skill": 82
+          },
+          {
+            "name": "C. Baumgartner",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "am",
+            "skill": 78
+          },
+          {
+            "name": "F. Grillitsch",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cm",
+            "skill": 78
+          },
+          {
+            "name": "P. Kade\u0159\u00e1bek",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "rb",
+            "skill": 78
+          },
+          {
+            "name": "Ihlas Bebou",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "rw",
+            "skill": 77
+          },
+          {
+            "name": "D. Samass\u00e9kou",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "dm",
+            "skill": 76
+          },
+          {
+            "name": "Sebastian Rudy",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cm",
+            "skill": 76
+          },
+          {
+            "name": "Kevin Vogt",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "dm",
+            "skill": 76
+          },
+          {
+            "name": "Munas Dabbur",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cf",
+            "skill": 76
+          },
+          {
+            "name": "Stefan Posch",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Robert Skov",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "lm",
+            "skill": 75
+          },
+          {
+            "name": "E. Bi\u010dak\u010di\u0107",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "B. H\u00fcbner",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Kevin Akpoguma",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Sargis Adamyan",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "J. Bruun Larsen",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "David Raum",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "lb",
+            "skill": 73
+          },
+          {
+            "name": "Dennis Geiger",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "H. Nordtveit",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Philipp Pentke",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "gk",
+            "skill": 73
+          },
+          {
+            "name": "M. Ga\u0107inovi\u0107",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cm",
+            "skill": 72
+          },
+          {
+            "name": "Chris Richards",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "K. Adams Nuhu",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "Joshua Brenet",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "lb",
+            "skill": 70
+          },
+          {
+            "name": "Angelo Stiller",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cm",
+            "skill": 67
+          },
+          {
+            "name": "Marco John",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "lb",
+            "skill": 67
+          },
+          {
+            "name": "G. Rutter",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cf",
+            "skill": 65
+          },
+          {
+            "name": "Melayro Bogarde",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "dm",
+            "skill": 64
+          },
+          {
+            "name": "Luca Philipp",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "gk",
+            "skill": 60
+          },
+          {
+            "name": "Noah K\u00f6nig",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 59
+          },
+          {
+            "name": "Fabian R\u00fcth",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "cb",
+            "skill": 59
+          },
+          {
+            "name": "Nahuel Noll",
+            "club": "Tsg 1899 Hoffenheim",
+            "age": 25,
+            "position": "gk",
+            "skill": 55
+          }
+        ]
+      },
+      {
+        "name": "Hertha Bsc",
+        "player_list": [
+          {
+            "name": "K. Boateng",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "am",
+            "skill": 78
+          },
+          {
+            "name": "Dedryck Boyata",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "A. Schwolow",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "gk",
+            "skill": 77
+          },
+          {
+            "name": "Stevan Joveti\u0107",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Suat Serdar",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cm",
+            "skill": 76
+          },
+          {
+            "name": "Lucas Tousart",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "Niklas Stark",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "K. Pi\u0105tek",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cf",
+            "skill": 76
+          },
+          {
+            "name": "V. Darida",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cm",
+            "skill": 76
+          },
+          {
+            "name": "R. Jarstein",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "gk",
+            "skill": 76
+          },
+          {
+            "name": "M. Mittelst\u00e4dt",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "D. Zeefuik",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "S. Ascac\u00edbar",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "dm",
+            "skill": 74
+          },
+          {
+            "name": "Marco Richter",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "rm",
+            "skill": 74
+          },
+          {
+            "name": "M. Plattenhardt",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "Ishak Belfodil",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Peter Pekar\u00edk",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "J. Torunarigha",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Myziane Maolida",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "am",
+            "skill": 71
+          },
+          {
+            "name": "Davie Selke",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "J. Ekkelenkamp",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "am",
+            "skill": 70
+          },
+          {
+            "name": "O. Christensen",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "gk",
+            "skill": 70
+          },
+          {
+            "name": "Lukas Kl\u00fcnter",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "rb",
+            "skill": 70
+          },
+          {
+            "name": "M\u00e1rton D\u00e1rdai",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "Nils K\u00f6rber",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "gk",
+            "skill": 68
+          },
+          {
+            "name": "D. Jastrzembski",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "lm",
+            "skill": 65
+          },
+          {
+            "name": "Linus Gechter",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cb",
+            "skill": 61
+          },
+          {
+            "name": "F. Palmowski",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "gk",
+            "skill": 61
+          },
+          {
+            "name": "Maurice \u010covi\u0107",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "am",
+            "skill": 60
+          },
+          {
+            "name": "J. Michelbrink",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "am",
+            "skill": 59
+          },
+          {
+            "name": "R. Werthm\u00fcller",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "cf",
+            "skill": 58
+          },
+          {
+            "name": "Julian Albrecht",
+            "club": "Hertha Bsc",
+            "age": 25,
+            "position": "am",
+            "skill": 57
+          }
+        ]
+      },
+      {
+        "name": "1 Fc Union Berlin",
+        "player_list": [
+          {
+            "name": "Max Kruse",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cf",
+            "skill": 81
+          },
+          {
+            "name": "M. Friedrich",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "C. Trimmel",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "Robin Knoche",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "Andreas Luthe",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "gk",
+            "skill": 76
+          },
+          {
+            "name": "Taiwo Awoniyi",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Rani Khedira",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Genki Haraguchi",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "am",
+            "skill": 74
+          },
+          {
+            "name": "F. R\u00f8nnow",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "gk",
+            "skill": 74
+          },
+          {
+            "name": "Kevin M\u00f6hwald",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "Timo Baumgartl",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Grischa Pr\u00f6mel",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "L. \u00d6ztunal\u0131",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "rm",
+            "skill": 72
+          },
+          {
+            "name": "A. Voglsammer",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cf",
+            "skill": 72
+          },
+          {
+            "name": "Bastian Oczipka",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "lb",
+            "skill": 71
+          },
+          {
+            "name": "Pawe\u0142 Wszo\u0142ek",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "rm",
+            "skill": 71
+          },
+          {
+            "name": "Kevin Behrens",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "Paul Jaeckel",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "R. van Drongelen",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "Cedric Teuchert",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cf",
+            "skill": 70
+          },
+          {
+            "name": "Sheraldo Becker",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "rw",
+            "skill": 70
+          },
+          {
+            "name": "Anthony Ujah",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cf",
+            "skill": 70
+          },
+          {
+            "name": "Keita Endo",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "rm",
+            "skill": 69
+          },
+          {
+            "name": "N. Gie\u00dfelmann",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "lb",
+            "skill": 69
+          },
+          {
+            "name": "T. Puchacz",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "lb",
+            "skill": 68
+          },
+          {
+            "name": "Julian Ryerson",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "rb",
+            "skill": 68
+          },
+          {
+            "name": "S. Abdullahi",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cf",
+            "skill": 67
+          },
+          {
+            "name": "Jakob Busk",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "gk",
+            "skill": 67
+          },
+          {
+            "name": "Laurenz Dehl",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "am",
+            "skill": 62
+          },
+          {
+            "name": "Fabio Schneider",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cm",
+            "skill": 58
+          },
+          {
+            "name": "Mathis Bruns",
+            "club": "1 Fc Union Berlin",
+            "age": 25,
+            "position": "cb",
+            "skill": 57
+          }
+        ]
+      },
+      {
+        "name": "Fc Augsburg",
+        "player_list": [
+          {
+            "name": "R. Gikiewicz",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 79
+          },
+          {
+            "name": "Felix Uduokhai",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "D. Caligiuri",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "rm",
+            "skill": 77
+          },
+          {
+            "name": "J. Gouweleeuw",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "Ruben Vargas",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "rm",
+            "skill": 75
+          },
+          {
+            "name": "Niklas Dorsch",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "dm",
+            "skill": 75
+          },
+          {
+            "name": "Iago",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "lb",
+            "skill": 75
+          },
+          {
+            "name": "Andr\u00e9 Hahn",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "F. Niederlechner",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "Arne Maier",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cm",
+            "skill": 74
+          },
+          {
+            "name": "Tobias Strobl",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "dm",
+            "skill": 74
+          },
+          {
+            "name": "A. Finnbogason",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Carlos Gruezo",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "M. Gregoritsch",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 72
+          },
+          {
+            "name": "Robert Gumny",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "rb",
+            "skill": 71
+          },
+          {
+            "name": "Fredrik Jensen",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "am",
+            "skill": 71
+          },
+          {
+            "name": "R. Framberger",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "rb",
+            "skill": 71
+          },
+          {
+            "name": "Tom\u00e1\u0161 Koubek",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 71
+          },
+          {
+            "name": "Reece Oxford",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "Sergio C\u00f3rdova",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 70
+          },
+          {
+            "name": "N. Sarenren Bazee",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "rw",
+            "skill": 69
+          },
+          {
+            "name": "Jan Mor\u00e1vek",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "am",
+            "skill": 69
+          },
+          {
+            "name": "Mads Pedersen",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "lm",
+            "skill": 68
+          },
+          {
+            "name": "Andi Zeqiri",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 67
+          },
+          {
+            "name": "F. Winther",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 62
+          },
+          {
+            "name": "Tim Civeja",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cm",
+            "skill": 61
+          },
+          {
+            "name": "F. Schwarzholz",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "dm",
+            "skill": 60
+          },
+          {
+            "name": "Lasse G\u00fcnther",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 59
+          },
+          {
+            "name": "Daniel Klein",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 59
+          },
+          {
+            "name": "Dion Berisha",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "rm",
+            "skill": 58
+          },
+          {
+            "name": "Dominic Schmidt",
+            "club": "Fc Augsburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 58
+          }
+        ]
+      },
+      {
+        "name": "Sc Freiburg",
+        "player_list": [
+          {
+            "name": "C. G\u00fcnter",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "lb",
+            "skill": 79
+          },
+          {
+            "name": "Vincenzo Grifo",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "lm",
+            "skill": 79
+          },
+          {
+            "name": "Roland Sallai",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "rm",
+            "skill": 76
+          },
+          {
+            "name": "P. Lienhart",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "Jonathan Schmid",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "rb",
+            "skill": 76
+          },
+          {
+            "name": "M. Eggestein",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cm",
+            "skill": 75
+          },
+          {
+            "name": "E. Demirovi\u0107",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "D. Heintz",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "N. Schlotterbeck",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Janik Haberer",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "Manuel Gulde",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "K. Schlotterbeck",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Nicolas H\u00f6fler",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "Lukas K\u00fcbler",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "Lucas H\u00f6ler",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "Woo Yeong Jeong",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "rm",
+            "skill": 70
+          },
+          {
+            "name": "Benjamin Uphoff",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 70
+          },
+          {
+            "name": "Yannik Keitel",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "dm",
+            "skill": 65
+          },
+          {
+            "name": "Noah Wei\u00dfhaupt",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "am",
+            "skill": 63
+          },
+          {
+            "name": "Kevin Schade",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 63
+          },
+          {
+            "name": "Nishan Burkart",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cf",
+            "skill": 63
+          },
+          {
+            "name": "K. Ezekwem",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 63
+          },
+          {
+            "name": "K. Sildillia",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "cb",
+            "skill": 62
+          },
+          {
+            "name": "Noah Atubolu",
+            "club": "Sc Freiburg",
+            "age": 25,
+            "position": "gk",
+            "skill": 61
+          }
+        ]
+      },
+      {
+        "name": "Vfb Stuttgart",
+        "player_list": [
+          {
+            "name": "Wataru Endo",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "dm",
+            "skill": 78
+          },
+          {
+            "name": "Borna Sosa",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "lb",
+            "skill": 77
+          },
+          {
+            "name": "S. Kalajd\u017ei\u0107",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Florian M\u00fcller",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "gk",
+            "skill": 77
+          },
+          {
+            "name": "Orel Mangala",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cm",
+            "skill": 76
+          },
+          {
+            "name": "M. Kempf",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "Silas",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "Waldemar Anton",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "K. Mavropanos",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Chris F\u00fchrich",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "rm",
+            "skill": 73
+          },
+          {
+            "name": "Daniel Didavi",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "P. F\u00f6rster",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 72
+          },
+          {
+            "name": "Erik Thommy",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "rw",
+            "skill": 72
+          },
+          {
+            "name": "T. Coulibaly",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "lm",
+            "skill": 70
+          },
+          {
+            "name": "Omar Marmoush",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 70
+          },
+          {
+            "name": "Pascal Stenzel",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "dm",
+            "skill": 70
+          },
+          {
+            "name": "Atakan Karazor",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "Philipp Klement",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 70
+          },
+          {
+            "name": "Mateo Klimowicz",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 69
+          },
+          {
+            "name": "Fabian Bredlow",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "gk",
+            "skill": 68
+          },
+          {
+            "name": "H. Al Ghaddioui",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cf",
+            "skill": 68
+          },
+          {
+            "name": "Enzo Millot",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 67
+          },
+          {
+            "name": "Nikolas Nartey",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "rm",
+            "skill": 67
+          },
+          {
+            "name": "Roberto Massimo",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "rm",
+            "skill": 67
+          },
+          {
+            "name": "Clinton Mola",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "lb",
+            "skill": 66
+          },
+          {
+            "name": "Wahid Faghir",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cf",
+            "skill": 64
+          },
+          {
+            "name": "N. Ahamada",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 64
+          },
+          {
+            "name": "\u00d6mer Beyaz",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 63
+          },
+          {
+            "name": "Hiroki Ito",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "dm",
+            "skill": 62
+          },
+          {
+            "name": "Lilian Egloff",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "am",
+            "skill": 60
+          },
+          {
+            "name": "Momo Ciss\u00e9",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "rm",
+            "skill": 60
+          },
+          {
+            "name": "Jordan Meyer",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cb",
+            "skill": 60
+          },
+          {
+            "name": "Alou Kuol",
+            "club": "Vfb Stuttgart",
+            "age": 25,
+            "position": "cf",
+            "skill": 55
+          }
+        ]
+      },
+      {
+        "name": "1 Fc Koln",
+        "player_list": [
+          {
+            "name": "Jonas Hector",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "dm",
+            "skill": 78
+          },
+          {
+            "name": "Ellyes Skhiri",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "dm",
+            "skill": 77
+          },
+          {
+            "name": "Timo Horn",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "gk",
+            "skill": 76
+          },
+          {
+            "name": "Ondrej Duda",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "am",
+            "skill": 75
+          },
+          {
+            "name": "Mark Uth",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "am",
+            "skill": 75
+          },
+          {
+            "name": "Florian Kainz",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "lm",
+            "skill": 75
+          },
+          {
+            "name": "S. Andersson",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Salih \u00d6zcan",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "Louis Schaub",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Dejan Ljubicic",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "Jorge Mer\u00e9",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Jannes Horn",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "lb",
+            "skill": 72
+          },
+          {
+            "name": "K. Ehizibue",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "Anthony Modeste",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cf",
+            "skill": 72
+          },
+          {
+            "name": "Rafael Czichos",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Jan Thielmann",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "rm",
+            "skill": 71
+          },
+          {
+            "name": "Timo H\u00fcbers",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Marvin Schw\u00e4be",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "gk",
+            "skill": 71
+          },
+          {
+            "name": "Noah Katterbach",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "lb",
+            "skill": 70
+          },
+          {
+            "name": "Luca Kilian",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "Benno Schmitz",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "N. Hauptmann",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "am",
+            "skill": 68
+          },
+          {
+            "name": "K. Schindler",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "rm",
+            "skill": 68
+          },
+          {
+            "name": "S. \u010cesti\u0107",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "cb",
+            "skill": 67
+          },
+          {
+            "name": "Tim Lemperle",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "rm",
+            "skill": 62
+          },
+          {
+            "name": "Meiko Sponsel",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "rb",
+            "skill": 62
+          },
+          {
+            "name": "Tom\u00e1\u0161 Ostr\u00e1k",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "am",
+            "skill": 61
+          },
+          {
+            "name": "Marvin Obuz",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "am",
+            "skill": 59
+          },
+          {
+            "name": "Jens Castrop",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "am",
+            "skill": 57
+          },
+          {
+            "name": "M. K\u00f6bbing",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "gk",
+            "skill": 56
+          },
+          {
+            "name": "Jonas Urbig",
+            "club": "1 Fc Koln",
+            "age": 25,
+            "position": "gk",
+            "skill": 55
+          }
+        ]
+      },
+      {
+        "name": "1 Fsv Mainz 05",
+        "player_list": [
+          {
+            "name": "J. St. Juste",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "rb",
+            "skill": 76
+          },
+          {
+            "name": "M. Niakhat\u00e9",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "J. Bo\u00ebtius",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "rm",
+            "skill": 75
+          },
+          {
+            "name": "Dominik Kohr",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Silvan Widmer",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "rb",
+            "skill": 75
+          },
+          {
+            "name": "Jae Sung Lee",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cm",
+            "skill": 75
+          },
+          {
+            "name": "Aar\u00f3n",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "Robin Zentner",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "gk",
+            "skill": 74
+          },
+          {
+            "name": "Stefan Bell",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Karim Onisiwo",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Kevin St\u00f6ger",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "L. Barreiro Martins",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cm",
+            "skill": 72
+          },
+          {
+            "name": "D. Brosinski",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "J. Burkardt",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "A. Lucoqui",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "lb",
+            "skill": 71
+          },
+          {
+            "name": "M. Ingvartsen",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "Alexander Hack",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "\u00c1d\u00e1m Szalai",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "Finn Dahmen",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "gk",
+            "skill": 70
+          },
+          {
+            "name": "Anton Stach",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "dm",
+            "skill": 69
+          },
+          {
+            "name": "David Nemeth",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "Paul Nebel",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "am",
+            "skill": 64
+          },
+          {
+            "name": "S. F\u00fcrstner",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "dm",
+            "skill": 64
+          },
+          {
+            "name": "Niklas Tauer",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "dm",
+            "skill": 60
+          },
+          {
+            "name": "Romario R\u00f6sch",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "am",
+            "skill": 60
+          },
+          {
+            "name": "Kaito Mizuta",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "rw",
+            "skill": 60
+          },
+          {
+            "name": "Ben Bobzien",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "am",
+            "skill": 59
+          },
+          {
+            "name": "Lasse Rie\u00df",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "gk",
+            "skill": 59
+          },
+          {
+            "name": "Timoth\u00e9 Rupil",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "am",
+            "skill": 59
+          },
+          {
+            "name": "M. Papela",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "rm",
+            "skill": 58
+          },
+          {
+            "name": "M. Liesegang",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "gk",
+            "skill": 58
+          },
+          {
+            "name": "Omer Hanin",
+            "club": "1 Fsv Mainz 05",
+            "age": 25,
+            "position": "gk",
+            "skill": 58
+          }
+        ]
+      },
+      {
+        "name": "Dsc Arminia Bielefeld",
+        "player_list": [
+          {
+            "name": "Stefan Ortega",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "gk",
+            "skill": 78
+          },
+          {
+            "name": "Amos Pieper",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Manuel Prietl",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "dm",
+            "skill": 74
+          },
+          {
+            "name": "Florian Kr\u00fcger",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Masaya Okugawa",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Stefanos Kapino",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "gk",
+            "skill": 73
+          },
+          {
+            "name": "Joakim Nilsson",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Fabian Klos",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Janni Serra",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cf",
+            "skill": 72
+          },
+          {
+            "name": "C\u00e9dric Brunner",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "Robin Hack",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "rm",
+            "skill": 71
+          },
+          {
+            "name": "E. Fernandes",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "dm",
+            "skill": 71
+          },
+          {
+            "name": "A. Sch\u00f6pf",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cm",
+            "skill": 71
+          },
+          {
+            "name": "Fabian Kunze",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "S. Vasiliadis",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "am",
+            "skill": 70
+          },
+          {
+            "name": "L. Czyborra",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "lb",
+            "skill": 69
+          },
+          {
+            "name": "Andr\u00e9s Andrade",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "Guilherme Ramos",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "J. Laursen",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "lb",
+            "skill": 68
+          },
+          {
+            "name": "Patrick Wimmer",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "rm",
+            "skill": 67
+          },
+          {
+            "name": "Bryan Lasme",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cf",
+            "skill": 67
+          },
+          {
+            "name": "N. De Medina",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cb",
+            "skill": 66
+          },
+          {
+            "name": "V. Cherny",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "am",
+            "skill": 58
+          },
+          {
+            "name": "Julian Frommann",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "cb",
+            "skill": 58
+          },
+          {
+            "name": "Arne Schulz",
+            "club": "Dsc Arminia Bielefeld",
+            "age": 25,
+            "position": "gk",
+            "skill": 56
+          }
+        ]
+      },
+      {
+        "name": "Vfl Bochum 1848",
+        "player_list": [
+          {
+            "name": "Danilo",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "lb",
+            "skill": 75
+          },
+          {
+            "name": "Manuel Riemann",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "gk",
+            "skill": 74
+          },
+          {
+            "name": "Simon Zoller",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Takuma Asano",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "rm",
+            "skill": 73
+          },
+          {
+            "name": "Maxim Leitsch",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "E. Rexhbe\u00e7aj",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cm",
+            "skill": 72
+          },
+          {
+            "name": "Gerrit Holtmann",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "lm",
+            "skill": 72
+          },
+          {
+            "name": "Robert Tesche",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "K. Stafylidis",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "lb",
+            "skill": 72
+          },
+          {
+            "name": "Cristian Gamboa",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "Anthony Losilla",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "Michael Esser",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "gk",
+            "skill": 72
+          },
+          {
+            "name": "A. Bella Kotchap",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Eduard L\u00f6wen",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "dm",
+            "skill": 71
+          },
+          {
+            "name": "Danny Blum",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "rm",
+            "skill": 71
+          },
+          {
+            "name": "C. Antwi-Adjei",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "lm",
+            "skill": 70
+          },
+          {
+            "name": "H. Bockhorn",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "rm",
+            "skill": 69
+          },
+          {
+            "name": "S. Polter",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cf",
+            "skill": 69
+          },
+          {
+            "name": "S. Ganvoula",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cf",
+            "skill": 68
+          },
+          {
+            "name": "M. Pantovi\u0107",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "rm",
+            "skill": 68
+          },
+          {
+            "name": "V. Lampropoulos",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cb",
+            "skill": 68
+          },
+          {
+            "name": "Y. Chibsah",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "dm",
+            "skill": 67
+          },
+          {
+            "name": "Saulo Decarli",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cb",
+            "skill": 67
+          },
+          {
+            "name": "Tarsis Bonga",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cf",
+            "skill": 65
+          },
+          {
+            "name": "Tom Weilandt",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "lm",
+            "skill": 65
+          },
+          {
+            "name": "Soma Novothny",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cf",
+            "skill": 64
+          },
+          {
+            "name": "Erhan Ma\u0161ovi\u0107",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cb",
+            "skill": 61
+          },
+          {
+            "name": "Luis Hartwig",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "cf",
+            "skill": 59
+          },
+          {
+            "name": "P. Osterhage",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "am",
+            "skill": 59
+          },
+          {
+            "name": "Paul Grave",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "gk",
+            "skill": 55
+          },
+          {
+            "name": "Tjark Ernst",
+            "club": "Vfl Bochum 1848",
+            "age": 25,
+            "position": "gk",
+            "skill": 54
+          }
+        ]
+      },
+      {
+        "name": "Spvgg Greuther Furth",
+        "player_list": [
+          {
+            "name": "Nick Viergever",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Paul Seguin",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "Jetro Willems",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "lb",
+            "skill": 73
+          },
+          {
+            "name": "Branimir Hrgota",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Adrian Fein",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cm",
+            "skill": 72
+          },
+          {
+            "name": "Jeremy Dudziak",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "am",
+            "skill": 72
+          },
+          {
+            "name": "M. Meyerh\u00f6fer",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "H\u00e5vard Nielsen",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cf",
+            "skill": 72
+          },
+          {
+            "name": "S. Griesbeck",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Sascha Burchert",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "gk",
+            "skill": 72
+          },
+          {
+            "name": "Cedric Itten",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "Julian Green",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "am",
+            "skill": 71
+          },
+          {
+            "name": "M. Bauer",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "Justin Hoogma",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "Jamie Leweling",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "rm",
+            "skill": 68
+          },
+          {
+            "name": "Jessic Ngankam",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cf",
+            "skill": 68
+          },
+          {
+            "name": "Luca Itter",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "lb",
+            "skill": 68
+          },
+          {
+            "name": "M. Christiansen",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "dm",
+            "skill": 68
+          },
+          {
+            "name": "H. Sarpei",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "dm",
+            "skill": 68
+          },
+          {
+            "name": "Gideon Jung",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cb",
+            "skill": 68
+          },
+          {
+            "name": "Dickson Abiama",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cf",
+            "skill": 67
+          },
+          {
+            "name": "Nils Seufert",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cm",
+            "skill": 67
+          },
+          {
+            "name": "Timothy Tillman",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "am",
+            "skill": 65
+          },
+          {
+            "name": "Emil Berggreen",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cf",
+            "skill": 65
+          },
+          {
+            "name": "A. Barry",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "cb",
+            "skill": 64
+          },
+          {
+            "name": "Robin Kehr",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "lm",
+            "skill": 63
+          },
+          {
+            "name": "Simon Asta",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "rb",
+            "skill": 62
+          },
+          {
+            "name": "Marius Funk",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "gk",
+            "skill": 61
+          },
+          {
+            "name": "Leon Schaffran",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "gk",
+            "skill": 58
+          },
+          {
+            "name": "Lasse Schulz",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "gk",
+            "skill": 56
+          },
+          {
+            "name": "M. Torlak",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "am",
+            "skill": 56
+          },
+          {
+            "name": "Elias Kratzer",
+            "club": "Spvgg Greuther Furth",
+            "age": 25,
+            "position": "rb",
+            "skill": 56
+          }
+        ]
+      }
+    ]
   }
 }
