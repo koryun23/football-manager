@@ -4,9 +4,11 @@ from bs4 import BeautifulSoup
 
 
 all_data = dict()
-all_data["clubs"] = []
+all_data["Premier League"] = {"clubs": []}
+all_data["La Liga"] = {"clubs": []}
+#all_data["clubs"] = []
 
-def get_data(team):
+def get_data(tournament_name, team):
     url = f"https://www.fifaratings.com/team/{team}"
     r = requests.get(url)
     c = r.content
@@ -41,7 +43,7 @@ def get_data(team):
     for i in range(len(names)):
         current_team["player_list"].append({"name": names[i].text, "club": filtered_team_name,"age":25, "position": positions[i].lower(), "skill": int(ratings[i].text)})
 
-    all_data["clubs"].append(current_team)
+    all_data[tournament_name]["clubs"].append(current_team)
 
 def filter_position(s):
     if s == "CDM" or s == "CAM":
@@ -66,14 +68,19 @@ def filter_club_name(club):
     return new_name
 
 
-club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "tottenham-hotspur", "leicester-city", "arsenal", "west-ham-united",
+epl_club_names = ["manchester-city", "liverpool", "manchester-united", "chelsea", "tottenham-hotspur", "leicester-city", "arsenal", "west-ham-united",
               "everton", "wolverhampton-wanderers", "aston-villa", "leeds-united", "newcastle-united", "southampton", "burnley", "brighton-hove-albion",
               "watford", "norwich-city", "brentford", "crystal-palace"
-              ]
+                  ]
 
-for club in club_names:
-    get_data(club)
+la_liga_club_names = ["real-madrid", "atletico-madrid", "fc-barcelona", "sevilla-fc", "villarreal-cf", "real-sociedad", "athletic-club-de-bilbao",
+                     "real-betis", "valencia-cf", "levante-ud", "granada-cf", "rc-celta", "ca-osasuna", "rcd-espanyol", "getafe-cf",
+                     "elche-cf", "rcd-mallorca", "cadiz-cf", "rayo-vallecano", "deportivo-alaves"]
+for club in epl_club_names:
+    get_data("Premier League", club)
 
+for club in la_liga_club_names:
+    get_data("La Liga", club)
 
-with open("data.json", "w") as file:
+with open("all_team_data.json", "w") as file:
     json.dump(all_data, file)

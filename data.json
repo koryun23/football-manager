@@ -4589,5 +4589,4477 @@
         ]
       }
     ]
+  },
+  "La Liga": {
+    "clubs": [
+      {
+        "name": "Real Madrid",
+        "player_list": [
+          {
+            "name": "T. Courtois",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "gk",
+            "skill": 89
+          },
+          {
+            "name": "Casemiro",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "dm",
+            "skill": 89
+          },
+          {
+            "name": "Karim Benzema",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cf",
+            "skill": 89
+          },
+          {
+            "name": "Toni Kroos",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 88
+          },
+          {
+            "name": "Luka Modri\u0107",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 87
+          },
+          {
+            "name": "Carvajal",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "rb",
+            "skill": 85
+          },
+          {
+            "name": "Eden Hazard",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "lw",
+            "skill": 85
+          },
+          {
+            "name": "David Alaba",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 84
+          },
+          {
+            "name": "F. Valverde",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 83
+          },
+          {
+            "name": "Ferland Mendy",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "lb",
+            "skill": 83
+          },
+          {
+            "name": "Marco Asensio",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 83
+          },
+          {
+            "name": "\u00c9der Milit\u00e3o",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "Gareth Bale",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "rm",
+            "skill": 82
+          },
+          {
+            "name": "Isco",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 82
+          },
+          {
+            "name": "Lucas V\u00e1zquez",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "rw",
+            "skill": 81
+          },
+          {
+            "name": "Nacho Fern\u00e1ndez",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 81
+          },
+          {
+            "name": "Vin\u00edcius Jr.",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "rm",
+            "skill": 80
+          },
+          {
+            "name": "Marcelo",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 80
+          },
+          {
+            "name": "Rodrygo",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 79
+          },
+          {
+            "name": "Luka Jovi\u0107",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "E. Camavinga",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 78
+          },
+          {
+            "name": "Dani Ceballos",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 77
+          },
+          {
+            "name": "Vallejo",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Mariano",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "Andriy Lunin",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "gk",
+            "skill": 74
+          },
+          {
+            "name": "Blanco",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 71
+          },
+          {
+            "name": "Marvin",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "rw",
+            "skill": 67
+          },
+          {
+            "name": "Miguel",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "lb",
+            "skill": 66
+          },
+          {
+            "name": "Arribas",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 65
+          },
+          {
+            "name": "Luis Carbonell",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cf",
+            "skill": 63
+          },
+          {
+            "name": "Luis L\u00f3pez",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "gk",
+            "skill": 63
+          },
+          {
+            "name": "Takuhiro Nakai",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 61
+          },
+          {
+            "name": "Salazar",
+            "club": "Real Madrid",
+            "age": 25,
+            "position": "cf",
+            "skill": 60
+          }
+        ]
+      },
+      {
+        "name": "Atletico Madrid",
+        "player_list": [
+          {
+            "name": "Jan Oblak",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "gk",
+            "skill": 91
+          },
+          {
+            "name": "Luis Su\u00e1rez",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cf",
+            "skill": 88
+          },
+          {
+            "name": "Marcos Llorente",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 86
+          },
+          {
+            "name": "A. Griezmann",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 85
+          },
+          {
+            "name": "Koke",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 85
+          },
+          {
+            "name": "J. Gim\u00e9nez",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 84
+          },
+          {
+            "name": "Kieran Trippier",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "rb",
+            "skill": 84
+          },
+          {
+            "name": "Y. Carrasco",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "lm",
+            "skill": 84
+          },
+          {
+            "name": "Felipe",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 84
+          },
+          {
+            "name": "Stefan Savi\u0107",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 84
+          },
+          {
+            "name": "Jo\u00e3o F\u00e9lix",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 83
+          },
+          {
+            "name": "Thomas Lemar",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 83
+          },
+          {
+            "name": "\u00c1ngel Correa",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 83
+          },
+          {
+            "name": "Mario Hermoso",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "R. De Paul",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 82
+          },
+          {
+            "name": "Renan Lodi",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "lb",
+            "skill": 81
+          },
+          {
+            "name": "H\u00e9ctor Herrera",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 81
+          },
+          {
+            "name": "\u0160ime Vrsaljko",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "rb",
+            "skill": 80
+          },
+          {
+            "name": "Matheus Cunha",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 79
+          },
+          {
+            "name": "B. Lecomte",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "gk",
+            "skill": 79
+          },
+          {
+            "name": "G. Kondogbia",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cm",
+            "skill": 79
+          },
+          {
+            "name": "Ivan \u0160aponji\u0107",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "G. Simeone",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cf",
+            "skill": 65
+          },
+          {
+            "name": "Camus",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "rb",
+            "skill": 65
+          },
+          {
+            "name": "Javi Serrano",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "dm",
+            "skill": 64
+          },
+          {
+            "name": "Alberto Moreno",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "am",
+            "skill": 64
+          },
+          {
+            "name": "Christian G\u00f3mez",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "gk",
+            "skill": 64
+          },
+          {
+            "name": "Fran Gonz\u00e1lez",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "cb",
+            "skill": 64
+          },
+          {
+            "name": "Andr\u00e9s Solano",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "rb",
+            "skill": 64
+          },
+          {
+            "name": "Mini",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "dm",
+            "skill": 63
+          },
+          {
+            "name": "Alejandro Iturbe",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "gk",
+            "skill": 62
+          },
+          {
+            "name": "E. Sutherland",
+            "club": "Atletico Madrid",
+            "age": 25,
+            "position": "rm",
+            "skill": 62
+          }
+        ]
+      },
+      {
+        "name": "Fc Barcelona",
+        "player_list": [
+          {
+            "name": "M. ter Stegen",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "gk",
+            "skill": 90
+          },
+          {
+            "name": "Frenkie de Jong",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cm",
+            "skill": 87
+          },
+          {
+            "name": "Sergio Ag\u00fcero",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cf",
+            "skill": 87
+          },
+          {
+            "name": "Jordi Alba",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "lb",
+            "skill": 86
+          },
+          {
+            "name": "Sergio Busquets",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "dm",
+            "skill": 86
+          },
+          {
+            "name": "Memphis Depay",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cf",
+            "skill": 85
+          },
+          {
+            "name": "Piqu\u00e9",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cb",
+            "skill": 84
+          },
+          {
+            "name": "O. Demb\u00e9l\u00e9",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "lm",
+            "skill": 83
+          },
+          {
+            "name": "C. Lenglet",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "Coutinho",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "am",
+            "skill": 82
+          },
+          {
+            "name": "Neto",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "gk",
+            "skill": 82
+          },
+          {
+            "name": "Pedri",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "am",
+            "skill": 81
+          },
+          {
+            "name": "Sergi Roberto",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "rb",
+            "skill": 81
+          },
+          {
+            "name": "Samuel Umtiti",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cb",
+            "skill": 80
+          },
+          {
+            "name": "Luuk de Jong",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "Eric Garc\u00eda",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "Ronald Araujo",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "M. Braithwaite",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Anssumane Fati",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "lw",
+            "skill": 76
+          },
+          {
+            "name": "Sergi\u00f1o Dest",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "rm",
+            "skill": 76
+          },
+          {
+            "name": "Riqui Puig",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "am",
+            "skill": 76
+          },
+          {
+            "name": "Mingueza",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Yusuf Demir",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "am",
+            "skill": 70
+          },
+          {
+            "name": "Moussa Wagu\u00e9",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "rb",
+            "skill": 70
+          },
+          {
+            "name": "I\u00f1aki Pe\u00f1a",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "gk",
+            "skill": 69
+          },
+          {
+            "name": "Nico Gonz\u00e1lez",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "cm",
+            "skill": 68
+          },
+          {
+            "name": "Hiroki Abe",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "rm",
+            "skill": 68
+          },
+          {
+            "name": "Matheus Pereira",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "am",
+            "skill": 68
+          },
+          {
+            "name": "Arnau Tenas",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "gk",
+            "skill": 67
+          },
+          {
+            "name": "\u00c1lex Collado",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "am",
+            "skill": 67
+          },
+          {
+            "name": "Gavi",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "am",
+            "skill": 66
+          },
+          {
+            "name": "\u00c1lex Balde",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "lb",
+            "skill": 66
+          },
+          {
+            "name": "Kays Ruiz-Atil",
+            "club": "Fc Barcelona",
+            "age": 25,
+            "position": "am",
+            "skill": 66
+          }
+        ]
+      },
+      {
+        "name": "Sevilla Fc",
+        "player_list": [
+          {
+            "name": "A. G\u00f3mez",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "am",
+            "skill": 85
+          },
+          {
+            "name": "Marcos Acu\u00f1a",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "lb",
+            "skill": 84
+          },
+          {
+            "name": "Jes\u00fas Navas",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "rb",
+            "skill": 84
+          },
+          {
+            "name": "Fernando Reges",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "dm",
+            "skill": 84
+          },
+          {
+            "name": "Jules Kound\u00e9",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cb",
+            "skill": 83
+          },
+          {
+            "name": "Lucas Ocampos",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "lw",
+            "skill": 83
+          },
+          {
+            "name": "Y. En-Nesyri",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cf",
+            "skill": 82
+          },
+          {
+            "name": "Diego Carlos",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "Ivan Rakiti\u0107",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cm",
+            "skill": 82
+          },
+          {
+            "name": "Suso",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "rw",
+            "skill": 82
+          },
+          {
+            "name": "Yassine Bounou",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "gk",
+            "skill": 82
+          },
+          {
+            "name": "Thomas Delaney",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cb",
+            "skill": 81
+          },
+          {
+            "name": "Joan Jord\u00e1n",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cm",
+            "skill": 80
+          },
+          {
+            "name": "M. Dmitrovi\u0107",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "gk",
+            "skill": 80
+          },
+          {
+            "name": "Munir",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "am",
+            "skill": 79
+          },
+          {
+            "name": "Nemanja Gudelj",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "dm",
+            "skill": 79
+          },
+          {
+            "name": "Gonzalo Montiel",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "rb",
+            "skill": 78
+          },
+          {
+            "name": "Erik Lamela",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "am",
+            "skill": 78
+          },
+          {
+            "name": "Rafa Mir",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "\u00d3liver Torres",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "am",
+            "skill": 77
+          },
+          {
+            "name": "Oussama Idrissi",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "am",
+            "skill": 76
+          },
+          {
+            "name": "L. Augustinsson",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "lb",
+            "skill": 76
+          },
+          {
+            "name": "\u00d3scar",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "am",
+            "skill": 75
+          },
+          {
+            "name": "Ibrahim Amadou",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "dm",
+            "skill": 75
+          },
+          {
+            "name": "Joris Gnagnon",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Karim Rekik",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Javi D\u00edaz",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "gk",
+            "skill": 65
+          },
+          {
+            "name": "Zarzana",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "rm",
+            "skill": 63
+          },
+          {
+            "name": "Alfonso Pastor",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "gk",
+            "skill": 62
+          },
+          {
+            "name": "Pablo P\u00e9rez",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "lb",
+            "skill": 61
+          },
+          {
+            "name": "Pedro Ortiz",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "am",
+            "skill": 60
+          },
+          {
+            "name": "Carmona",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "rb",
+            "skill": 60
+          },
+          {
+            "name": "Iv\u00e1n Romero",
+            "club": "Sevilla Fc",
+            "age": 25,
+            "position": "cf",
+            "skill": 60
+          }
+        ]
+      },
+      {
+        "name": "Villarreal Cf",
+        "player_list": [
+          {
+            "name": "Parejo",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 86
+          },
+          {
+            "name": "Gerard Moreno",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 86
+          },
+          {
+            "name": "Sergio Asenjo",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 83
+          },
+          {
+            "name": "Pau Torres",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "Ra\u00fal Albiol",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "Paco Alc\u00e1cer",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 81
+          },
+          {
+            "name": "A\u00efssa Mandi",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 80
+          },
+          {
+            "name": "F. Coquelin",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 80
+          },
+          {
+            "name": "Ger\u00f3nimo Rulli",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 80
+          },
+          {
+            "name": "P. Estupi\u00f1\u00e1n",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 79
+          },
+          {
+            "name": "Rub\u00e9n Pe\u00f1a",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 79
+          },
+          {
+            "name": "Manu Trigueros",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 79
+          },
+          {
+            "name": "Mario Gaspar",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 79
+          },
+          {
+            "name": "Iborra",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 79
+          },
+          {
+            "name": "Etienne Capoue",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 78
+          },
+          {
+            "name": "Moi G\u00f3mez",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 78
+          },
+          {
+            "name": "S. Chukwueze",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 77
+          },
+          {
+            "name": "Boulaye Dia",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Pedraza",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 77
+          },
+          {
+            "name": "Arnaut Danjuma",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 76
+          },
+          {
+            "name": "Alberto Moreno",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 76
+          },
+          {
+            "name": "Juan Foyth",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Yeremy Pino",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Dani Raba",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Pablo I\u00f1iguez",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 68
+          },
+          {
+            "name": "Mart\u00edn",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 65
+          },
+          {
+            "name": "De La Fuente",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 64
+          },
+          {
+            "name": "Migue",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 64
+          },
+          {
+            "name": "Ramiro Guerra",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 64
+          },
+          {
+            "name": "F. J\u00f6rgensen",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 63
+          },
+          {
+            "name": "Lanchi",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 63
+          },
+          {
+            "name": "Sergio Lozano",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 63
+          },
+          {
+            "name": "Nikita Iosifov",
+            "club": "Villarreal Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 62
+          }
+        ]
+      },
+      {
+        "name": "Real Sociedad",
+        "player_list": [
+          {
+            "name": "Oyarzabal",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "lw",
+            "skill": 85
+          },
+          {
+            "name": "David Silva",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "am",
+            "skill": 85
+          },
+          {
+            "name": "Merino",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cm",
+            "skill": 83
+          },
+          {
+            "name": "Alexander Isak",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cf",
+            "skill": 82
+          },
+          {
+            "name": "Portu",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "rw",
+            "skill": 82
+          },
+          {
+            "name": "\u00c1lex Remiro",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "gk",
+            "skill": 81
+          },
+          {
+            "name": "Adnan Januzaj",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "rw",
+            "skill": 81
+          },
+          {
+            "name": "Nacho Monreal",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "lb",
+            "skill": 80
+          },
+          {
+            "name": "Zubeldia",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "dm",
+            "skill": 79
+          },
+          {
+            "name": "Aritz Elustondo",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cb",
+            "skill": 79
+          },
+          {
+            "name": "Illarramendi",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "dm",
+            "skill": 79
+          },
+          {
+            "name": "R. Le Normand",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "Gorosabel",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "Mathew Ryan",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "gk",
+            "skill": 77
+          },
+          {
+            "name": "Zald\u00faa",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "Ander Guevara",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cm",
+            "skill": 76
+          },
+          {
+            "name": "A. S\u00f8rloth",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cf",
+            "skill": 76
+          },
+          {
+            "name": "Carlos Fern\u00e1ndez",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "Zubimendi",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cm",
+            "skill": 74
+          },
+          {
+            "name": "Barrenetxea",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "lw",
+            "skill": 74
+          },
+          {
+            "name": "Aihen Mu\u00f1oz",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "Guridi",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "Diego Rico",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "lb",
+            "skill": 73
+          },
+          {
+            "name": "Robert Navarro",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "am",
+            "skill": 67
+          },
+          {
+            "name": "Pacheco",
+            "club": "Real Sociedad",
+            "age": 25,
+            "position": "cb",
+            "skill": 65
+          }
+        ]
+      },
+      {
+        "name": "Athletic Club De Bilbao",
+        "player_list": [
+          {
+            "name": "Muniain",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "am",
+            "skill": 83
+          },
+          {
+            "name": "Unai Sim\u00f3n",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "gk",
+            "skill": 82
+          },
+          {
+            "name": "Yuri Berchiche",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "lb",
+            "skill": 82
+          },
+          {
+            "name": "Yeray",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cb",
+            "skill": 81
+          },
+          {
+            "name": "I\u00f1aki Williams",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cf",
+            "skill": 81
+          },
+          {
+            "name": "I\u00f1igo Mart\u00ednez",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cb",
+            "skill": 81
+          },
+          {
+            "name": "Unai N\u00fa\u00f1ez",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cb",
+            "skill": 80
+          },
+          {
+            "name": "\u00c1lex Berenguer",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "rm",
+            "skill": 80
+          },
+          {
+            "name": "Ra\u00fal Garc\u00eda",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cm",
+            "skill": 80
+          },
+          {
+            "name": "Capa",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "rb",
+            "skill": 80
+          },
+          {
+            "name": "Dani Garc\u00eda",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "dm",
+            "skill": 78
+          },
+          {
+            "name": "De Marcos",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "Unai Vencedor",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cm",
+            "skill": 75
+          },
+          {
+            "name": "Lekue",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "Sancet",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Villalibre",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Jon Morcillo",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "lm",
+            "skill": 73
+          },
+          {
+            "name": "Zarraga",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "am",
+            "skill": 72
+          },
+          {
+            "name": "Vivian",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Nolaskoain",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cm",
+            "skill": 69
+          },
+          {
+            "name": "Nico Williams",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cf",
+            "skill": 67
+          },
+          {
+            "name": "\u00c1lex Petxa",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "rb",
+            "skill": 67
+          },
+          {
+            "name": "Be\u00f1at Prados",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "am",
+            "skill": 66
+          },
+          {
+            "name": "Ezkieta",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "gk",
+            "skill": 66
+          },
+          {
+            "name": "Nico Serrano",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "lw",
+            "skill": 63
+          },
+          {
+            "name": "Agirrezabala",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "gk",
+            "skill": 63
+          },
+          {
+            "name": "Sillero",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cb",
+            "skill": 63
+          },
+          {
+            "name": "Aitor Paredes",
+            "club": "Athletic Club De Bilbao",
+            "age": 25,
+            "position": "cb",
+            "skill": 62
+          }
+        ]
+      },
+      {
+        "name": "Real Betis",
+        "player_list": [
+          {
+            "name": "Nabil Fekir",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 84
+          },
+          {
+            "name": "Canales",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 83
+          },
+          {
+            "name": "Rui Silva",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "gk",
+            "skill": 81
+          },
+          {
+            "name": "Joaqu\u00edn",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 81
+          },
+          {
+            "name": "Bartra",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "cb",
+            "skill": 80
+          },
+          {
+            "name": "Borja Iglesias",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "cf",
+            "skill": 80
+          },
+          {
+            "name": "Cristian Tello",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "lm",
+            "skill": 79
+          },
+          {
+            "name": "H\u00e9ctor Beller\u00edn",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "rb",
+            "skill": 78
+          },
+          {
+            "name": "G. Rodr\u00edguez",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "dm",
+            "skill": 78
+          },
+          {
+            "name": "A. Guardado",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "dm",
+            "skill": 78
+          },
+          {
+            "name": "\u00c1lex Moreno",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "lb",
+            "skill": 78
+          },
+          {
+            "name": "William Carvalho",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "dm",
+            "skill": 78
+          },
+          {
+            "name": "V\u00edctor Ruiz",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "Claudio Bravo",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "gk",
+            "skill": 78
+          },
+          {
+            "name": "Willian Jos\u00e9",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "G. Pezzella",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "Miranda",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "lb",
+            "skill": 76
+          },
+          {
+            "name": "Youssouf Sabaly",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "rb",
+            "skill": 76
+          },
+          {
+            "name": "Joel Robles",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "gk",
+            "skill": 76
+          },
+          {
+            "name": "Montoya",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "rb",
+            "skill": 75
+          },
+          {
+            "name": "Diego Lainez",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 74
+          },
+          {
+            "name": "Aitor Ruibal",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "rm",
+            "skill": 74
+          },
+          {
+            "name": "Edgar",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Camarasa",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 72
+          },
+          {
+            "name": "Rodri",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 70
+          },
+          {
+            "name": "Paul Akouokou",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "dm",
+            "skill": 70
+          },
+          {
+            "name": "Rober",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 69
+          },
+          {
+            "name": "Yassin Fekir",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "lw",
+            "skill": 68
+          },
+          {
+            "name": "Ra\u00fal Garc\u00eda",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "cf",
+            "skill": 67
+          },
+          {
+            "name": "Jos\u00e9 Lara",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 66
+          },
+          {
+            "name": "Kike Hermoso",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "cb",
+            "skill": 66
+          },
+          {
+            "name": "Juan Cruz",
+            "club": "Real Betis",
+            "age": 25,
+            "position": "am",
+            "skill": 65
+          }
+        ]
+      },
+      {
+        "name": "Valencia Cf",
+        "player_list": [
+          {
+            "name": "Gay\u00e0",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 83
+          },
+          {
+            "name": "Gabriel Paulista",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 82
+          },
+          {
+            "name": "Carlos Soler",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 81
+          },
+          {
+            "name": "Gon\u00e7alo Guedes",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 81
+          },
+          {
+            "name": "J. Cillessen",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 81
+          },
+          {
+            "name": "M. G\u00f3mez",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 80
+          },
+          {
+            "name": "Daniel Wass",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 80
+          },
+          {
+            "name": "Uro\u0161 Ra\u010di\u0107",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 78
+          },
+          {
+            "name": "D. Foulquier",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "Denis Cheryshev",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 76
+          },
+          {
+            "name": "G. Mamardashvili",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 75
+          },
+          {
+            "name": "Manu Vallejo",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "Marcos Andr\u00e9",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "C. Piccini",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 75
+          },
+          {
+            "name": "Jaume",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 75
+          },
+          {
+            "name": "Thierry Correia",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "Omar Alderete",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "H\u00e9lder Costa",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 74
+          },
+          {
+            "name": "Hugo Guillam\u00f3n",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Toni Lato",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 73
+          },
+          {
+            "name": "M. Diakhaby",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Jason",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 73
+          },
+          {
+            "name": "Yunus Musah",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 71
+          },
+          {
+            "name": "\u00c1lex Blanco",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 70
+          },
+          {
+            "name": "Hugo Duro",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 69
+          },
+          {
+            "name": "Cristian Rivero",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 67
+          },
+          {
+            "name": "K. Koindredi",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 66
+          },
+          {
+            "name": "Jes\u00fas V\u00e1zquez",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 66
+          },
+          {
+            "name": "A. Burlamaqui",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 66
+          },
+          {
+            "name": "Pablo Goz\u00e1lbez",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 65
+          },
+          {
+            "name": "Diego L\u00f3pez",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 61
+          },
+          {
+            "name": "Joseda",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 60
+          },
+          {
+            "name": "W. Suzuki",
+            "club": "Valencia Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 58
+          }
+        ]
+      },
+      {
+        "name": "Levante Ud",
+        "player_list": [
+          {
+            "name": "Campa\u00f1a",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cm",
+            "skill": 82
+          },
+          {
+            "name": "Morales",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cf",
+            "skill": 81
+          },
+          {
+            "name": "Aitor",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "gk",
+            "skill": 81
+          },
+          {
+            "name": "Roger",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cf",
+            "skill": 80
+          },
+          {
+            "name": "Enis Bardhi",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "am",
+            "skill": 79
+          },
+          {
+            "name": "De Frutos",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "rm",
+            "skill": 78
+          },
+          {
+            "name": "Melero",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cm",
+            "skill": 77
+          },
+          {
+            "name": "Clerc",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "lb",
+            "skill": 77
+          },
+          {
+            "name": "Soldado",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Micka\u00ebl Malsa",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "dm",
+            "skill": 76
+          },
+          {
+            "name": "R\u00faben Vezo",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "N. Vuk\u010devi\u0107",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "dm",
+            "skill": 75
+          },
+          {
+            "name": "Postigo",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Jorge Miram\u00f3n",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "Hern\u00e2ni",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "rm",
+            "skill": 74
+          },
+          {
+            "name": "Dani G\u00f3mez",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "R\u00f3ber",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Son",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "rb",
+            "skill": 73
+          },
+          {
+            "name": "S. Mustafi",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "\u00d3scar Duarte",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Dani C\u00e1rdenas",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "gk",
+            "skill": 72
+          },
+          {
+            "name": "Coke",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "Pepelu",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cm",
+            "skill": 71
+          },
+          {
+            "name": "Cantero",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "rm",
+            "skill": 70
+          },
+          {
+            "name": "Franquesa",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "lb",
+            "skill": 70
+          },
+          {
+            "name": "Jorge Padilla",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cf",
+            "skill": 67
+          },
+          {
+            "name": "Pablo Mart\u00ednez",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cm",
+            "skill": 66
+          },
+          {
+            "name": "\u00c1lex Blesa",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "am",
+            "skill": 64
+          },
+          {
+            "name": "Toni Herrero",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "lm",
+            "skill": 64
+          },
+          {
+            "name": "Edgar Sevikyan",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "am",
+            "skill": 63
+          },
+          {
+            "name": "Relu",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "cb",
+            "skill": 62
+          },
+          {
+            "name": "Pablo Pic\u00f3n",
+            "club": "Levante Ud",
+            "age": 25,
+            "position": "gk",
+            "skill": 60
+          }
+        ]
+      },
+      {
+        "name": "Granada Cf",
+        "player_list": [
+          {
+            "name": "Darwin Mach\u00eds",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 81
+          },
+          {
+            "name": "Santiago Arias",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 79
+          },
+          {
+            "name": "Montoro",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 79
+          },
+          {
+            "name": "Germ\u00e1n",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 79
+          },
+          {
+            "name": "Carlos Neva Tey",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 78
+          },
+          {
+            "name": "Luis Milla",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 78
+          },
+          {
+            "name": "Domingos Duarte",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "Escudero",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 78
+          },
+          {
+            "name": "Puertas",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 78
+          },
+          {
+            "name": "L. Su\u00e1rez",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Rochina",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 77
+          },
+          {
+            "name": "V\u00edctor D\u00edaz",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "Carlos Bacca",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Jorge Molina",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Lu\u00eds Maximiano",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 76
+          },
+          {
+            "name": "Maxime Gonalons",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 76
+          },
+          {
+            "name": "Luis Abram",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Quini",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 72
+          },
+          {
+            "name": "Alberto Soro",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 71
+          },
+          {
+            "name": "Monchu",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 70
+          },
+          {
+            "name": "Aar\u00f3n",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 70
+          },
+          {
+            "name": "Ram\u00f3n Azeez",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 70
+          },
+          {
+            "name": "Neyder Lozano",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 67
+          },
+          {
+            "name": "Isma Ruiz",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 64
+          },
+          {
+            "name": "Pepe S\u00e1nchez",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 64
+          },
+          {
+            "name": "Jo\u00e3o Costa",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 64
+          },
+          {
+            "name": "\u00c1ngel Jim\u00e9nez",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 63
+          },
+          {
+            "name": "Kingsley Fobi",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 63
+          },
+          {
+            "name": "Sergio Barcia",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 62
+          },
+          {
+            "name": "\u00c1lvaro Bravo",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 62
+          },
+          {
+            "name": "Dani Plomer",
+            "club": "Granada Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 61
+          }
+        ]
+      },
+      {
+        "name": "Rc Celta",
+        "player_list": [
+          {
+            "name": "Iago Aspas",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cf",
+            "skill": 84
+          },
+          {
+            "name": "Renato Tapia",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cb",
+            "skill": 79
+          },
+          {
+            "name": "Denis Su\u00e1rez",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "am",
+            "skill": 78
+          },
+          {
+            "name": "Santi Mina",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Jeison Murillo",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "Hugo Mallo",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "Brais M\u00e9ndez",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "am",
+            "skill": 76
+          },
+          {
+            "name": "Okay Yoku\u015flu",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "dm",
+            "skill": 76
+          },
+          {
+            "name": "Nolito",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "am",
+            "skill": 76
+          },
+          {
+            "name": "N\u00e9stor Ara\u00fajo",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "Fran Beltr\u00e1n",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "dm",
+            "skill": 75
+          },
+          {
+            "name": "Rub\u00e9n Blanco",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "gk",
+            "skill": 75
+          },
+          {
+            "name": "Javi Gal\u00e1n",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "lb",
+            "skill": 75
+          },
+          {
+            "name": "Franco Cervi",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "lm",
+            "skill": 75
+          },
+          {
+            "name": "Mat\u00edas Dituro",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "gk",
+            "skill": 75
+          },
+          {
+            "name": "Joseph Aidoo",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Augusto Solari",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "rm",
+            "skill": 73
+          },
+          {
+            "name": "Kevin",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "Thiago Galhardo",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cf",
+            "skill": 70
+          },
+          {
+            "name": "Miguel Baeza",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "am",
+            "skill": 69
+          },
+          {
+            "name": "Jos\u00e9 Font\u00e1n",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cb",
+            "skill": 68
+          },
+          {
+            "name": "Iker Losada",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cf",
+            "skill": 67
+          },
+          {
+            "name": "Lautaro",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cf",
+            "skill": 66
+          },
+          {
+            "name": "Carlos Dom\u00ednguez",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cb",
+            "skill": 66
+          },
+          {
+            "name": "\u00c1lex Mart\u00edn",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cb",
+            "skill": 66
+          },
+          {
+            "name": "Cedric Tegu\u00eda",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "lm",
+            "skill": 65
+          },
+          {
+            "name": "Javi Castro",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cb",
+            "skill": 65
+          },
+          {
+            "name": "Javi G\u00f3mez",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "am",
+            "skill": 64
+          },
+          {
+            "name": "Carbonell",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "am",
+            "skill": 64
+          },
+          {
+            "name": "J. Holsgrove",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "am",
+            "skill": 63
+          },
+          {
+            "name": "Alfon",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "cf",
+            "skill": 62
+          },
+          {
+            "name": "Campos",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "gk",
+            "skill": 61
+          },
+          {
+            "name": "Carlos Beitia",
+            "club": "Rc Celta",
+            "age": 25,
+            "position": "am",
+            "skill": 60
+          }
+        ]
+      },
+      {
+        "name": "Ca Osasuna",
+        "player_list": [
+          {
+            "name": "Ezequiel \u00c1vila",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "Rub\u00e9n Garc\u00eda",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "lm",
+            "skill": 79
+          },
+          {
+            "name": "David Garc\u00eda",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "Sergio Herrera",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "gk",
+            "skill": 78
+          },
+          {
+            "name": "Roberto Torres",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "rm",
+            "skill": 78
+          },
+          {
+            "name": "Kike Garc\u00eda",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cf",
+            "skill": 78
+          },
+          {
+            "name": "Ante Budimir",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cf",
+            "skill": 78
+          },
+          {
+            "name": "Cote",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "lb",
+            "skill": 77
+          },
+          {
+            "name": "Oier",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "dm",
+            "skill": 77
+          },
+          {
+            "name": "Aridane",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "Darko Bra\u0161anac",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cm",
+            "skill": 76
+          },
+          {
+            "name": "Moncayola",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "dm",
+            "skill": 75
+          },
+          {
+            "name": "Nacho Vidal",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "rb",
+            "skill": 75
+          },
+          {
+            "name": "Ontiveros",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "am",
+            "skill": 74
+          },
+          {
+            "name": "Lucas Torr\u00f3",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "dm",
+            "skill": 74
+          },
+          {
+            "name": "I\u00f1igo P\u00e9rez",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "dm",
+            "skill": 74
+          },
+          {
+            "name": "Manu S\u00e1nchez",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "lb",
+            "skill": 73
+          },
+          {
+            "name": "Kike Barja",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "rm",
+            "skill": 73
+          },
+          {
+            "name": "Juan Cruz",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "lb",
+            "skill": 73
+          },
+          {
+            "name": "Ramalho",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Unai Garc\u00eda",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Rober Ib\u00e1\u00f1ez",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "rm",
+            "skill": 71
+          },
+          {
+            "name": "Javi Mart\u00ednez",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "am",
+            "skill": 70
+          },
+          {
+            "name": "Jaume Grau",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "dm",
+            "skill": 69
+          },
+          {
+            "name": "Juan P\u00e9rez",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "gk",
+            "skill": 69
+          },
+          {
+            "name": "Barbero",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cf",
+            "skill": 68
+          },
+          {
+            "name": "Areso",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "rb",
+            "skill": 67
+          },
+          {
+            "name": "Iv\u00e1n Bravo",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "lb",
+            "skill": 65
+          },
+          {
+            "name": "Aimar Oroz",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "am",
+            "skill": 64
+          },
+          {
+            "name": "Diego Moreno",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "rb",
+            "skill": 64
+          },
+          {
+            "name": "Iker Benito",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "rm",
+            "skill": 63
+          },
+          {
+            "name": "Pablo Valencia",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "gk",
+            "skill": 62
+          },
+          {
+            "name": "Pablo Ib\u00e1\u00f1ez",
+            "club": "Ca Osasuna",
+            "age": 25,
+            "position": "cm",
+            "skill": 61
+          }
+        ]
+      },
+      {
+        "name": "Rcd Espanyol",
+        "player_list": [
+          {
+            "name": "Embarba",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "rm",
+            "skill": 80
+          },
+          {
+            "name": "De Tom\u00e1s",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "Sergi Darder",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cm",
+            "skill": 79
+          },
+          {
+            "name": "Puado",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cf",
+            "skill": 78
+          },
+          {
+            "name": "Yangel Herrera",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "dm",
+            "skill": 78
+          },
+          {
+            "name": "Aleix Vidal",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "rb",
+            "skill": 77
+          },
+          {
+            "name": "David L\u00f3pez",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "Leandro Cabrera",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "Diego L\u00f3pez",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "gk",
+            "skill": 77
+          },
+          {
+            "name": "Keidi Bare",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "dm",
+            "skill": 76
+          },
+          {
+            "name": "Melendo",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "am",
+            "skill": 76
+          },
+          {
+            "name": "Loren",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cf",
+            "skill": 76
+          },
+          {
+            "name": "Sergi G\u00f3mez",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cb",
+            "skill": 76
+          },
+          {
+            "name": "Adri\u00e0 Pedrosa",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "lm",
+            "skill": 75
+          },
+          {
+            "name": "Calero",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Nico Melamed",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "am",
+            "skill": 74
+          },
+          {
+            "name": "Landry Dimata",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Fran M\u00e9rida",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "dm",
+            "skill": 74
+          },
+          {
+            "name": "Oier",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "gk",
+            "skill": 74
+          },
+          {
+            "name": "Manu Morlanes",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "D\u00eddac Vil\u00e0",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "lb",
+            "skill": 73
+          },
+          {
+            "name": "\u00d3scar Gil",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "Vadillo",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "lm",
+            "skill": 72
+          },
+          {
+            "name": "Miguel\u00f3n",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "rb",
+            "skill": 71
+          },
+          {
+            "name": "Jofre Carreras",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "rm",
+            "skill": 69
+          },
+          {
+            "name": "Joan Garc\u00eda",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "gk",
+            "skill": 67
+          },
+          {
+            "name": "\u00c1lvaro Garc\u00eda",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "dm",
+            "skill": 66
+          },
+          {
+            "name": "Gori",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "am",
+            "skill": 64
+          },
+          {
+            "name": "Omar El Hilali",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "rb",
+            "skill": 63
+          },
+          {
+            "name": "Svensson",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cf",
+            "skill": 63
+          },
+          {
+            "name": "Nabil Touaizi",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "am",
+            "skill": 63
+          },
+          {
+            "name": "Recasens",
+            "club": "Rcd Espanyol",
+            "age": 25,
+            "position": "cb",
+            "skill": 61
+          }
+        ]
+      },
+      {
+        "name": "Getafe Cf",
+        "player_list": [
+          {
+            "name": "Dakonam Djen\u00e9",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 81
+          },
+          {
+            "name": "David Soria",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 81
+          },
+          {
+            "name": "N. Maksimovi\u0107",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 79
+          },
+          {
+            "name": "Mauro Arambarri",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 79
+          },
+          {
+            "name": "Mata",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "Dami\u00e1n Su\u00e1rez",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 78
+          },
+          {
+            "name": "Vitolo",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 78
+          },
+          {
+            "name": "M. Olivera",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 76
+          },
+          {
+            "name": "J. Mac\u00edas",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "Enes \u00dcnal",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 75
+          },
+          {
+            "name": "A. Nyom",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Florentino",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 74
+          },
+          {
+            "name": "Ale\u00f1\u00e1",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 74
+          },
+          {
+            "name": "Jakub Jankto",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 74
+          },
+          {
+            "name": "Jonathan Silva",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "Erick Cabaco",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Timor",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 73
+          },
+          {
+            "name": "S. Mitrovi\u0107",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Sandro",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 72
+          },
+          {
+            "name": "Jorge Cuenca",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Chema Rodr\u00edguez",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Rub\u00e9n Y\u00e1\u00f1ez",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 70
+          },
+          {
+            "name": "Juan Iglesias",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 69
+          },
+          {
+            "name": "Diego Conde",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 65
+          },
+          {
+            "name": "Dar\u00edo Poveda",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 65
+          },
+          {
+            "name": "John Patrick",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 59
+          },
+          {
+            "name": "Mamor Niang",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 59
+          },
+          {
+            "name": "Algobia",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 59
+          },
+          {
+            "name": "A. Akurugu",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 58
+          },
+          {
+            "name": "Alex Rodr\u00edguez",
+            "club": "Getafe Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 58
+          }
+        ]
+      },
+      {
+        "name": "Elche Cf",
+        "player_list": [
+          {
+            "name": "Edgar Badia",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 79
+          },
+          {
+            "name": "Lucas P\u00e9rez",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 79
+          },
+          {
+            "name": "Javier Pastore",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 78
+          },
+          {
+            "name": "Pablo Piatti",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 77
+          },
+          {
+            "name": "Iv\u00e1n Marcone",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 77
+          },
+          {
+            "name": "Lucas Boy\u00e9",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Johan Mojica",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "Fidel",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "lm",
+            "skill": 74
+          },
+          {
+            "name": "Omar Mascarell",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 74
+          },
+          {
+            "name": "Pere Milla",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Ra\u00fal Guti",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "Enzo Roco",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Barrag\u00e1n",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 73
+          },
+          {
+            "name": "Josan",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 73
+          },
+          {
+            "name": "H. Palacios",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 73
+          },
+          {
+            "name": "Kiko Casilla",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 73
+          },
+          {
+            "name": "Tete Morente",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 72
+          },
+          {
+            "name": "Bigas",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Gonzalo Verd\u00fa",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Guido Carrillo",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "Axel Werner",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 70
+          },
+          {
+            "name": "Gumbau",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 70
+          },
+          {
+            "name": "Diego Gonz\u00e1lez",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "Josema",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "Jony \u00c1lamo",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 63
+          },
+          {
+            "name": "Nacho Ram\u00f3n",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 61
+          },
+          {
+            "name": "John Donald",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 60
+          },
+          {
+            "name": "Diego Bri",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 58
+          },
+          {
+            "name": "Lluis Andreu",
+            "club": "Elche Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 56
+          }
+        ]
+      },
+      {
+        "name": "Rcd Mallorca",
+        "player_list": [
+          {
+            "name": "Jaume Costa",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "lb",
+            "skill": 78
+          },
+          {
+            "name": "\u00c1ngel",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cf",
+            "skill": 78
+          },
+          {
+            "name": "Amath Ndiaye",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "rm",
+            "skill": 76
+          },
+          {
+            "name": "Takefusa Kubo",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "am",
+            "skill": 75
+          },
+          {
+            "name": "Pablo Maffeo",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "rb",
+            "skill": 75
+          },
+          {
+            "name": "R. Battaglia",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "dm",
+            "skill": 75
+          },
+          {
+            "name": "Salva Sevilla",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "dm",
+            "skill": 75
+          },
+          {
+            "name": "Lago J\u00fanior",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "lm",
+            "skill": 75
+          },
+          {
+            "name": "Kangin Lee",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "am",
+            "skill": 74
+          },
+          {
+            "name": "Martin Valjent",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Fer Ni\u00f1o",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Iddrisu Baba",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "dm",
+            "skill": 73
+          },
+          {
+            "name": "Aleix Febas",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Ruiz de Galarreta",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "dm",
+            "skill": 73
+          },
+          {
+            "name": "Raillo",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Manolo Reina",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "gk",
+            "skill": 73
+          },
+          {
+            "name": "Dominik Greif",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "gk",
+            "skill": 72
+          },
+          {
+            "name": "Antonio S\u00e1nchez",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "am",
+            "skill": 72
+          },
+          {
+            "name": "Joan Sastre",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "rb",
+            "skill": 72
+          },
+          {
+            "name": "Jordi Mboula",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "rm",
+            "skill": 71
+          },
+          {
+            "name": "Franco Russo",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Abd\u00f3n Prats",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "Brian Oliv\u00e1n",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "lb",
+            "skill": 70
+          },
+          {
+            "name": "A. Sedlar",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "Matthew Hoppe",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cf",
+            "skill": 69
+          },
+          {
+            "name": "Leo Rom\u00e1n",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "gk",
+            "skill": 65
+          },
+          {
+            "name": "Pep Gay\u00e0",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cb",
+            "skill": 64
+          },
+          {
+            "name": "Llabr\u00e9s",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "rm",
+            "skill": 63
+          },
+          {
+            "name": "Pablo G\u00e1lvez",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cf",
+            "skill": 63
+          },
+          {
+            "name": "Ibrahim Diabate",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cf",
+            "skill": 63
+          },
+          {
+            "name": "Pere Joan",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "gk",
+            "skill": 62
+          },
+          {
+            "name": "V. De Baunbag",
+            "club": "Rcd Mallorca",
+            "age": 25,
+            "position": "cf",
+            "skill": 61
+          }
+        ]
+      },
+      {
+        "name": "Cadiz Cf",
+        "player_list": [
+          {
+            "name": "Negredo",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 78
+          },
+          {
+            "name": "J. Ledesma",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 77
+          },
+          {
+            "name": "Salvi S\u00e1nchez",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 77
+          },
+          {
+            "name": "Fali",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 75
+          },
+          {
+            "name": "Iv\u00e1n Alejo",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 75
+          },
+          {
+            "name": "\u00c1lex Fern\u00e1ndez",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cm",
+            "skill": 75
+          },
+          {
+            "name": "Alfonso Espino",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 74
+          },
+          {
+            "name": "Alberto Perea",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "rw",
+            "skill": 74
+          },
+          {
+            "name": "Juan Cala",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 74
+          },
+          {
+            "name": "Rub\u00e9n Sobrino",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Anthony Lozano",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 74
+          },
+          {
+            "name": "Iza Carcel\u00e9n",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 73
+          },
+          {
+            "name": "Florin Andone",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Jens J\u00f8nsson",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 73
+          },
+          {
+            "name": "Akapo",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 73
+          },
+          {
+            "name": "Jos\u00e9 Mari",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "Garrido",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "Marcos Mauro",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "M. Osmaji\u0107",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cf",
+            "skill": 71
+          },
+          {
+            "name": "Tom\u00e1s Alarc\u00f3n",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 71
+          },
+          {
+            "name": "V. Haroyan",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "S. Arzamendia",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 70
+          },
+          {
+            "name": "\u00c1lvaro Jim\u00e9nez",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "rm",
+            "skill": 70
+          },
+          {
+            "name": "David Gil",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 68
+          },
+          {
+            "name": "V\u00edctor Chust",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 67
+          },
+          {
+            "name": "Chapela",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "rw",
+            "skill": 67
+          },
+          {
+            "name": "Mart\u00edn Calder\u00f3n",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "am",
+            "skill": 66
+          },
+          {
+            "name": "Dragi\u0161a Gudelj",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "lb",
+            "skill": 66
+          },
+          {
+            "name": "L. Spatz",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "cb",
+            "skill": 64
+          },
+          {
+            "name": "Bastida",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "dm",
+            "skill": 62
+          },
+          {
+            "name": "Carrasco",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "rb",
+            "skill": 62
+          },
+          {
+            "name": "Juan Flere",
+            "club": "Cadiz Cf",
+            "age": 25,
+            "position": "gk",
+            "skill": 62
+          }
+        ]
+      },
+      {
+        "name": "Rayo Vallecano",
+        "player_list": [
+          {
+            "name": "Falcao",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cf",
+            "skill": 78
+          },
+          {
+            "name": "Unai L\u00f3pez",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "am",
+            "skill": 77
+          },
+          {
+            "name": "Isi",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "rm",
+            "skill": 76
+          },
+          {
+            "name": "S. Dimitrievski",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "gk",
+            "skill": 75
+          },
+          {
+            "name": "K\u00e9vin Rodrigues",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "lb",
+            "skill": 75
+          },
+          {
+            "name": "\u00d3scar Trejo",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "dm",
+            "skill": 75
+          },
+          {
+            "name": "\u00c1lvaro Garc\u00eda",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "lm",
+            "skill": 75
+          },
+          {
+            "name": "Merquelanz",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "am",
+            "skill": 74
+          },
+          {
+            "name": "Iv\u00e1n Balliu",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "Randy Nteka",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Santi Comesa\u00f1a",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cm",
+            "skill": 73
+          },
+          {
+            "name": "Iv\u00e1n Arboleda",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "gk",
+            "skill": 73
+          },
+          {
+            "name": "Pozo",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Catena",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cb",
+            "skill": 73
+          },
+          {
+            "name": "Beb\u00e9",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Fran Garc\u00eda",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "lb",
+            "skill": 72
+          },
+          {
+            "name": "Mario Su\u00e1rez",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "dm",
+            "skill": 72
+          },
+          {
+            "name": "Sergi Guardiola",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cf",
+            "skill": 72
+          },
+          {
+            "name": "Nikola Mara\u0161",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "\u00d3scar Valent\u00edn",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "dm",
+            "skill": 71
+          },
+          {
+            "name": "Luca Zidane",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "gk",
+            "skill": 70
+          },
+          {
+            "name": "Path\u00e9 Ciss",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cb",
+            "skill": 70
+          },
+          {
+            "name": "Andr\u00e9s Mart\u00edn",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cf",
+            "skill": 69
+          },
+          {
+            "name": "E. Saveljich",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cb",
+            "skill": 69
+          },
+          {
+            "name": "Yacine Qasmi",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cf",
+            "skill": 68
+          },
+          {
+            "name": "Mario Hern\u00e1ndez",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cb",
+            "skill": 65
+          },
+          {
+            "name": "Sergio Moreno",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cf",
+            "skill": 65
+          },
+          {
+            "name": "Iker Recio",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cb",
+            "skill": 63
+          },
+          {
+            "name": "De Tom\u00e1s",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "rm",
+            "skill": 62
+          },
+          {
+            "name": "Manu Navarro",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "cm",
+            "skill": 61
+          },
+          {
+            "name": "Arratia",
+            "club": "Rayo Vallecano",
+            "age": 25,
+            "position": "dm",
+            "skill": 61
+          }
+        ]
+      },
+      {
+        "name": "Deportivo Alaves",
+        "player_list": [
+          {
+            "name": "Pacheco",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "gk",
+            "skill": 80
+          },
+          {
+            "name": "Laguardia",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cb",
+            "skill": 78
+          },
+          {
+            "name": "Rub\u00e9n Duarte",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "lb",
+            "skill": 77
+          },
+          {
+            "name": "Florian Lejeune",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cb",
+            "skill": 77
+          },
+          {
+            "name": "Joselu",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cf",
+            "skill": 77
+          },
+          {
+            "name": "Tom\u00e1s Pina",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cm",
+            "skill": 76
+          },
+          {
+            "name": "Mart\u00edn",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "rb",
+            "skill": 75
+          },
+          {
+            "name": "Pere Pons Riera",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cm",
+            "skill": 75
+          },
+          {
+            "name": "Ximo Navarro",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "rb",
+            "skill": 74
+          },
+          {
+            "name": "Manu Garc\u00eda",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "am",
+            "skill": 73
+          },
+          {
+            "name": "Edgar M\u00e9ndez",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "rm",
+            "skill": 73
+          },
+          {
+            "name": "John Guidetti",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cf",
+            "skill": 73
+          },
+          {
+            "name": "Luis Rioja",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "lm",
+            "skill": 73
+          },
+          {
+            "name": "Sivera",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "gk",
+            "skill": 72
+          },
+          {
+            "name": "Matt Miazga",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cb",
+            "skill": 72
+          },
+          {
+            "name": "Mamadou Sylla",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cf",
+            "skill": 72
+          },
+          {
+            "name": "Mamadou Loum",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cb",
+            "skill": 71
+          },
+          {
+            "name": "Sa\u00fal",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "lb",
+            "skill": 71
+          },
+          {
+            "name": "F. Pellistri",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "rm",
+            "skill": 70
+          },
+          {
+            "name": "Iv\u00e1n Mart\u00edn",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "lm",
+            "skill": 70
+          },
+          {
+            "name": "Toni Moya",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cm",
+            "skill": 70
+          },
+          {
+            "name": "Miguel",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cf",
+            "skill": 68
+          },
+          {
+            "name": "Tachi",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cb",
+            "skill": 67
+          },
+          {
+            "name": "Javi L\u00f3pez",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "lb",
+            "skill": 65
+          },
+          {
+            "name": "Alan Godoy",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cf",
+            "skill": 62
+          },
+          {
+            "name": "A. Abqar",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "cb",
+            "skill": 61
+          },
+          {
+            "name": "Adri\u00e1n",
+            "club": "Deportivo Alaves",
+            "age": 25,
+            "position": "gk",
+            "skill": 60
+          }
+        ]
+      }
+    ]
   }
 }
