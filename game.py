@@ -271,6 +271,8 @@ class Game:
         :param player:
         :return: void
         """
+        self.game_events.append(f"{player.name} shoots!")
+        print(f"{player.name} shoots!")
         y = 25
         x = 0 if player.club == self.team2.name else 100
         gk = self.team1.best_squad[0]
