@@ -26,17 +26,18 @@ class Tournament:
                 return row
 
     def print_standings(self) -> None:
-        for i in range(len(self.standings)):
-            club_name = self.standings[i].get_club().name
-            club_points = self.standings[i].get_points()
-            club_goals_scored = self.standings[i].get_goals_scored()
-            club_goals_conceded = self.standings[i].get_goals_conceded()
-            club_matches_played = self.standings[i].get_matches_played()
-            club_matches_won = self.standings[i].get_matches_won()
-            club_matches_lost = self.standings[i].get_matches_lost()
-            club_matches_drawn = self.standings[i].get_matches_drawn()
-            print(
-                f"{i + 1}) {club_name} - points: {club_points}, goals scored: {club_goals_scored}, goals conceded: {club_goals_conceded}, matches played: {club_matches_played} matches won: {club_matches_won}, matches lost: {club_matches_lost}, matches drawn: {club_matches_drawn}")
+        team_col = "team" + (Tournament.club_max_length(self.clubs) - 4) * " "
+        points_col = "P"
+        goals_scored_col = "GS"
+        goals_conceded_col = "GC"
+        matches_played_col = "M"
+        matches_won_col = "W"
+        matches_lost_col = "L"
+        matches_drawn_col = "D"
+        print(
+            f"{team_col}|{points_col} |{goals_scored_col}{(self.goals_scored_max_length()-2)*' '}|{goals_conceded_col}{(self.goals_conceded_max_length()-2)*' '}|{matches_played_col}|{matches_won_col}|{matches_lost_col}|{matches_drawn_col}")
+        for row in self.standings:
+            print(f"{row.get_club().name}{(Tournament.club_max_length(self.clubs) - len(row.get_club().name)) * ' '}|{row.get_points()}{(self.points_max_length()-row.get_points())*' '}|{row.get_goals_scored()}{(self.goals_scored_max_length()-row.get_goals_scored())*' '}|{row.get_goals_conceded()}{(self.goals_conceded_max_length()-row.get_goals_conceded())*' '}|{row.get_matches_played()}|{row.get_matches_won()}|{row.get_matches_lost()}|{row.get_matches_drawn()}")
 
     def generate_pairings(self):
         half_len = len(self.clubs) // 2
@@ -76,3 +77,30 @@ class Tournament:
             print(f"Round {i + 1}\n")
             for pair in self.pairings[i]:
                 print(f"{pair[0].name} - {pair[1].name}")
+
+    @staticmethod
+    def club_max_length(clubs):
+        length = len(clubs[0].name)
+        for club in clubs:
+            if len(club.name) > length:
+                length = len(club.name)
+        return length
+
+    def points_max_length(self):
+        for row in self.standings:
+            if row.get_points() >= 100:
+                return 3
+        return 2
+
+    def goals_scored_max_length(self):
+        for row in self.standings:
+            if row.get_goals_scored() >= 100:
+                return 3
+        return 2
+
+    def goals_conceded_max_length(self):
+        for row in self.standings:
+            if row.get_goals_conceded() >= 100:
+                return 3
+        return 2
+
