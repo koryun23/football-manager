@@ -106,7 +106,7 @@ def main():
                             1] == row.get_club():
                         row.set_points(row.get_points() + 1)
     epl.standings.sort(key=lambda standing_row: (
-        -standing_row.get_points(), -standing_row.get_goals_scored(), -standing_row.get_goals_difference()))
+        -standing_row.get_points(), -standing_row.get_goals_difference()))
     print("-------------------------------------------------------------")
     epl.print_standings()
 
