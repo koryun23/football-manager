@@ -81,6 +81,7 @@ la_liga_club_names = ["real-madrid", "atletico-madrid", "fc-barcelona", "sevilla
 bundesliga_club_names = ["fc-bayern-munchen", "borussia-dortmund", "rb-leipzig", "borussia-monchengladbach", "vfl-wolfsburg", "bayer-04-leverkusen",
                         "eintracht-frankfurt", "tsg-1899-hoffenheim", "hertha-bsc", "1-fc-union-berlin", "fc-augsburg", "sc-freiburg", "vfb-stuttgart",
                         "1-fc-koln", "1-fsv-mainz-05", "dsc-arminia-bielefeld", "vfl-bochum-1848", "spvgg-greuther-furth"]
+
 for club in epl_club_names:
     get_data("Premier League", club)
 
