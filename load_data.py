@@ -1,8 +1,8 @@
 import json
 
-from club import Club
+from tournament.club import Club
 from player import Player
-from team_not_found_exception import TeamNotFoundException
+from exceptions.team_not_found_exception import TeamNotFoundException
 from tournament import Tournament
 
 
@@ -19,7 +19,7 @@ def filter_club_name(club):
 
 
 def load_teams_from_json(tournament_name):
-    f = open("data.json")
+    f = open("database/data.json")
     data = json.load(f)
     league_clubs = data[tournament_name]["clubs"]
     return league_clubs  # list of maps containing information about teams in a league

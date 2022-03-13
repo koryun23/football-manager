@@ -1,12 +1,5 @@
-import json
 import math
-import time
 import random
-
-from player import Player
-from club import Club
-from tournament import Tournament
-from load_data import *
 
 
 class Game:

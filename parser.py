@@ -91,5 +91,5 @@ for club in la_liga_club_names:
 for club in bundesliga_club_names:
     get_data("Bundesliga", club)
 
-with open("all_team_data.json", "w") as file:
+with open("database/all_team_data.json", "w") as file:
     json.dump(all_data, file)

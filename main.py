@@ -1,5 +1,5 @@
-from game import Game
-from game_data import GameData
+from football_game.game import Game
+from football_game.game_data import GameData
 from load_data import *
 
 

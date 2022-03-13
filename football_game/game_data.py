@@ -1,4 +1,4 @@
-from game import Game
+from football_game.game import Game
 
 
 class GameData:
