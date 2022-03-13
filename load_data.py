@@ -1,9 +1,8 @@
 import json
-
 from tournament.club import Club
-from player import Player
+from player.player import Player
 from exceptions.team_not_found_exception import TeamNotFoundException
-from tournament import Tournament
+from tournament.tournament import Tournament
 
 
 def filter_club_name(club):
