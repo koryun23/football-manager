@@ -1,6 +1,4 @@
-from dataclasses import dataclass
-
-from club import Club
+from tournament.club import Club
 
 
 class StandingRow:

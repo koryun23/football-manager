@@ -1,8 +1,8 @@
 import random
 from typing import List
 
-from club import Club
-from standing_row import StandingRow
+from tournament.club import Club
+from tournament.standing_row import StandingRow
 
 
 class Tournament:
