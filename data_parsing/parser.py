@@ -1,7 +1,10 @@
 import requests
+import json
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.fifaratings.com/"
+
+all_data = {"Premier League": {"clubs": []}, "La Liga": {"clubs": []}, "Bundesliga": {"clubs": []}}
 
 
 def get_soup(url):
@@ -11,7 +14,7 @@ def get_soup(url):
     return soup
 
 
-def parse_teams(tournament_name):
+def scrape_all_teams_of_tournament(tournament_name):
     soup = get_soup(BASE_URL + "teams/" + tournament_name)
     main_table = soup.find("table", {"class": "table"})
     main_table_body = main_table.find("tbody")
@@ -19,16 +22,17 @@ def parse_teams(tournament_name):
     return main_table_rows
 
 
-def parse_players(tournament_name):
-    teams = parse_teams(tournament_name)
+def process_all_players_in_tournament(tournament_name):
+    teams = scrape_all_teams_of_tournament(tournament_name)
     for team in teams:
         current_team = team
         current_team_name = current_team.find("span", {"class": "entry-font"}).find("a").text
-        players = parse_players_of_team(team)
-        parse_single_player_of_team(players)
+        current_team_data = {"Name": current_team_name, "player_list": []}
+        players = scrape_all_players_of_team(team)
+        process_all_players_of_team(players)
 
 
-def parse_players_of_team(team):
+def scrape_all_players_of_team(team):
     soup = get_soup(team.find("span", {"class": "entry-font"}).find("a", href=True)['href'])
     main_table = soup.find("table", {"class": "table"})
     main_table_body = main_table.find("tbody")
@@ -36,7 +40,7 @@ def parse_players_of_team(team):
     return main_table_rows
 
 
-def parse_single_player_of_team(players):
+def process_all_players_of_team(players):
     for player in players:
         soup = get_soup(player.find("span", {"class": "entry-font"}).find("a", href=True)['href'])
         player_info = soup.find("div", {"class": "player-info"})
@@ -52,4 +56,4 @@ def parse_single_player_of_team(players):
 
 
 
-parse_players("english-premier-league")
+process_all_players_in_tournament("english-premier-league")
