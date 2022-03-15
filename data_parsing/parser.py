@@ -23,8 +23,8 @@ def parse_players(tournament_name):
     teams = parse_teams(tournament_name)
     for team in teams:
         players = parse_players_of_team(team)
-        for player in players:
-            print(player.find("span", {"class": "entry-font"}).find("a", href=True)['href'])
+        parse_single_player_of_team(players)
+
 
 def parse_players_of_team(team):
     soup = get_soup(team.find("span", {"class": "entry-font"}).find("a", href=True)['href'])
@@ -32,5 +32,11 @@ def parse_players_of_team(team):
     main_table_body = main_table.find("tbody")
     main_table_rows = main_table_body.find_all(lambda tag: tag.name == "tr" and len(tag.findChildren("td", recursive=False)) > 1)
     return main_table_rows
+
+
+def parse_single_player_of_team(players):
+    for player in players:
+        print(player.find("span", {"class": "entry-font"}).find("a", href=True)['href'])
+
 
 parse_players("english-premier-league")
